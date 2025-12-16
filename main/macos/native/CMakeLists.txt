@@ -5,6 +5,8 @@ add_definitions(-D__USE_J2D_NAMES -D__MEDIALIB_OLD_NAMES -DMLIB_NO_LIBSUNMATH -D
 
 if(JCPP_OS MATCHES "macos")
 	add_definitions("-DMACOSX")
+	add_definitions("-DMAC_OS_X_VERSION_MIN_REQUIRED=110000")
+	add_definitions("-mmacosx-version-min=11.00.00")
 	add_definitions("-D_ALLBSD_SOURCE")
 endif()
 

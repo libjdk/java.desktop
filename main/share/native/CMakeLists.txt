@@ -9,6 +9,8 @@ endif()
 
 if(JCPP_OS MATCHES "macos")
 	add_definitions("-DMACOSX")
+	add_definitions("-DMAC_OS_X_VERSION_MIN_REQUIRED=110000")
+	add_definitions("-mmacosx-version-min=11.00.00")
 	add_definitions("-D_ALLBSD_SOURCE")
 endif()
 
