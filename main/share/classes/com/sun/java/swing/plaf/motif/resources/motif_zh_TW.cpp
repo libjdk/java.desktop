@@ -80,7 +80,7 @@ $ObjectArray2* motif_zh_TW::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.helpButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u300c檔案選擇器」說明。"_s)
+			$of(u"「檔案選擇器」說明。"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButton.textAndMnemonic"_s),
