@@ -43,7 +43,7 @@ void bug6501991::init$() {
 void bug6501991::main($StringArray* args) {
 	$useLocalCurrentObjectStackCache();
 	try {
-		$var($JLabel, l, $new($JLabel, u"\u0634\u0634\u0634\u0634\u0634\u0634\u0634"_s));
+		$var($JLabel, l, $new($JLabel, u"ششششششش"_s));
 		l->setSize(5, 22);
 		$var($BufferedImage, image, $new($BufferedImage, 50, 50, $BufferedImage::TYPE_INT_RGB));
 		l->paint($(image->createGraphics()));

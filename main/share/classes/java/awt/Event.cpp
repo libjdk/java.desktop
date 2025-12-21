@@ -392,7 +392,7 @@ $String* Event::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({$($of(this)->getClass()->getName()), "["_s}));
 	$var($String, var$0, $$concat(var$1, $(paramString())));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 void clinit$Event($Class* class$) {

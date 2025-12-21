@@ -396,13 +396,13 @@ $String* XEmbedHelper::XEmbedMessageToString($XClientMessageEvent* msg) {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$7, $$str({"XEmbed message to "_s, $($Long::toHexString($nc(msg)->get_window())), ": "_s}));
 	$var($String, var$6, $$concat(var$7, $(msgidToString((int32_t)$nc(msg)->get_data(1)))));
-	$var($String, var$5, $$concat(var$6, ", detail: "));
+	$var($String, var$5, $$concat(var$6, ", detail: "_s));
 	$var($String, var$4, $$concat(var$5, $$str($nc(msg)->get_data(2))));
-	$var($String, var$3, $$concat(var$4, ", data:["));
+	$var($String, var$3, $$concat(var$4, ", data:["_s));
 	$var($String, var$2, $$concat(var$3, $$str(msg->get_data(3))));
-	$var($String, var$1, $$concat(var$2, ","));
+	$var($String, var$1, $$concat(var$2, ","_s));
 	$var($String, var$0, $$concat(var$1, $$str(msg->get_data(4))));
-	return ($concat(var$0, "]"));
+	return ($concat(var$0, "]"_s));
 }
 
 int32_t XEmbedHelper::getModifiers(int32_t state) {

@@ -40,7 +40,7 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("Automatic-Feeder"_s),
-			$of(u"Alimentador Autom\u00e1tico"_s)
+			$of(u"Alimentador Automático"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Cassette"_s),
@@ -48,7 +48,7 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("Form-Source"_s),
-			$of(u"Origem do Formul\u00e1rio"_s)
+			$of(u"Origem do Formulário"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Large-Format"_s),
@@ -84,11 +84,11 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("border.chromaticity"_s),
-			$of(u"Apar\u00eancia da Cor"_s)
+			$of(u"Aparência da Cor"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.copies"_s),
-			$of(u"C\u00f3pias"_s)
+			$of(u"Cópias"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.jobattributes"_s),
@@ -100,19 +100,19 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("border.media"_s),
-			$of(u"M\u00eddia"_s)
+			$of(u"Mídia"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.orientation"_s),
-			$of(u"Orienta\u00e7\u00e3o"_s)
+			$of(u"Orientação"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.printrange"_s),
-			$of(u"Faixa de Impress\u00e3o"_s)
+			$of(u"Faixa de Impressão"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.printservice"_s),
-			$of(u"Servi\u00e7o de Impress\u00e3o"_s)
+			$of(u"Serviço de Impressão"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.quality"_s),
@@ -152,7 +152,7 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.jobsheets"_s),
-			$of(u"P\u00e1gina com &Banner"_s)
+			$of(u"Página com &Banner"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.printtofile"_s),
@@ -164,11 +164,11 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.noprintermsg"_s),
-			$of(u"Nenhum servi\u00e7o de impress\u00e3o encontrado."_s)
+			$of(u"Nenhum serviço de impressão encontrado."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.overwrite"_s),
-			$of(u"Este arquivo j\u00e1 existe. Deseja substituir o arquivo existente?"_s)
+			$of(u"Este arquivo já existe. Deseja substituir o arquivo existente?"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.owtitle"_s),
@@ -184,11 +184,11 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.pstitle"_s),
-			$of(u"Configura\u00e7\u00e3o da P\u00e1gina"_s)
+			$of(u"Configuração da Página"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.writeerror"_s),
-			$of(u"N\u00e3o \u00e9 poss\u00edvel gravar no arquivo:"_s)
+			$of(u"Não é possível gravar no arquivo:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("e"_s),
@@ -200,11 +200,11 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("error.destination"_s),
-			$of(u"Nome de arquivo inv\u00e1lido; tente novamente"_s)
+			$of(u"Nome de arquivo inválido; tente novamente"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("error.pagerange"_s),
-			$of(u"Faixa de p\u00e1ginas inv\u00e1lida; insira novamente os valores (por exemplo, 1-3,5,7-10)"_s)
+			$of(u"Faixa de páginas inválida; insira novamente os valores (por exemplo, 1-3,5,7-10)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("executive"_s),
@@ -212,7 +212,7 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("folio"_s),
-			$of(u"F\u00f3lio"_s)
+			$of(u"Fólio"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("invite-envelope"_s),
@@ -376,7 +376,7 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("japanese-postcard"_s),
-			$of(u"Cart\u00e3o Postal (JIS)"_s)
+			$of(u"Cartão Postal (JIS)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("jis-b0"_s),
@@ -432,7 +432,7 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.info"_s),
-			$of(u"Informa\u00e7\u00f5es:"_s)
+			$of(u"Informações:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.jobname"_s),
@@ -448,7 +448,7 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.numcopies"_s),
-			$of(u"N\u00famer&o de c\u00f3pias:"_s)
+			$of(u"Númer&o de cópias:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.priority"_s),
@@ -464,7 +464,7 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.rangeto"_s),
-			$of(u"At\u00e9"_s)
+			$of(u"Até"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.rightmargin"_s),
@@ -488,7 +488,7 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.username"_s),
-			$of(u"Nome do &Usu\u00e1rio:"_s)
+			$of(u"Nome do &Usuário:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("large-capacity"_s),
@@ -552,7 +552,7 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("na-legal"_s),
-			$of(u"Of\u00edcio"_s)
+			$of(u"Ofício"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-letter"_s),
@@ -560,31 +560,31 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("na-number-10-envelope"_s),
-			$of(u"Envelope n\u00ba 10"_s)
+			$of(u"Envelope nº 10"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-number-11-envelope"_s),
-			$of(u"Envelope n\u00ba 11"_s)
+			$of(u"Envelope nº 11"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-number-12-envelope"_s),
-			$of(u"Envelope n\u00ba 12"_s)
+			$of(u"Envelope nº 12"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-number-14-envelope"_s),
-			$of(u"Envelope n\u00ba 14"_s)
+			$of(u"Envelope nº 14"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-number-9-envelope"_s),
-			$of(u"Envelope n\u00ba 9"_s)
+			$of(u"Envelope nº 9"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("not-accepting-jobs"_s),
-			$of(u"N\u00e3o aceitando jobs"_s)
+			$of(u"Não aceitando jobs"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("oufuko-postcard"_s),
-			$of(u"Cart\u00e3o Postal Duplo (JIS)"_s)
+			$of(u"Cartão Postal Duplo (JIS)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("personal-envelope"_s),
@@ -616,7 +616,7 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.monochrome"_s),
-			$of(u"&Monocrom\u00e1tico"_s)
+			$of(u"&Monocromático"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.normalq"_s),
@@ -636,7 +636,7 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.rangepages"_s),
-			$of(u"&P\u00e1ginas"_s)
+			$of(u"&Páginas"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.revlandscape"_s),
@@ -656,7 +656,7 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("tab.appearance"_s),
-			$of(u"Apa&r\u00eancia"_s)
+			$of(u"Apa&rência"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tab.general"_s),
@@ -664,11 +664,11 @@ $ObjectArray2* serviceui_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("tab.pagesetup"_s),
-			$of(u"Con&figura\u00e7\u00e3o da P\u00e1gina"_s)
+			$of(u"Con&figuração da Página"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tabloid"_s),
-			$of(u"Tabl\u00f3ide"_s)
+			$of(u"Tablóide"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("top"_s),

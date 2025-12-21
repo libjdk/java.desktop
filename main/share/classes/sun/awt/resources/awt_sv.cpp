@@ -40,35 +40,35 @@ $ObjectArray2* awt_sv::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("AWT.CompositionWindowTitle"_s),
-			$of(u"Inmatningsf\u00f6nster"_s)
+			$of(u"Inmatningsfönster"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.CrosshairCursor"_s),
-			$of(u"H\u00e5rkorsmark\u00f6r"_s)
+			$of(u"Hårkorsmarkör"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.DefaultCursor"_s),
-			$of(u"Standardmark\u00f6r"_s)
+			$of(u"Standardmarkör"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.DefaultDragCursor"_s),
-			$of(u"Standarddragmark\u00f6r"_s)
+			$of(u"Standarddragmarkör"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.DefaultDropCursor"_s),
-			$of(u"Standardsl\u00e4ppmark\u00f6r"_s)
+			$of(u"Standardsläppmarkör"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.DefaultNoDropCursor"_s),
-			$of(u"Standardmark\u00f6r (ej drag)"_s)
+			$of(u"Standardmarkör (ej drag)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.EResizeCursor"_s),
-			$of(u"Mark\u00f6r f\u00f6r storleks\u00e4ndring (\u00f6st)"_s)
+			$of(u"Markör för storleksändring (öst)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.HandCursor"_s),
-			$of(u"Handmark\u00f6r"_s)
+			$of(u"Handmarkör"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.HostInputMethodDisplayName"_s),
@@ -76,7 +76,7 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InconsistentDLLsWarning"_s),
-			$of(u"Textbaserade \u00e5tg\u00e4rder kanske inte fungerar korrekt p\u00e5 grund av en inkonsekvent upps\u00e4ttning dynamiskt l\u00e4nkade bibliotek (DLL) som \u00e4r installerade i systemet. F\u00f6r mer information om detta problem och en tillf\u00e4llig l\u00f6sning, se Java(TM) 2 SDK, Standard Edition Release Notes p\u00e5 java.sun.com."_s)
+			$of(u"Textbaserade åtgärder kanske inte fungerar korrekt på grund av en inkonsekvent uppsättning dynamiskt länkade bibliotek (DLL) som är installerade i systemet. För mer information om detta problem och en tillfällig lösning, se Java(TM) 2 SDK, Standard Edition Release Notes på java.sun.com."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodCreationFailed"_s),
@@ -96,7 +96,7 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.zh_CN"_s),
-			$of(u"F\u00f6renklad kinesiska"_s)
+			$of(u"Förenklad kinesiska"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.zh_TW"_s),
@@ -104,7 +104,7 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodSelectionMenu"_s),
-			$of(u"V\u00e4lj inmatningsmetod"_s)
+			$of(u"Välj inmatningsmetod"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.Less"_s),
@@ -112,43 +112,43 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.MoveCursor"_s),
-			$of(u"Flyttmark\u00f6r"_s)
+			$of(u"Flyttmarkör"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.NEResizeCursor"_s),
-			$of(u"Mark\u00f6r f\u00f6r storleks\u00e4ndring (nordost)"_s)
+			$of(u"Markör för storleksändring (nordost)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.NResizeCursor"_s),
-			$of(u"Mark\u00f6r f\u00f6r storleks\u00e4ndring (nord)"_s)
+			$of(u"Markör för storleksändring (nord)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.NWResizeCursor"_s),
-			$of(u"Mark\u00f6r f\u00f6r storleks\u00e4ndring (nordv\u00e4st)"_s)
+			$of(u"Markör för storleksändring (nordväst)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.SEResizeCursor"_s),
-			$of(u"Mark\u00f6r f\u00f6r storleks\u00e4ndring (sydost)"_s)
+			$of(u"Markör för storleksändring (sydost)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.SResizeCursor"_s),
-			$of(u"Mark\u00f6r f\u00f6r storleks\u00e4ndring (syd)"_s)
+			$of(u"Markör för storleksändring (syd)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.SWResizeCursor"_s),
-			$of(u"Mark\u00f6r f\u00f6r storleks\u00e4ndring (sydv\u00e4st)"_s)
+			$of(u"Markör för storleksändring (sydväst)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.TextCursor"_s),
-			$of(u"Textmark\u00f6r"_s)
+			$of(u"Textmarkör"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.WResizeCursor"_s),
-			$of(u"Mark\u00f6r f\u00f6r storleks\u00e4ndring (v\u00e4st)"_s)
+			$of(u"Markör för storleksändring (väst)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.WaitCursor"_s),
-			$of(u"V\u00e4ntemark\u00f6r"_s)
+			$of(u"Väntemarkör"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.accept"_s),
@@ -192,11 +192,11 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.backQuote"_s),
-			$of(u"V\u00e4nster citattecken"_s)
+			$of(u"Vänster citattecken"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.backSlash"_s),
-			$of(u"Omv\u00e4nt snedstreck"_s)
+			$of(u"Omvänt snedstreck"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.backSpace"_s),
@@ -208,11 +208,11 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.braceLeft"_s),
-			$of(u"V\u00e4nster klammerparentes"_s)
+			$of(u"Vänster klammerparentes"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.braceRight"_s),
-			$of(u"H\u00f6ger klammerparentes"_s)
+			$of(u"Höger klammerparentes"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.cancel"_s),
@@ -480,7 +480,7 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.find"_s),
-			$of(u"S\u00f6k"_s)
+			$of(u"Sök"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.fullWidth"_s),
@@ -488,7 +488,7 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.greater"_s),
-			$of(u"St\u00f6rre"_s)
+			$of(u"Större"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.halfWidth"_s),
@@ -496,7 +496,7 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.help"_s),
-			$of(u"Hj\u00e4lp"_s)
+			$of(u"Hjälp"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.hiragana"_s),
@@ -508,7 +508,7 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.inputMethodOnOff"_s),
-			$of(u"Indatametod p\u00e5/av"_s)
+			$of(u"Indatametod på/av"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.insert"_s),
@@ -536,7 +536,7 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.kanaLock"_s),
-			$of(u"Kana-l\u00e5s"_s)
+			$of(u"Kana-lås"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.kanji"_s),
@@ -548,11 +548,11 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.left"_s),
-			$of(u"V\u00e4nster"_s)
+			$of(u"Vänster"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.leftParenthesis"_s),
-			$of(u"V\u00e4nsterparentes"_s)
+			$of(u"Vänsterparentes"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.meta"_s),
@@ -564,7 +564,7 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.modechange"_s),
-			$of(u"\u00c4ndring av l\u00e4ge"_s)
+			$of(u"Ändring av läge"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.multiply"_s),
@@ -616,11 +616,11 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.previousCandidate"_s),
-			$of(u"F\u00f6reg\u00e5ende kandidat"_s)
+			$of(u"Föregående kandidat"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.printScreen"_s),
-			$of(u"Sk\u00e4rmutskrift"_s)
+			$of(u"Skärmutskrift"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.props"_s),
@@ -636,11 +636,11 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.right"_s),
-			$of(u"H\u00f6ger"_s)
+			$of(u"Höger"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.rightParenthesis"_s),
-			$of(u"H\u00f6gerparentes"_s)
+			$of(u"Högerparentes"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.romanCharacters"_s),
@@ -696,11 +696,11 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.undo"_s),
-			$of(u"\u00c5ngra"_s)
+			$of(u"Ångra"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.unknown"_s),
-			$of(u"Ok\u00e4nd"_s)
+			$of(u"Okänd"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.up"_s),
@@ -716,7 +716,7 @@ $ObjectArray2* awt_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("java.awt.im.style"_s),
-			$of(u"p\u00e5 st\u00e4llet"_s)
+			$of(u"på stället"_s)
 		})
 	});
 }

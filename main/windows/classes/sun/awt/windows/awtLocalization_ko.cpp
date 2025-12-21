@@ -40,7 +40,7 @@ $ObjectArray2* awtLocalization_ko::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("allFiles"_s),
-			$of(u"\ubaa8\ub4e0 \ud30c\uc77c"_s)
+			$of(u"모든 파일"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("menuFont"_s),

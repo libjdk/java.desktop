@@ -30,7 +30,7 @@ void DevanagariEditor::init$() {
 }
 
 void DevanagariEditor::main($StringArray* args) {
-	$$new($JEditorPane)->setText(u"\u0930\u093e\u0915\u094d\u0937\u0938"_s);
+	$$new($JEditorPane)->setText(u"राक्षस"_s);
 }
 
 DevanagariEditor::DevanagariEditor() {

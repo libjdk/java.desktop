@@ -40,119 +40,119 @@ $ObjectArray2* awt_zh_CN::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("AWT.CompositionWindowTitle"_s),
-			$of(u"\u8f93\u5165\u7a97\u53e3"_s)
+			$of(u"输入窗口"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.CrosshairCursor"_s),
-			$of(u"\u5341\u5b57\u5149\u6807"_s)
+			$of(u"十字光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.DefaultCursor"_s),
-			$of(u"\u9ed8\u8ba4\u5149\u6807"_s)
+			$of(u"默认光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.DefaultDragCursor"_s),
-			$of(u"\u9ed8\u8ba4\u62d6\u52a8\u5149\u6807"_s)
+			$of(u"默认拖动光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.DefaultDropCursor"_s),
-			$of(u"\u9ed8\u8ba4\u653e\u7f6e\u5149\u6807"_s)
+			$of(u"默认放置光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.DefaultNoDropCursor"_s),
-			$of(u"\u9ed8\u8ba4\u65e0\u62d6\u52a8\u5149\u6807"_s)
+			$of(u"默认无拖动光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.EResizeCursor"_s),
-			$of(u"\u201c\u5411\u4e1c\u8c03\u6574\u5927\u5c0f\u201d\u5149\u6807"_s)
+			$of(u"“向东调整大小”光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.HandCursor"_s),
-			$of(u"\u624b\u578b\u5149\u6807"_s)
+			$of(u"手型光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.HostInputMethodDisplayName"_s),
-			$of(u"\u7cfb\u7edf\u8f93\u5165\u6cd5"_s)
+			$of(u"系统输入法"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InconsistentDLLsWarning"_s),
-			$of(u"\u57fa\u4e8e\u6587\u672c\u7684\u64cd\u4f5c\u53ef\u80fd\u4e0d\u80fd\u6b63\u5e38\u8fd0\u884c, \u56e0\u4e3a\u7cfb\u7edf\u4e0a\u5b89\u88c5\u4e86\u4e00\u5957\u4e0d\u4e00\u81f4\u7684\u52a8\u6001\u94fe\u63a5\u5e93 (DLL)\u3002\u6709\u5173\u6b64\u95ee\u9898\u7684\u8be6\u7ec6\u4fe1\u606f\u548c\u5efa\u8bae\u7684\u89e3\u51b3\u65b9\u6848, \u8bf7\u53c2\u9605 java.sun.com \u7f51\u7ad9\u4e0a\u7684 Java(TM) 2 SDK, \u6807\u51c6\u7248\u53d1\u884c\u8bf4\u660e\u3002"_s)
+			$of(u"基于文本的操作可能不能正常运行, 因为系统上安装了一套不一致的动态链接库 (DLL)。有关此问题的详细信息和建议的解决方案, 请参阅 java.sun.com 网站上的 Java(TM) 2 SDK, 标准版发行说明。"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodCreationFailed"_s),
-			$of(u"\u65e0\u6cd5\u521b\u5efa{0}\u3002\u539f\u56e0: {1}"_s)
+			$of(u"无法创建{0}。原因: {1}"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.ja"_s),
-			$of(u"\u65e5\u6587"_s)
+			$of(u"日文"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.ko"_s),
-			$of(u"\u671d\u9c9c\u6587"_s)
+			$of(u"朝鲜文"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.zh"_s),
-			$of(u"\u4e2d\u6587"_s)
+			$of(u"中文"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.zh_CN"_s),
-			$of(u"\u7b80\u4f53\u4e2d\u6587"_s)
+			$of(u"简体中文"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.zh_TW"_s),
-			$of(u"\u7e41\u4f53\u4e2d\u6587"_s)
+			$of(u"繁体中文"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodSelectionMenu"_s),
-			$of(u"\u9009\u62e9\u8f93\u5165\u7a97\u53e3"_s)
+			$of(u"选择输入窗口"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.Less"_s),
-			$of(u"\u5c0f\u4e8e\u53f7"_s)
+			$of(u"小于号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.MoveCursor"_s),
-			$of(u"\u79fb\u52a8\u5149\u6807"_s)
+			$of(u"移动光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.NEResizeCursor"_s),
-			$of(u"\u201c\u5411\u4e1c\u5317\u65b9\u5411\u8c03\u6574\u5927\u5c0f\u201d\u5149\u6807"_s)
+			$of(u"“向东北方向调整大小”光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.NResizeCursor"_s),
-			$of(u"\u201c\u5411\u5317\u8c03\u6574\u5927\u5c0f\u201d\u5149\u6807"_s)
+			$of(u"“向北调整大小”光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.NWResizeCursor"_s),
-			$of(u"\u201c\u5411\u897f\u5317\u65b9\u5411\u8c03\u6574\u5927\u5c0f\u201d\u5149\u6807"_s)
+			$of(u"“向西北方向调整大小”光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.SEResizeCursor"_s),
-			$of(u"\u201c\u5411\u4e1c\u5357\u65b9\u5411\u8c03\u6574\u5927\u5c0f\u201d\u5149\u6807"_s)
+			$of(u"“向东南方向调整大小”光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.SResizeCursor"_s),
-			$of(u"\u201c\u5411\u5357\u8c03\u6574\u5927\u5c0f\u201d\u5149\u6807"_s)
+			$of(u"“向南调整大小”光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.SWResizeCursor"_s),
-			$of(u"\u201c\u5411\u897f\u5357\u65b9\u5411\u8c03\u6574\u5927\u5c0f\u201d\u5149\u6807"_s)
+			$of(u"“向西南方向调整大小”光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.TextCursor"_s),
-			$of(u"\u6587\u672c\u5149\u6807"_s)
+			$of(u"文本光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.WResizeCursor"_s),
-			$of(u"\u201c\u5411\u897f\u8c03\u6574\u5927\u5c0f\u201d\u5149\u6807"_s)
+			$of(u"“向西调整大小”光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.WaitCursor"_s),
-			$of(u"\u6c99\u6f0f\u5149\u6807"_s)
+			$of(u"沙漏光标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.accept"_s),
-			$of(u"\u63a5\u53d7"_s)
+			$of(u"接受"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.add"_s),
@@ -160,15 +160,15 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.again"_s),
-			$of(u"\u91cd\u65b0"_s)
+			$of(u"重新"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.allCandidates"_s),
-			$of(u"\u6240\u6709\u5019\u9009\u9879"_s)
+			$of(u"所有候选项"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.alphanumeric"_s),
-			$of(u"\u5b57\u6bcd\u6570\u5b57"_s)
+			$of(u"字母数字"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.alt"_s),
@@ -180,23 +180,23 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.ampersand"_s),
-			$of(u"& \u7b26\u53f7"_s)
+			$of(u"& 符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.asterisk"_s),
-			$of(u"\u661f\u53f7"_s)
+			$of(u"星号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.at"_s),
-			$of(u"@ \u7b26\u53f7"_s)
+			$of(u"@ 符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.backQuote"_s),
-			$of(u"\u540e\u5f15\u53f7"_s)
+			$of(u"后引号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.backSlash"_s),
-			$of(u"\u53cd\u659c\u6760"_s)
+			$of(u"反斜杠"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.backSpace"_s),
@@ -204,15 +204,15 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.begin"_s),
-			$of(u"\u5f00\u59cb"_s)
+			$of(u"开始"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.braceLeft"_s),
-			$of(u"\u5de6\u82b1\u62ec\u53f7"_s)
+			$of(u"左花括号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.braceRight"_s),
-			$of(u"\u53f3\u82b1\u62ec\u53f7"_s)
+			$of(u"右花括号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.cancel"_s),
@@ -224,7 +224,7 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.circumflex"_s),
-			$of(u"\u6291\u626c\u7b26\u53f7"_s)
+			$of(u"抑扬符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.clear"_s),
@@ -232,27 +232,27 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.closeBracket"_s),
-			$of(u"\u53f3\u65b9\u62ec\u53f7"_s)
+			$of(u"右方括号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.codeInput"_s),
-			$of(u"\u4ee3\u7801\u8f93\u5165"_s)
+			$of(u"代码输入"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.colon"_s),
-			$of(u"\u5192\u53f7"_s)
+			$of(u"冒号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.comma"_s),
-			$of(u"\u9017\u53f7"_s)
+			$of(u"逗号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.compose"_s),
-			$of(u"\u7f16\u5199"_s)
+			$of(u"编写"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.context"_s),
-			$of(u"\u4e0a\u4e0b\u6587\u83dc\u5355"_s)
+			$of(u"上下文菜单"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.control"_s),
@@ -260,79 +260,79 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.convert"_s),
-			$of(u"\u8f6c\u6362"_s)
+			$of(u"转换"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.copy"_s),
-			$of(u"\u590d\u5236"_s)
+			$of(u"复制"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.cut"_s),
-			$of(u"\u526a\u5207"_s)
+			$of(u"剪切"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadAboveDot"_s),
-			$of(u"\u4e0a\u6807\u70b9"_s)
+			$of(u"上标点"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadAboveRing"_s),
-			$of(u"\u4e0a\u6807\u5706\u5708"_s)
+			$of(u"上标圆圈"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadAcute"_s),
-			$of(u"\u5e26\u5c16\u97f3\u7b26\u53f7"_s)
+			$of(u"带尖音符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadBreve"_s),
-			$of(u"\u77ed\u97f3\u7b26\u53f7"_s)
+			$of(u"短音符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadCaron"_s),
-			$of(u"\u5012\u7f6e\u97f3\u8c03\u7b26\u53f7"_s)
+			$of(u"倒置音调符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadCedilla"_s),
-			$of(u"\u53d8\u97f3\u7b26\u53f7"_s)
+			$of(u"变音符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadCircumflex"_s),
-			$of(u"\u5e26\u6291\u626c\u7b26\u53f7"_s)
+			$of(u"带抑扬符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadDiaeresis"_s),
-			$of(u"\u5206\u97f3\u7b26\u53f7"_s)
+			$of(u"分音符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadDoubleAcute"_s),
-			$of(u"\u53cc\u5c16\u97f3\u7b26\u53f7"_s)
+			$of(u"双尖音符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadGrave"_s),
-			$of(u"\u6291\u97f3\u7b26\u53f7"_s)
+			$of(u"抑音符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadIota"_s),
-			$of(u"\u963f\u5c14\u5854\u7b26\u53f7"_s)
+			$of(u"阿尔塔符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadMacron"_s),
-			$of(u"\u957f\u97f3\u7b26\u53f7"_s)
+			$of(u"长音符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadOgonek"_s),
-			$of(u"\u53cd\u5c3e\u5f62\u7b26"_s)
+			$of(u"反尾形符"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadSemivoicedSound"_s),
-			$of(u"\u534a\u6d4a\u97f3\u7b26\u53f7"_s)
+			$of(u"半浊音符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadTilde"_s),
-			$of(u"\u816d\u5316\u7b26\u53f7"_s)
+			$of(u"腭化符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadVoicedSound"_s),
-			$of(u"\u6d4a\u97f3\u7b26\u53f7"_s)
+			$of(u"浊音符号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.decimal"_s),
@@ -348,11 +348,11 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.dollar"_s),
-			$of(u"\u7f8e\u5143"_s)
+			$of(u"美元"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.down"_s),
-			$of(u"\u5411\u4e0b\u7bad\u5934"_s)
+			$of(u"向下箭头"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.end"_s),
@@ -364,7 +364,7 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.equals"_s),
-			$of(u"\u7b49\u53f7"_s)
+			$of(u"等号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.escape"_s),
@@ -372,11 +372,11 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.euro"_s),
-			$of(u"\u6b27\u5143"_s)
+			$of(u"欧元"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.exclamationMark"_s),
-			$of(u"\u611f\u53f9\u53f7"_s)
+			$of(u"感叹号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.f1"_s),
@@ -476,31 +476,31 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.final"_s),
-			$of(u"\u6700\u7ec8"_s)
+			$of(u"最终"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.find"_s),
-			$of(u"\u67e5\u627e"_s)
+			$of(u"查找"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.fullWidth"_s),
-			$of(u"\u5168\u89d2"_s)
+			$of(u"全角"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.greater"_s),
-			$of(u"\u5927\u4e8e\u53f7"_s)
+			$of(u"大于号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.halfWidth"_s),
-			$of(u"\u534a\u89d2"_s)
+			$of(u"半角"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.help"_s),
-			$of(u"\u5e2e\u52a9"_s)
+			$of(u"帮助"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.hiragana"_s),
-			$of(u"\u5e73\u5047\u540d"_s)
+			$of(u"平假名"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.home"_s),
@@ -508,7 +508,7 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.inputMethodOnOff"_s),
-			$of(u"\u6253\u5f00/\u5173\u95ed\u8f93\u5165\u65b9\u6cd5"_s)
+			$of(u"打开/关闭输入方法"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.insert"_s),
@@ -516,23 +516,23 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.invertedExclamationMark"_s),
-			$of(u"\u5012\u7f6e\u611f\u53f9\u53f7"_s)
+			$of(u"倒置感叹号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.japaneseHiragana"_s),
-			$of(u"\u65e5\u8bed\u5e73\u5047\u540d"_s)
+			$of(u"日语平假名"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.japaneseKatakana"_s),
-			$of(u"\u65e5\u8bed\u7247\u5047\u540d"_s)
+			$of(u"日语片假名"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.japaneseRoman"_s),
-			$of(u"\u65e5\u8bed\u7f57\u9a6c\u5b57\u7b26"_s)
+			$of(u"日语罗马字符"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.kana"_s),
-			$of(u"\u5047\u540d"_s)
+			$of(u"假名"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.kanaLock"_s),
@@ -540,19 +540,19 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.kanji"_s),
-			$of(u"\u65e5\u672c\u6c49\u5b57"_s)
+			$of(u"日本汉字"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.katakana"_s),
-			$of(u"\u7247\u5047\u540d"_s)
+			$of(u"片假名"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.left"_s),
-			$of(u"\u5411\u5de6\u7bad\u5934"_s)
+			$of(u"向左箭头"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.leftParenthesis"_s),
-			$of(u"\u5de6\u62ec\u53f7"_s)
+			$of(u"左括号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.meta"_s),
@@ -560,11 +560,11 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.minus"_s),
-			$of(u"\u51cf\u53f7"_s)
+			$of(u"减号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.modechange"_s),
-			$of(u"\u6a21\u5f0f\u66f4\u6539"_s)
+			$of(u"模式更改"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.multiply"_s),
@@ -572,7 +572,7 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.noconvert"_s),
-			$of(u"\u4e0d\u8f6c\u6362"_s)
+			$of(u"不转换"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.numLock"_s),
@@ -580,7 +580,7 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.numberSign"_s),
-			$of(u"\u4e95\u53f7"_s)
+			$of(u"井号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.numpad"_s),
@@ -588,11 +588,11 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.openBracket"_s),
-			$of(u"\u5de6\u65b9\u62ec\u53f7"_s)
+			$of(u"左方括号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.paste"_s),
-			$of(u"\u7c98\u8d34"_s)
+			$of(u"粘贴"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.pause"_s),
@@ -600,7 +600,7 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.period"_s),
-			$of(u"\u53e5\u70b9"_s)
+			$of(u"句点"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.pgdn"_s),
@@ -612,11 +612,11 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.plus"_s),
-			$of(u"\u52a0\u53f7"_s)
+			$of(u"加号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.previousCandidate"_s),
-			$of(u"\u4e0a\u4e00\u4e2a\u5019\u9009\u9879"_s)
+			$of(u"上一个候选项"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.printScreen"_s),
@@ -624,27 +624,27 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.props"_s),
-			$of(u"\u5c0f\u9053\u5177"_s)
+			$of(u"小道具"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.quote"_s),
-			$of(u"\u5f15\u53f7"_s)
+			$of(u"引号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.quoteDbl"_s),
-			$of(u"\u53cc\u5f15\u53f7"_s)
+			$of(u"双引号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.right"_s),
-			$of(u"\u5411\u53f3\u7bad\u5934"_s)
+			$of(u"向右箭头"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.rightParenthesis"_s),
-			$of(u"\u53f3\u62ec\u53f7"_s)
+			$of(u"右括号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.romanCharacters"_s),
-			$of(u"\u7f57\u9a6c\u5b57\u7b26"_s)
+			$of(u"罗马字符"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.scrollLock"_s),
@@ -652,7 +652,7 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.semicolon"_s),
-			$of(u"\u5206\u53f7"_s)
+			$of(u"分号"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.separater"_s),
@@ -668,15 +668,15 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.slash"_s),
-			$of(u"\u659c\u6760"_s)
+			$of(u"斜杠"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.space"_s),
-			$of(u"\u7a7a\u683c"_s)
+			$of(u"空格"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.stop"_s),
-			$of(u"\u505c\u6b62"_s)
+			$of(u"停止"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.subtract"_s),
@@ -688,23 +688,23 @@ $ObjectArray2* awt_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.undefined"_s),
-			$of(u"\u672a\u5b9a\u4e49"_s)
+			$of(u"未定义"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.underscore"_s),
-			$of(u"\u4e0b\u5212\u7ebf"_s)
+			$of(u"下划线"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.undo"_s),
-			$of(u"\u64a4\u6d88"_s)
+			$of(u"撤消"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.unknown"_s),
-			$of(u"\u672a\u77e5"_s)
+			$of(u"未知"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.up"_s),
-			$of(u"\u5411\u4e0a\u7bad\u5934"_s)
+			$of(u"向上箭头"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.windows"_s),

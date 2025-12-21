@@ -110,7 +110,7 @@ $String* ImageConsumerQueue::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({"["_s, this->consumer, ", "_s, (this->interested ? ""_s : "not "_s), "interested"_s}));
 	$var($String, var$0, $$concat(var$1, (this->securityContext != nullptr ? $$str({", "_s, this->securityContext}) : ""_s)));
-	return ($concat(var$0, "]"));
+	return ($concat(var$0, "]"_s));
 }
 
 ImageConsumerQueue::ImageConsumerQueue() {

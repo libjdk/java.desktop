@@ -84,7 +84,7 @@ void RenderingEngine$Tracer::strokeTo($Shape* src, $AffineTransform* at, $BasicS
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({this->name, ".strokeTo("_s, $($nc($of(src))->getClass()->getName()), ", "_s, at, ", "_s, bs, ", "_s, (thin ? "thin"_s : "wide"_s), ", "_s, (normalize ? "normalized"_s : "pure"_s), ", "_s, (antialias ? "AA"_s : "non-AA"_s), ", "_s}));
 	$var($String, var$0, $$concat(var$1, $($nc($of(consumer))->getClass()->getName())));
-	$nc($System::out)->println($$concat(var$0, ")"));
+	$nc($System::out)->println($$concat(var$0, ")"_s));
 	$nc(this->target)->strokeTo(src, at, bs, thin, normalize, antialias, consumer);
 }
 
@@ -92,7 +92,7 @@ void RenderingEngine$Tracer::strokeTo($Shape* src, $AffineTransform* at, $Region
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({this->name, ".strokeTo("_s, $($nc($of(src))->getClass()->getName()), ", "_s, at, ", "_s, clip, ", "_s, bs, ", "_s, (thin ? "thin"_s : "wide"_s), ", "_s, (normalize ? "normalized"_s : "pure"_s), ", "_s, (antialias ? "AA"_s : "non-AA"_s), ", "_s}));
 	$var($String, var$0, $$concat(var$1, $($nc($of(consumer))->getClass()->getName())));
-	$nc($System::out)->println($$concat(var$0, ")"));
+	$nc($System::out)->println($$concat(var$0, ")"_s));
 	$nc(this->target)->strokeTo(src, at, clip, bs, thin, normalize, antialias, consumer);
 }
 

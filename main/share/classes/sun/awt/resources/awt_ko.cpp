@@ -40,71 +40,71 @@ $ObjectArray2* awt_ko::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("AWT.CompositionWindowTitle"_s),
-			$of(u"\uc785\ub825 \ucc3d"_s)
+			$of(u"입력 창"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.CrosshairCursor"_s),
-			$of(u"\uc2ed\uc790 \ucee4\uc11c"_s)
+			$of(u"십자 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.DefaultCursor"_s),
-			$of(u"\uae30\ubcf8 \ucee4\uc11c"_s)
+			$of(u"기본 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.DefaultDragCursor"_s),
-			$of(u"\uae30\ubcf8 \ub04c\uae30 \ucee4\uc11c"_s)
+			$of(u"기본 끌기 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.DefaultDropCursor"_s),
-			$of(u"\uae30\ubcf8 \ub193\uae30 \ucee4\uc11c"_s)
+			$of(u"기본 놓기 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.DefaultNoDropCursor"_s),
-			$of(u"\uae30\ubcf8 NoDrag \ucee4\uc11c"_s)
+			$of(u"기본 NoDrag 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.EResizeCursor"_s),
-			$of(u"\ub3d9\ucabd \ubc29\ud5a5 \ud06c\uae30 \uc870\uc815 \ucee4\uc11c"_s)
+			$of(u"동쪽 방향 크기 조정 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.HandCursor"_s),
-			$of(u"\uc190 \ucee4\uc11c"_s)
+			$of(u"손 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.HostInputMethodDisplayName"_s),
-			$of(u"\uc2dc\uc2a4\ud15c \uc785\ub825 \ubc29\ubc95"_s)
+			$of(u"시스템 입력 방법"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InconsistentDLLsWarning"_s),
-			$of(u"\uc2dc\uc2a4\ud15c\uc5d0 \uc124\uce58\ub41c DLL(Dynamic Linking Libraries) \uc9d1\ud569\uc774 \uc77c\uce58\ud558\uc9c0 \uc54a\uc544 \ud14d\uc2a4\ud2b8 \uae30\ubc18 \uc791\uc5c5\uc774 \uc81c\ub300\ub85c \uc791\ub3d9\ud558\uc9c0 \uc54a\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \uc774 \ubb38\uc81c\uc5d0 \ub300\ud55c \uc790\uc138\ud55c \ub0b4\uc6a9\uacfc \ud574\uacb0 \ubc29\ubc95 \uc81c\uc548 \uc0ac\ud56d\uc740 java.sun.com\uc758 Java(TM) 2 SDK, Standard Edition Release Notes\ub97c \ucc38\uc870\ud558\uc2ed\uc2dc\uc624."_s)
+			$of(u"시스템에 설치된 DLL(Dynamic Linking Libraries) 집합이 일치하지 않아 텍스트 기반 작업이 제대로 작동하지 않을 수 있습니다. 이 문제에 대한 자세한 내용과 해결 방법 제안 사항은 java.sun.com의 Java(TM) 2 SDK, Standard Edition Release Notes를 참조하십시오."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodCreationFailed"_s),
-			$of(u"{0}\uc744(\ub97c) \uc0dd\uc131\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4. \uc6d0\uc778: {1}"_s)
+			$of(u"{0}을(를) 생성할 수 없습니다. 원인: {1}"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.ja"_s),
-			$of(u"\uc77c\ubcf8\uc5b4"_s)
+			$of(u"일본어"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.ko"_s),
-			$of(u"\ud55c\uad6d\uc5b4"_s)
+			$of(u"한국어"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.zh"_s),
-			$of(u"\uc911\uad6d\uc5b4"_s)
+			$of(u"중국어"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.zh_CN"_s),
-			$of(u"\uc911\uad6d\uc5b4 \uac04\uccb4"_s)
+			$of(u"중국어 간체"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.zh_TW"_s),
-			$of(u"\uc911\uad6d\uc5b4 \ubc88\uccb4"_s)
+			$of(u"중국어 번체"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodSelectionMenu"_s),
-			$of(u"\uc785\ub825 \ubc29\ubc95 \uc120\ud0dd"_s)
+			$of(u"입력 방법 선택"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.Less"_s),
@@ -112,47 +112,47 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.MoveCursor"_s),
-			$of(u"\uc774\ub3d9 \ucee4\uc11c"_s)
+			$of(u"이동 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.NEResizeCursor"_s),
-			$of(u"\ubd81\ub3d9 \ubc29\ud5a5 \ud06c\uae30 \uc870\uc815 \ucee4\uc11c"_s)
+			$of(u"북동 방향 크기 조정 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.NResizeCursor"_s),
-			$of(u"\ubd81\ucabd \ubc29\ud5a5 \ud06c\uae30 \uc870\uc815 \ucee4\uc11c"_s)
+			$of(u"북쪽 방향 크기 조정 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.NWResizeCursor"_s),
-			$of(u"\ubd81\uc11c \ubc29\ud5a5 \ud06c\uae30 \uc870\uc815 \ucee4\uc11c"_s)
+			$of(u"북서 방향 크기 조정 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.SEResizeCursor"_s),
-			$of(u"\ub0a8\ub3d9 \ubc29\ud5a5 \ud06c\uae30 \uc870\uc815 \ucee4\uc11c"_s)
+			$of(u"남동 방향 크기 조정 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.SResizeCursor"_s),
-			$of(u"\ub0a8\ucabd \ubc29\ud5a5 \ud06c\uae30 \uc870\uc815 \ucee4\uc11c"_s)
+			$of(u"남쪽 방향 크기 조정 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.SWResizeCursor"_s),
-			$of(u"\ub0a8\uc11c \ubc29\ud5a5 \ud06c\uae30 \uc870\uc815 \ucee4\uc11c"_s)
+			$of(u"남서 방향 크기 조정 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.TextCursor"_s),
-			$of(u"\ud14d\uc2a4\ud2b8 \ucee4\uc11c"_s)
+			$of(u"텍스트 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.WResizeCursor"_s),
-			$of(u"\uc11c\ucabd \ubc29\ud5a5 \ud06c\uae30 \uc870\uc815 \ucee4\uc11c"_s)
+			$of(u"서쪽 방향 크기 조정 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.WaitCursor"_s),
-			$of(u"\ub300\uae30 \ucee4\uc11c"_s)
+			$of(u"대기 커서"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.accept"_s),
-			$of(u"\ub3d9\uc758"_s)
+			$of(u"동의"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.add"_s),
@@ -160,15 +160,15 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.again"_s),
-			$of(u"\ub2e4\uc2dc"_s)
+			$of(u"다시"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.allCandidates"_s),
-			$of(u"\ubaa8\ub4e0 \ud6c4\ubcf4"_s)
+			$of(u"모든 후보"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.alphanumeric"_s),
-			$of(u"\uc601\uc22b\uc790"_s)
+			$of(u"영숫자"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.alt"_s),
@@ -236,7 +236,7 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.codeInput"_s),
-			$of(u"\ucf54\ub4dc \uc785\ub825"_s)
+			$of(u"코드 입력"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.colon"_s),
@@ -248,7 +248,7 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.compose"_s),
-			$of(u"\uad6c\uc131"_s)
+			$of(u"구성"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.context"_s),
@@ -260,15 +260,15 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.convert"_s),
-			$of(u"\ubcc0\ud658"_s)
+			$of(u"변환"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.copy"_s),
-			$of(u"\ubcf5\uc0ac"_s)
+			$of(u"복사"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.cut"_s),
-			$of(u"\uc798\ub77c\ub0b4\uae30"_s)
+			$of(u"잘라내기"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadAboveDot"_s),
@@ -480,7 +480,7 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.find"_s),
-			$of(u"\ucc3e\uae30"_s)
+			$of(u"찾기"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.fullWidth"_s),
@@ -500,7 +500,7 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.hiragana"_s),
-			$of(u"\ud788\ub77c\uac00\ub098"_s)
+			$of(u"히라가나"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.home"_s),
@@ -508,7 +508,7 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.inputMethodOnOff"_s),
-			$of(u"\uc785\ub825 \ubc29\ubc95 \uc124\uc815/\ud574\uc81c"_s)
+			$of(u"입력 방법 설정/해제"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.insert"_s),
@@ -520,31 +520,31 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.japaneseHiragana"_s),
-			$of(u"\uc77c\ubcf8\uc5b4 \ud788\ub77c\uac00\ub098"_s)
+			$of(u"일본어 히라가나"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.japaneseKatakana"_s),
-			$of(u"\uc77c\ubcf8\uc5b4 \uac00\ud0c0\uce74\ub098"_s)
+			$of(u"일본어 가타카나"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.japaneseRoman"_s),
-			$of(u"\uc77c\ubcf8\uc5b4 \ub85c\ub9c8 \ubb38\uc790"_s)
+			$of(u"일본어 로마 문자"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.kana"_s),
-			$of(u"\uac00\ub098"_s)
+			$of(u"가나"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.kanaLock"_s),
-			$of(u"\uac00\ub098 \uc7a0\uae08"_s)
+			$of(u"가나 잠금"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.kanji"_s),
-			$of(u"\uac04\uc9c0"_s)
+			$of(u"간지"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.katakana"_s),
-			$of(u"\uac00\ud0c0\uce74\ub098"_s)
+			$of(u"가타카나"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.left"_s),
@@ -564,7 +564,7 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.modechange"_s),
-			$of(u"\ubaa8\ub4dc \ubcc0\uacbd"_s)
+			$of(u"모드 변경"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.multiply"_s),
@@ -572,7 +572,7 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.noconvert"_s),
-			$of(u"\ubcc0\ud658 \uc548\ud568"_s)
+			$of(u"변환 안함"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.numLock"_s),
@@ -592,7 +592,7 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.paste"_s),
-			$of(u"\ubd99\uc5ec\ub123\uae30"_s)
+			$of(u"붙여넣기"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.pause"_s),
@@ -616,7 +616,7 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.previousCandidate"_s),
-			$of(u"\uc774\uc804 \ud6c4\ubcf4"_s)
+			$of(u"이전 후보"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.printScreen"_s),
@@ -644,7 +644,7 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.romanCharacters"_s),
-			$of(u"\ub85c\ub9c8 \ubb38\uc790"_s)
+			$of(u"로마 문자"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.scrollLock"_s),
@@ -676,7 +676,7 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.stop"_s),
-			$of(u"\uc815\uc9c0"_s)
+			$of(u"정지"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.subtract"_s),
@@ -688,7 +688,7 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.undefined"_s),
-			$of(u"\uc815\uc758\ub418\uc9c0 \uc54a\uc74c"_s)
+			$of(u"정의되지 않음"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.underscore"_s),
@@ -696,11 +696,11 @@ $ObjectArray2* awt_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.undo"_s),
-			$of(u"\uc2e4\ud589 \ucde8\uc18c"_s)
+			$of(u"실행 취소"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.unknown"_s),
-			$of(u"\uc54c \uc218 \uc5c6\uc74c"_s)
+			$of(u"알 수 없음"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.up"_s),

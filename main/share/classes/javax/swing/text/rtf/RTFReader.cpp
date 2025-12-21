@@ -531,24 +531,24 @@ void clinit$RTFReader($Class* class$) {
 		$nc(RTFReader::textKeywords)->put("\\"_s, "\\"_s);
 		$nc(RTFReader::textKeywords)->put("{"_s, "{"_s);
 		$nc(RTFReader::textKeywords)->put("}"_s, "}"_s);
-		$nc(RTFReader::textKeywords)->put(" "_s, u"\u00a0"_s);
-		$nc(RTFReader::textKeywords)->put("~"_s, u"\u00a0"_s);
-		$nc(RTFReader::textKeywords)->put("_"_s, u"\u2011"_s);
-		$nc(RTFReader::textKeywords)->put("bullet"_s, u"\u2022"_s);
-		$nc(RTFReader::textKeywords)->put("emdash"_s, u"\u2014"_s);
-		$nc(RTFReader::textKeywords)->put("emspace"_s, u"\u2003"_s);
-		$nc(RTFReader::textKeywords)->put("endash"_s, u"\u2013"_s);
-		$nc(RTFReader::textKeywords)->put("enspace"_s, u"\u2002"_s);
-		$nc(RTFReader::textKeywords)->put("ldblquote"_s, u"\u201c"_s);
-		$nc(RTFReader::textKeywords)->put("lquote"_s, u"\u2018"_s);
+		$nc(RTFReader::textKeywords)->put(" "_s, u" "_s);
+		$nc(RTFReader::textKeywords)->put("~"_s, u" "_s);
+		$nc(RTFReader::textKeywords)->put("_"_s, u"‑"_s);
+		$nc(RTFReader::textKeywords)->put("bullet"_s, u"•"_s);
+		$nc(RTFReader::textKeywords)->put("emdash"_s, u"—"_s);
+		$nc(RTFReader::textKeywords)->put("emspace"_s, u" "_s);
+		$nc(RTFReader::textKeywords)->put("endash"_s, u"–"_s);
+		$nc(RTFReader::textKeywords)->put("enspace"_s, u" "_s);
+		$nc(RTFReader::textKeywords)->put("ldblquote"_s, u"“"_s);
+		$nc(RTFReader::textKeywords)->put("lquote"_s, u"‘"_s);
 		$nc(RTFReader::textKeywords)->put("ltrmark"_s, u"\u200e"_s);
-		$nc(RTFReader::textKeywords)->put("rdblquote"_s, u"\u201d"_s);
-		$nc(RTFReader::textKeywords)->put("rquote"_s, u"\u2019"_s);
+		$nc(RTFReader::textKeywords)->put("rdblquote"_s, u"”"_s);
+		$nc(RTFReader::textKeywords)->put("rquote"_s, u"’"_s);
 		$nc(RTFReader::textKeywords)->put("rtlmark"_s, u"\u200f"_s);
 		$nc(RTFReader::textKeywords)->put("tab"_s, "\t"_s);
 		$nc(RTFReader::textKeywords)->put("zwj"_s, u"\u200d"_s);
 		$nc(RTFReader::textKeywords)->put("zwnj"_s, u"\u200c"_s);
-		$nc(RTFReader::textKeywords)->put("-"_s, u"\u2027"_s);
+		$nc(RTFReader::textKeywords)->put("-"_s, u"‧"_s);
 	}
 	RTFReader::useNeXTForAnsi = false;
 	{

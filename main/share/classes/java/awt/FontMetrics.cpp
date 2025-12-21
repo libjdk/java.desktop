@@ -239,13 +239,13 @@ $String* FontMetrics::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$7, $$str({$($of(this)->getClass()->getName()), "[font="_s}));
 	$var($String, var$6, $$concat(var$7, $(getFont())));
-	$var($String, var$5, $$concat(var$6, "ascent="));
+	$var($String, var$5, $$concat(var$6, "ascent="_s));
 	$var($String, var$4, $$concat(var$5, $$str(getAscent())));
-	$var($String, var$3, $$concat(var$4, ", descent="));
+	$var($String, var$3, $$concat(var$4, ", descent="_s));
 	$var($String, var$2, $$concat(var$3, $$str(getDescent())));
-	$var($String, var$1, $$concat(var$2, ", height="));
+	$var($String, var$1, $$concat(var$2, ", height="_s));
 	$var($String, var$0, $$concat(var$1, $$str(getHeight())));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 void FontMetrics::initIDs() {

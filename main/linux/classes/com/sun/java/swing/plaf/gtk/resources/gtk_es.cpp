@@ -52,7 +52,7 @@ $ObjectArray2* gtk_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"Abortar cuadro de di\u00e1logo del selector de archivos."_s)
+			$of(u"Abortar cuadro de diálogo del selector de archivos."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.deleteFileButton.textAndMnemonic"_s),
@@ -100,7 +100,7 @@ $ObjectArray2* gtk_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.pathLabel.textAndMnemonic"_s),
-			$of(u"&Selecci\u00f3n:"_s)
+			$of(u"&Selección:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameFileButton.textAndMnemonic"_s),
@@ -152,7 +152,7 @@ $ObjectArray2* gtk_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.saturation.textAndMnemonic"_s),
-			$of(u"&Saturaci\u00f3n:"_s)
+			$of(u"&Saturación:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.textAndMnemonic"_s),

@@ -944,7 +944,7 @@ void XEmbedServerTester::dispatchEvent($XEvent* ev) {
 			if ($nc(XEmbedServerTester::xembedLog)->isLoggable($PlatformLogger$Level::FINER)) {
 				$var($String, var$2, $$str({"Tester is waiting for "_s, $($XEmbedHelper::msgidToString(this->eventWaited)), ", but we received "_s, ev, "("_s}));
 				$var($String, var$1, $$concat(var$2, $($XEmbedHelper::msgidToString(eventID))));
-				$nc(XEmbedServerTester::xembedLog)->finer($$concat(var$1, ")"));
+				$nc(XEmbedServerTester::xembedLog)->finer($$concat(var$1, ")"_s));
 			}
 			if (eventID == this->eventWaited) {
 				this->eventReceived = eventID;

@@ -120,9 +120,9 @@ $String* AbstractDocument$BranchElement::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$3, $$str({"BranchElement("_s, $(getName()), ") "_s}));
 	$var($String, var$2, $$concat(var$3, $$str(getStartOffset())));
-	$var($String, var$1, $$concat(var$2, ","));
+	$var($String, var$1, $$concat(var$2, ","_s));
 	$var($String, var$0, $$concat(var$1, $$str(getEndOffset())));
-	return $concat(var$0, "\n");
+	return $concat(var$0, "\n"_s);
 }
 
 $String* AbstractDocument$BranchElement::getName() {

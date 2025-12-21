@@ -42,55 +42,55 @@ $ObjectArray2* accessibility_zh_CN::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("active"_s),
-			$of(u"\u6d3b\u52a8"_s)
+			$of(u"活动"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("alert"_s),
-			$of(u"\u9884\u8b66"_s)
+			$of(u"预警"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("armed"_s),
-			$of(u"\u5f85\u547d"_s)
+			$of(u"待命"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("awtcomponent"_s),
-			$of(u"AWT \u7ec4\u4ef6"_s)
+			$of(u"AWT 组件"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("busy"_s),
-			$of(u"\u5fd9"_s)
+			$of(u"忙"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("canvas"_s),
-			$of(u"\u753b\u5e03"_s)
+			$of(u"画布"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox"_s),
-			$of(u"\u590d\u9009\u6846"_s)
+			$of(u"复选框"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("checked"_s),
-			$of(u"\u5df2\u9009\u4e2d"_s)
+			$of(u"已选中"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("childNodeOf"_s),
-			$of(u"\u5b50\u8282\u70b9"_s)
+			$of(u"子节点"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("collapsed"_s),
-			$of(u"\u5df2\u6536\u7f29"_s)
+			$of(u"已收缩"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("colorchooser"_s),
-			$of(u"\u989c\u8272\u9009\u62e9\u5668"_s)
+			$of(u"颜色选择器"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("columnheader"_s),
-			$of(u"\u5217\u6807\u9898"_s)
+			$of(u"列标题"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("combobox"_s),
-			$of(u"\u7ec4\u5408\u6846"_s)
+			$of(u"组合框"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("controlledBy"_s),
@@ -102,335 +102,335 @@ $ObjectArray2* accessibility_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("desktopicon"_s),
-			$of(u"\u684c\u9762\u56fe\u6807"_s)
+			$of(u"桌面图标"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("desktoppane"_s),
-			$of(u"\u684c\u9762\u7a97\u683c"_s)
+			$of(u"桌面窗格"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog"_s),
-			$of(u"\u5bf9\u8bdd"_s)
+			$of(u"对话"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("directorypane"_s),
-			$of(u"\u76ee\u5f55\u7a97\u683c"_s)
+			$of(u"目录窗格"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("editable"_s),
-			$of(u"\u53ef\u7f16\u8f91"_s)
+			$of(u"可编辑"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("editbar"_s),
-			$of(u"\u7f16\u8f91\u680f"_s)
+			$of(u"编辑栏"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("embeddedBy"_s),
-			$of(u"\u5d4c\u5165\u8005"_s)
+			$of(u"嵌入者"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("embeds"_s),
-			$of(u"\u5d4c\u5165\u9879"_s)
+			$of(u"嵌入项"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("enabled"_s),
-			$of(u"\u542f\u7528"_s)
+			$of(u"启用"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("expandable"_s),
-			$of(u"\u53ef\u5c55\u5f00"_s)
+			$of(u"可展开"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("expanded"_s),
-			$of(u"\u5df2\u5c55\u5f00"_s)
+			$of(u"已展开"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("filechooser"_s),
-			$of(u"\u6587\u4ef6\u9009\u62e9\u5668"_s)
+			$of(u"文件选择器"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("filler"_s),
-			$of(u"\u6f0f\u6597"_s)
+			$of(u"漏斗"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("flowsFrom"_s),
-			$of(u"\u6d41\u81ea"_s)
+			$of(u"流自"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("flowsTo"_s),
-			$of(u"\u6d41\u5411"_s)
+			$of(u"流向"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("focusable"_s),
-			$of(u"\u53ef\u96c6\u4e2d"_s)
+			$of(u"可集中"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("focused"_s),
-			$of(u"\u5df2\u96c6\u4e2d"_s)
+			$of(u"已集中"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("footer"_s),
-			$of(u"\u9875\u811a"_s)
+			$of(u"页脚"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("frame"_s),
-			$of(u"\u6846\u67b6"_s)
+			$of(u"框架"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("glasspane"_s),
-			$of(u"\u73bb\u7483\u7a97\u683c"_s)
+			$of(u"玻璃窗格"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("header"_s),
-			$of(u"\u9875\u7709"_s)
+			$of(u"页眉"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("horizontal"_s),
-			$of(u"\u6c34\u5e73"_s)
+			$of(u"水平"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("htmlcontainer"_s),
-			$of(u"HTML \u5bb9\u5668"_s)
+			$of(u"HTML 容器"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("iconified"_s),
-			$of(u"\u56fe\u6807\u5f0f"_s)
+			$of(u"图标式"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("indeterminate"_s),
-			$of(u"\u4e0d\u786e\u5b9a"_s)
+			$of(u"不确定"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("internalframe"_s),
-			$of(u"\u5185\u90e8\u6846\u67b6"_s)
+			$of(u"内部框架"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label"_s),
-			$of(u"\u6807\u7b7e"_s)
+			$of(u"标签"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("labelFor"_s),
-			$of(u"\u6807\u7b7e\u5c5e\u4e8e"_s)
+			$of(u"标签属于"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("labeledBy"_s),
-			$of(u"\u6807\u7b7e\u5236\u4f5c\u8005"_s)
+			$of(u"标签制作者"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("layeredpane"_s),
-			$of(u"\u5206\u5c42\u7a97\u683c"_s)
+			$of(u"分层窗格"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("list"_s),
-			$of(u"\u5217\u8868"_s)
+			$of(u"列表"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("listitem"_s),
-			$of(u"\u5217\u8868\u9879"_s)
+			$of(u"列表项"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("managesDescendants"_s),
-			$of(u"\u7ba1\u7406\u5b50\u9879"_s)
+			$of(u"管理子项"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("memberOf"_s),
-			$of(u"\u5c5e\u4e8e"_s)
+			$of(u"属于"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("menu"_s),
-			$of(u"\u83dc\u5355"_s)
+			$of(u"菜单"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("menubar"_s),
-			$of(u"\u83dc\u5355\u680f"_s)
+			$of(u"菜单栏"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("menuitem"_s),
-			$of(u"\u83dc\u5355\u9879"_s)
+			$of(u"菜单项"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("modal"_s),
-			$of(u"\u6a21\u6001"_s)
+			$of(u"模态"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("multiline"_s),
-			$of(u"\u591a\u884c"_s)
+			$of(u"多行"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("multiselectable"_s),
-			$of(u"\u591a\u9009\u62e9"_s)
+			$of(u"多选择"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("opaque"_s),
-			$of(u"\u4e0d\u900f\u660e"_s)
+			$of(u"不透明"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("optionpane"_s),
-			$of(u"\u9009\u9879\u7a97\u683c"_s)
+			$of(u"选项窗格"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("pagetab"_s),
-			$of(u"\u9875\u6807\u7b7e"_s)
+			$of(u"页标签"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("pagetablist"_s),
-			$of(u"\u9875\u6807\u7b7e\u5217\u8868"_s)
+			$of(u"页标签列表"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("panel"_s),
-			$of(u"\u9762\u677f"_s)
+			$of(u"面板"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("paragraph"_s),
-			$of(u"\u6bb5\u843d"_s)
+			$of(u"段落"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("parentWindowOf"_s),
-			$of(u"\u7236\u7a97\u53e3"_s)
+			$of(u"父窗口"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("passwordtext"_s),
-			$of(u"\u53e3\u4ee4\u6587\u672c"_s)
+			$of(u"口令文本"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("popupmenu"_s),
-			$of(u"\u5f39\u51fa\u5f0f\u83dc\u5355"_s)
+			$of(u"弹出式菜单"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("pressed"_s),
-			$of(u"\u5df2\u6309\u4e0b"_s)
+			$of(u"已按下"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("progressMonitor"_s),
-			$of(u"\u8fdb\u5ea6\u76d1\u89c6\u5668"_s)
+			$of(u"进度监视器"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("progressbar"_s),
-			$of(u"\u8fdb\u5ea6\u680f"_s)
+			$of(u"进度栏"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("pushbutton"_s),
-			$of(u"\u6309\u94ae"_s)
+			$of(u"按钮"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton"_s),
-			$of(u"\u5355\u9009\u6309\u94ae"_s)
+			$of(u"单选按钮"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("resizable"_s),
-			$of(u"\u53ef\u8c03\u6574\u5927\u5c0f"_s)
+			$of(u"可调整大小"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("rootpane"_s),
-			$of(u"\u6839\u7a97\u683c"_s)
+			$of(u"根窗格"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("rowheader"_s),
-			$of(u"\u884c\u6807\u9898"_s)
+			$of(u"行标题"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ruler"_s),
-			$of(u"\u6807\u5c3a"_s)
+			$of(u"标尺"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("scrollbar"_s),
-			$of(u"\u6eda\u52a8\u6761"_s)
+			$of(u"滚动条"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("scrollpane"_s),
-			$of(u"\u6eda\u52a8\u7a97\u683c"_s)
+			$of(u"滚动窗格"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("selectable"_s),
-			$of(u"\u53ef\u9009\u62e9"_s)
+			$of(u"可选择"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("selected"_s),
-			$of(u"\u6240\u9009"_s)
+			$of(u"所选"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("separator"_s),
-			$of(u"\u5206\u9694\u6761"_s)
+			$of(u"分隔条"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("showing"_s),
-			$of(u"\u6b63\u5728\u663e\u793a"_s)
+			$of(u"正在显示"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("singleline"_s),
-			$of(u"\u5355\u884c"_s)
+			$of(u"单行"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("slider"_s),
-			$of(u"\u6ed1\u5757"_s)
+			$of(u"滑块"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("splitpane"_s),
-			$of(u"\u62c6\u5206\u7a97\u683c"_s)
+			$of(u"拆分窗格"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("subwindowOf"_s),
-			$of(u"\u5b50\u7a97\u53e3"_s)
+			$of(u"子窗口"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("swingcomponent"_s),
-			$of(u"\u65cb\u8f6c\u7ec4\u4ef6"_s)
+			$of(u"旋转组件"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("table"_s),
-			$of(u"\u8868"_s)
+			$of(u"表"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("text"_s),
-			$of(u"\u6587\u672c"_s)
+			$of(u"文本"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("togglebutton"_s),
-			$of(u"\u5207\u6362\u6309\u94ae"_s)
+			$of(u"切换按钮"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("toggleexpand"_s),
-			$of(u"\u5207\u6362\u5c55\u5f00"_s)
+			$of(u"切换展开"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("toolbar"_s),
-			$of(u"\u5de5\u5177\u680f"_s)
+			$of(u"工具栏"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tooltip"_s),
-			$of(u"\u5de5\u5177\u63d0\u793a"_s)
+			$of(u"工具提示"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("transient"_s),
-			$of(u"\u77ac\u65f6"_s)
+			$of(u"瞬时"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tree"_s),
-			$of(u"\u6811"_s)
+			$of(u"树"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("truncated"_s),
-			$of(u"\u5df2\u622a\u65ad"_s)
+			$of(u"已截断"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("unknown"_s),
-			$of(u"\u672a\u77e5"_s)
+			$of(u"未知"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("vertical"_s),
-			$of(u"\u5782\u76f4"_s)
+			$of(u"垂直"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("viewport"_s),
-			$of(u"\u89c6\u7a97"_s)
+			$of(u"视窗"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("visible"_s),
-			$of(u"\u53ef\u89c1"_s)
+			$of(u"可见"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("window"_s),
-			$of(u"\u7a97\u53e3"_s)
+			$of(u"窗口"_s)
 		})
 	});
 }

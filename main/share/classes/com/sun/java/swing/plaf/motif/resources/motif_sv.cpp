@@ -52,7 +52,7 @@ $ObjectArray2* motif_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"Avbryt dialogrutan f\u00f6r filval."_s)
+			$of(u"Avbryt dialogrutan för filval."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.enterFileNameLabel.textAndMnemonic"_s),
@@ -76,11 +76,11 @@ $ObjectArray2* motif_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.helpButton.textAndMnemonic"_s),
-			$of(u"Hj\u00e4lp"_s)
+			$of(u"Hjälp"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.helpButtonToolTip.textAndMnemonic"_s),
-			$of(u"Hj\u00e4lp f\u00f6r val av fil."_s)
+			$of(u"Hjälp för val av fil."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButton.textAndMnemonic"_s),
@@ -88,15 +88,15 @@ $ObjectArray2* motif_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u00d6ppna vald fil."_s)
+			$of(u"Öppna vald fil."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openDialogTitle.textAndMnemonic"_s),
-			$of(u"\u00d6ppna"_s)
+			$of(u"Öppna"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.pathLabel.textAndMnemonic"_s),
-			$of(u"Ange &s\u00f6kv\u00e4g eller mappnamn:"_s)
+			$of(u"Ange &sökväg eller mappnamn:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButton.textAndMnemonic"_s),

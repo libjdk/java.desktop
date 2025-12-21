@@ -253,7 +253,7 @@ $String* LookAndFeel::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({"["_s, $(getDescription()), " - "_s}));
 	$var($String, var$0, $$concat(var$1, $($of(this)->getClass()->getName())));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 LookAndFeel::LookAndFeel() {

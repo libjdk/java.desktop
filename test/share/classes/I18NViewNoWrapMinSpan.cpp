@@ -100,7 +100,7 @@ void I18NViewNoWrapMinSpan::lambda$main$0() {
 	$useLocalCurrentObjectStackCache();
 	try {
 		$var($JTextField, textField, $new($JTextField, 15));
-		textField->setText(u"\u0e2112345"_s);
+		textField->setText(u"ม12345"_s);
 		float noSpaceMin = $nc($($nc($($cast($TextUI, textField->getUI())))->getRootView(textField)))->getMinimumSpan(0);
 		$nc($(textField->getDocument()))->insertString(3, " "_s, nullptr);
 		if (noSpaceMin > $nc($($nc($($cast($TextUI, textField->getUI())))->getRootView(textField)))->getMinimumSpan(0)) {

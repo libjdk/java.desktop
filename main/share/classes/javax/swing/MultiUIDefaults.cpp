@@ -233,7 +233,7 @@ $String* MultiUIDefaults::toString() {
 			$var($Object, key, keys->nextElement());
 			$var($String, var$1, $$str({key, "="_s}));
 			$var($String, var$0, $$concat(var$1, $(get(key))));
-			sb->append($$concat(var$0, ", "));
+			sb->append($$concat(var$0, ", "_s));
 		}
 		int32_t length = sb->length();
 		if (length > 1) {

@@ -150,7 +150,7 @@ $ObjectArray2* accessibility_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("filler"_s),
-			$of(u"utilit\u00e0 riempimento"_s)
+			$of(u"utilità riempimento"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("flowsFrom"_s),
@@ -170,7 +170,7 @@ $ObjectArray2* accessibility_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("footer"_s),
-			$of(u"pi\u00e8 di pagina"_s)
+			$of(u"piè di pagina"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("frame"_s),

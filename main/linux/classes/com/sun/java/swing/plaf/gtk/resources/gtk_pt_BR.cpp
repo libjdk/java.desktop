@@ -52,7 +52,7 @@ $ObjectArray2* gtk_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"Abortar caixa de di\u00e1logo do seletor de arquivos."_s)
+			$of(u"Abortar caixa de diálogo do seletor de arquivos."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.deleteFileButton.textAndMnemonic"_s),
@@ -80,7 +80,7 @@ $ObjectArray2* gtk_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderNoDirectoryError.textAndMnemonic"_s),
-			$of(u"Erro ao criar o diret\u00f3rio \"{0}\": N\u00e3o h\u00e1 arquivo ou diret\u00f3rio"_s)
+			$of(u"Erro ao criar o diretório \"{0}\": Não há arquivo ou diretório"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderNoDirectoryErrorTitle.textAndMnemonic"_s),
@@ -100,7 +100,7 @@ $ObjectArray2* gtk_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.pathLabel.textAndMnemonic"_s),
-			$of(u"&Sele\u00e7\u00e3o:"_s)
+			$of(u"&Seleção:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameFileButton.textAndMnemonic"_s),
@@ -152,7 +152,7 @@ $ObjectArray2* gtk_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.saturation.textAndMnemonic"_s),
-			$of(u"&Satura\u00e7\u00e3o:"_s)
+			$of(u"&Saturação:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.textAndMnemonic"_s),

@@ -660,19 +660,19 @@ $floats* ExtendedTextSourceLabel::createCharinfo() {
 		for (int32_t i = 0; i < length * ExtendedTextSourceLabel::numvals;) {
 			$var($String, var$14, $$str({" ch: "_s, $($Integer::toHexString($nc(chars)->get(start + v2l($div(i, ExtendedTextSourceLabel::numvals))))), " x: "_s}));
 			$var($String, var$13, $$concat(var$14, $$str(charInfo->get(i++))));
-			$var($String, var$12, $$concat(var$13, " y: "));
+			$var($String, var$12, $$concat(var$13, " y: "_s));
 			$var($String, var$11, $$concat(var$12, $$str(charInfo->get(i++))));
-			$var($String, var$10, $$concat(var$11, " xa: "));
+			$var($String, var$10, $$concat(var$11, " xa: "_s));
 			$var($String, var$9, $$concat(var$10, $$str(charInfo->get(i++))));
-			$var($String, var$8, $$concat(var$9, " ya: "));
+			$var($String, var$8, $$concat(var$9, " ya: "_s));
 			$var($String, var$7, $$concat(var$8, $$str(charInfo->get(i++))));
-			$var($String, var$6, $$concat(var$7, " l: "));
+			$var($String, var$6, $$concat(var$7, " l: "_s));
 			$var($String, var$5, $$concat(var$6, $$str(charInfo->get(i++))));
-			$var($String, var$4, $$concat(var$5, " t: "));
+			$var($String, var$4, $$concat(var$5, " t: "_s));
 			$var($String, var$3, $$concat(var$4, $$str(charInfo->get(i++))));
-			$var($String, var$2, $$concat(var$3, " w: "));
+			$var($String, var$2, $$concat(var$3, " w: "_s));
 			$var($String, var$1, $$concat(var$2, $$str(charInfo->get(i++))));
-			$var($String, var$0, $$concat(var$1, " h: "));
+			$var($String, var$0, $$concat(var$1, " h: "_s));
 			$nc($System::err)->println($$concat(var$0, $$str(charInfo->get(i++))));
 		}
 	}

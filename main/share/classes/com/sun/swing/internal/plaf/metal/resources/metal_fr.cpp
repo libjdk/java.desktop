@@ -44,15 +44,15 @@ $ObjectArray2* metal_fr::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("FileChooser.detailsViewActionLabel.textAndMnemonic"_s),
-			$of(u"D\u00e9tails"_s)
+			$of(u"Détails"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.detailsViewButtonAccessibleName"_s),
-			$of(u"D\u00e9tails"_s)
+			$of(u"Détails"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.detailsViewButtonToolTip.textAndMnemonic"_s),
-			$of(u"D\u00e9tails"_s)
+			$of(u"Détails"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileAttrHeader.textAndMnemonic"_s),
@@ -60,7 +60,7 @@ $ObjectArray2* metal_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileDateHeader.textAndMnemonic"_s),
-			$of(u"Modifi\u00e9"_s)
+			$of(u"Modifié"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileNameHeader.textAndMnemonic"_s),
@@ -88,11 +88,11 @@ $ObjectArray2* metal_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.homeFolderAccessibleName"_s),
-			$of(u"R\u00e9pertoire de base"_s)
+			$of(u"Répertoire de base"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.homeFolderToolTip.textAndMnemonic"_s),
-			$of(u"R\u00e9pertoire de base"_s)
+			$of(u"Répertoire de base"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.listViewActionLabel.textAndMnemonic"_s),
@@ -120,7 +120,7 @@ $ObjectArray2* metal_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderToolTip.textAndMnemonic"_s),
-			$of(u"Cr\u00e9e un dossier."_s)
+			$of(u"Crée un dossier."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.refreshActionLabel.textAndMnemonic"_s),
@@ -148,7 +148,7 @@ $ObjectArray2* metal_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("MetalTitlePane.iconify.titleAndMnemonic"_s),
-			$of(u"R\u00e9&duire"_s)
+			$of(u"Ré&duire"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("MetalTitlePane.maximize.titleAndMnemonic"_s),

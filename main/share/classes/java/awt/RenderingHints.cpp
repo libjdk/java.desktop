@@ -356,7 +356,7 @@ $String* RenderingHints::toString() {
 	if (this->hintmap == nullptr) {
 		$var($String, var$1, $$str({$($of(this)->getClass()->getName()), "@"_s}));
 		$var($String, var$0, $$concat(var$1, $($Integer::toHexString(hashCode()))));
-		return $concat(var$0, " (0 hints)");
+		return $concat(var$0, " (0 hints)"_s);
 	}
 	return $nc(this->hintmap)->toString();
 }

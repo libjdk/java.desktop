@@ -277,7 +277,7 @@ void JInternalFrameDraggingTest::main($StringArray* args) {
 				if (rgbCW != testRGB || rgbCH != testRGB) {
 					$var($String, var$3, $$str({"i "_s, $$str(i), " rgbCW "_s, $($Integer::toHexString(rgbCW)), " testRGB "_s}));
 					$var($String, var$2, $$concat(var$3, $($Integer::toHexString(testRGB))));
-					$var($String, var$1, $$concat(var$2, " rgbCH "));
+					$var($String, var$1, $$concat(var$2, " rgbCH "_s));
 					$nc($System::out)->println($$concat(var$1, $($Integer::toHexString(rgbCH))));
 					$throwNew($RuntimeException, "Background color is wrong!"_s);
 				}

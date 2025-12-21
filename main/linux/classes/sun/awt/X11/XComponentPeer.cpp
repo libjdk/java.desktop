@@ -1452,9 +1452,9 @@ void XComponentPeer::applyShape($Region* shape$renamed) {
 		if ($nc(XComponentPeer::shapeLog)->isLoggable($PlatformLogger$Level::FINER)) {
 			$var($String, var$4, $$str({"*** INFO: Setting shape: PEER: "_s, this, "; WINDOW: "_s}));
 			$var($String, var$3, $$concat(var$4, $$str(getWindow())));
-			$var($String, var$2, $$concat(var$3, "; TARGET: "));
+			$var($String, var$2, $$concat(var$3, "; TARGET: "_s));
 			$var($String, var$1, $$concat(var$2, this->target));
-			$var($String, var$0, $$concat(var$1, "; SHAPE: "));
+			$var($String, var$0, $$concat(var$1, "; SHAPE: "_s));
 			$nc(XComponentPeer::shapeLog)->finer($$concat(var$0, $(shape)));
 		}
 		$XToolkit::awtLock();

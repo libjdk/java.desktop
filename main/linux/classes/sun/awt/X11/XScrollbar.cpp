@@ -508,11 +508,11 @@ void XScrollbar::handleMouseEvent(int32_t id, int32_t modifiers, int32_t x, int3
 		}
 		$var($String, var$6, $$str({"Mouse "_s, type, " event in scroll bar "_s, this, "x = "_s, $$str(x), ", y = "_s, $$str(y), ", on arrow: "_s}));
 		$var($String, var$5, $$concat(var$6, $$str(isInArrow(x, y))));
-		$var($String, var$4, $$concat(var$5, ", on thumb: "));
+		$var($String, var$4, $$concat(var$5, ", on thumb: "_s));
 		$var($String, var$3, $$concat(var$4, $$str(isInThumb(x, y))));
-		$var($String, var$2, $$concat(var$3, ", before thumb: "));
+		$var($String, var$2, $$concat(var$3, ", before thumb: "_s));
 		$var($String, var$1, $$concat(var$2, $$str(beforeThumb(x, y))));
-		$var($String, var$0, $$concat(var$1, ", thumb rect"));
+		$var($String, var$0, $$concat(var$1, ", thumb rect"_s));
 		$nc(XScrollbar::log)->finer($$concat(var$0, $(calculateThumbRect())));
 	}
 	{

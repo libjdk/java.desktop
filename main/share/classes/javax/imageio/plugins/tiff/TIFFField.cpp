@@ -489,7 +489,7 @@ void TIFFField::init$($TIFFTag* tag, int64_t value) {
 		if (!tag->isDataTypeOK($TIFFTag::TIFF_SHORT)) {
 			$var($String, var$1, $$str({"Illegal data type "_s, $(getTypeName($TIFFTag::TIFF_SHORT)), " for tag \""_s}));
 			$var($String, var$0, $$concat(var$1, $(tag->getName())));
-			$throwNew($IllegalArgumentException, $$concat(var$0, "\""));
+			$throwNew($IllegalArgumentException, $$concat(var$0, "\""_s));
 		}
 		this->type = $TIFFTag::TIFF_SHORT;
 		$var($chars, cdata, $new($chars, 1));
@@ -499,7 +499,7 @@ void TIFFField::init$($TIFFTag* tag, int64_t value) {
 		if (!tag->isDataTypeOK($TIFFTag::TIFF_LONG)) {
 			$var($String, var$3, $$str({"Illegal data type "_s, $(getTypeName($TIFFTag::TIFF_LONG)), " for tag \""_s}));
 			$var($String, var$2, $$concat(var$3, $(tag->getName())));
-			$throwNew($IllegalArgumentException, $$concat(var$2, "\""));
+			$throwNew($IllegalArgumentException, $$concat(var$2, "\""_s));
 		}
 		this->type = $TIFFTag::TIFF_LONG;
 		$var($longs, ldata, $new($longs, 1));

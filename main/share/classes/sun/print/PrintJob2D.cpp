@@ -710,27 +710,27 @@ void PrintJob2D::debugPrintAttributes(bool ja, bool pa) {
 	if (ja) {
 		$var($String, var$14, $$str({"new Attributes\ncopies = "_s, $$str($nc(this->jobAttributes)->getCopies()), "\nselection = "_s}));
 		$var($String, var$13, $$concat(var$14, $($nc(this->jobAttributes)->getDefaultSelection())));
-		$var($String, var$12, $$concat(var$13, "\ndest "));
+		$var($String, var$12, $$concat(var$13, "\ndest "_s));
 		$var($String, var$11, $$concat(var$12, $($nc(this->jobAttributes)->getDestination())));
-		$var($String, var$10, $$concat(var$11, "\nfile "));
+		$var($String, var$10, $$concat(var$11, "\nfile "_s));
 		$var($String, var$9, $$concat(var$10, $($nc(this->jobAttributes)->getFileName())));
-		$var($String, var$8, $$concat(var$9, "\nfromPage "));
+		$var($String, var$8, $$concat(var$9, "\nfromPage "_s));
 		$var($String, var$7, $$concat(var$8, $$str($nc(this->jobAttributes)->getFromPage())));
-		$var($String, var$6, $$concat(var$7, "\ntoPage "));
+		$var($String, var$6, $$concat(var$7, "\ntoPage "_s));
 		$var($String, var$5, $$concat(var$6, $$str($nc(this->jobAttributes)->getToPage())));
-		$var($String, var$4, $$concat(var$5, "\ncollation "));
+		$var($String, var$4, $$concat(var$5, "\ncollation "_s));
 		$var($String, var$3, $$concat(var$4, $($nc(this->jobAttributes)->getMultipleDocumentHandling())));
-		$var($String, var$2, $$concat(var$3, "\nPrinter "));
+		$var($String, var$2, $$concat(var$3, "\nPrinter "_s));
 		$var($String, var$1, $$concat(var$2, $($nc(this->jobAttributes)->getPrinter())));
-		$var($String, var$0, $$concat(var$1, "\nSides2 "));
+		$var($String, var$0, $$concat(var$1, "\nSides2 "_s));
 		$nc($System::out)->println($$concat(var$0, $($nc(this->jobAttributes)->getSides())));
 	}
 	if (pa) {
 		$var($String, var$19, $$str({"new Attributes\ncolor = "_s, $($nc(this->pageAttributes)->getColor()), "\norientation = "_s}));
 		$var($String, var$18, $$concat(var$19, $($nc(this->pageAttributes)->getOrientationRequested())));
-		$var($String, var$17, $$concat(var$18, "\nquality "));
+		$var($String, var$17, $$concat(var$18, "\nquality "_s));
 		$var($String, var$16, $$concat(var$17, $($nc(this->pageAttributes)->getPrintQuality())));
-		$var($String, var$15, $$concat(var$16, "\nMedia2 "));
+		$var($String, var$15, $$concat(var$16, "\nMedia2 "_s));
 		$nc($System::out)->println($$concat(var$15, $($nc(this->pageAttributes)->getMedia())));
 	}
 }

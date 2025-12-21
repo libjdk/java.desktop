@@ -162,8 +162,8 @@ $JFrame* bug4337267::window = nullptr;
 bool bug4337267::testFailed = false;
 
 void bug4337267::init$() {
-	$set(this, shaped, u"000 (E) 111 (A) \u0641\u0642\u0643 \u0662\u0662\u0662 (E) 333"_s);
-	$set(this, text, u"000 (E) 111 (A) \u0641\u0642\u0643 222 (E) 333"_s);
+	$set(this, shaped, u"000 (E) 111 (A) فقك ٢٢٢ (E) 333"_s);
+	$set(this, text, u"000 (E) 111 (A) فقك 222 (E) 333"_s);
 }
 
 void bug4337267::run() {

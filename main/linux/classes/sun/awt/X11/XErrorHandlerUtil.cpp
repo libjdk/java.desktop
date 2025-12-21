@@ -124,11 +124,11 @@ int32_t XErrorHandlerUtil::SAVED_XERROR_HANDLER(int64_t display, $XErrorEvent* e
 	if ($nc(XErrorHandlerUtil::log)->isLoggable($PlatformLogger$Level::FINE)) {
 		$var($String, var$6, $$str({"Unhandled XErrorEvent: id="_s, $$str($nc(error)->get_resourceid()), ", serial="_s}));
 		$var($String, var$5, $$concat(var$6, $$str(error->get_serial())));
-		$var($String, var$4, $$concat(var$5, ", ec="));
+		$var($String, var$4, $$concat(var$5, ", ec="_s));
 		$var($String, var$3, $$concat(var$4, $$str(error->get_error_code())));
-		$var($String, var$2, $$concat(var$3, ", rc="));
+		$var($String, var$2, $$concat(var$3, ", rc="_s));
 		$var($String, var$1, $$concat(var$2, $$str(error->get_request_code())));
-		$var($String, var$0, $$concat(var$1, ", mc="));
+		$var($String, var$0, $$concat(var$1, ", mc="_s));
 		$nc(XErrorHandlerUtil::log)->fine($$concat(var$0, $$str(error->get_minor_code())));
 	}
 	return 0;

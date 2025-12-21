@@ -48,7 +48,7 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("Form-Source"_s),
-			$of(u"Formul\u00e4rk\u00e4lla"_s)
+			$of(u"Formulärkälla"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Large-Format"_s),
@@ -76,7 +76,7 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("auto-select"_s),
-			$of(u"V\u00e4lj automatiskt"_s)
+			$of(u"Välj automatiskt"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("b"_s),
@@ -84,7 +84,7 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("border.chromaticity"_s),
-			$of(u"F\u00e4rg"_s)
+			$of(u"Färg"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.copies"_s),
@@ -112,7 +112,7 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("border.printservice"_s),
-			$of(u"Utskriftstj\u00e4nst"_s)
+			$of(u"Utskriftstjänst"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.quality"_s),
@@ -152,7 +152,7 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.jobsheets"_s),
-			$of(u"F&\u00f6rs\u00e4ttsblad"_s)
+			$of(u"F&örsättsblad"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.printtofile"_s),
@@ -164,11 +164,11 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.noprintermsg"_s),
-			$of(u"Hittade ingen utskriftstj\u00e4nst."_s)
+			$of(u"Hittade ingen utskriftstjänst."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.overwrite"_s),
-			$of(u"Denna fil finns redan.  Vill du skriva \u00f6ver den befintliga filen?"_s)
+			$of(u"Denna fil finns redan.  Vill du skriva över den befintliga filen?"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.owtitle"_s),
@@ -200,11 +200,11 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("error.destination"_s),
-			$of(u"Ogiltigt filnamn. F\u00f6rs\u00f6k igen."_s)
+			$of(u"Ogiltigt filnamn. Försök igen."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("error.pagerange"_s),
-			$of(u"Ogiltigt sidintervall. Skriv in v\u00e4rdena igen (t ex 1-3,5,7-10)"_s)
+			$of(u"Ogiltigt sidintervall. Skriv in värdena igen (t ex 1-3,5,7-10)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("executive"_s),
@@ -440,7 +440,7 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.leftmargin"_s),
-			$of(u"v&\u00e4nster"_s)
+			$of(u"v&änster"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.millimetres"_s),
@@ -468,7 +468,7 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.rightmargin"_s),
-			$of(u"&h\u00f6ger"_s)
+			$of(u"&höger"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.size"_s),
@@ -476,7 +476,7 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.source"_s),
-			$of(u"&K\u00e4lla:"_s)
+			$of(u"&Källa:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.status"_s),
@@ -484,15 +484,15 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.topmargin"_s),
-			$of(u"&\u00f6verkant"_s)
+			$of(u"&överkant"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.username"_s),
-			$of(u"A&nv\u00e4ndarnamn:"_s)
+			$of(u"A&nvändarnamn:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("large-capacity"_s),
-			$of(u"H\u00f6g kapacitet"_s)
+			$of(u"Hög kapacitet"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ledger"_s),
@@ -596,7 +596,7 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.color"_s),
-			$of(u"&F\u00e4rg"_s)
+			$of(u"&Färg"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.draftq"_s),
@@ -608,7 +608,7 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.highq"_s),
-			$of(u"&H\u00f6g"_s)
+			$of(u"&Hög"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.landscape"_s),
@@ -628,7 +628,7 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.portrait"_s),
-			$of(u"&St\u00e5ende"_s)
+			$of(u"&Stående"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.rangeall"_s),
@@ -640,15 +640,15 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.revlandscape"_s),
-			$of(u"Omv\u00e4nt li&ggande"_s)
+			$of(u"Omvänt li&ggande"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.revportrait"_s),
-			$of(u"Omv\u00e4nt st\u00e5en&de"_s)
+			$of(u"Omvänt ståen&de"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.tumble"_s),
-			$of(u"&V\u00e4nd"_s)
+			$of(u"&Vänd"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("side"_s),
@@ -660,7 +660,7 @@ $ObjectArray2* serviceui_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("tab.general"_s),
-			$of(u"&Allm\u00e4nt"_s)
+			$of(u"&Allmänt"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tab.pagesetup"_s),

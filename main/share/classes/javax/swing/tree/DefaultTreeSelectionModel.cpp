@@ -833,12 +833,12 @@ $String* DefaultTreeSelectionModel::toString() {
 	}
 	$var($String, var$1, $$str({$($of(this)->getClass()->getName()), " "_s}));
 	$var($String, var$0, $$concat(var$1, $$str(hashCode())));
-	sb->append($$concat(var$0, " [ "));
+	sb->append($$concat(var$0, " [ "_s));
 	for (int32_t counter = 0; counter < selCount; ++counter) {
 		if (rows != nullptr) {
 			$var($String, var$3, $$str({$($nc($nc(this->selection)->get(counter))->toString()), "@"_s}));
 			$var($String, var$2, $$concat(var$3, $($Integer::toString(rows->get(counter)))));
-			sb->append($$concat(var$2, " "));
+			sb->append($$concat(var$2, " "_s));
 		} else {
 			sb->append($$str({$($nc($nc(this->selection)->get(counter))->toString()), " "_s}));
 		}

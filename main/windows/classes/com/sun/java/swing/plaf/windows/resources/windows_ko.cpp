@@ -44,111 +44,111 @@ $ObjectArray2* windows_ko::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("FileChooser.detailsViewActionLabel.textAndMnemonic"_s),
-			$of(u"\uc138\ubd80\uc815\ubcf4"_s)
+			$of(u"세부정보"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.detailsViewButtonAccessibleName"_s),
-			$of(u"\uc138\ubd80\uc815\ubcf4"_s)
+			$of(u"세부정보"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.detailsViewButtonToolTip.textAndMnemonic"_s),
-			$of(u"\uc138\ubd80\uc815\ubcf4"_s)
+			$of(u"세부정보"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileAttrHeader.textAndMnemonic"_s),
-			$of(u"\uc18d\uc131"_s)
+			$of(u"속성"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileDateHeader.textAndMnemonic"_s),
-			$of(u"\uc218\uc815 \ub0a0\uc9dc"_s)
+			$of(u"수정 날짜"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileNameHeader.textAndMnemonic"_s),
-			$of(u"\uc774\ub984"_s)
+			$of(u"이름"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileNameLabel.textAndMnemonic"_s),
-			$of(u"\ud30c\uc77c \uc774\ub984(&N):"_s)
+			$of(u"파일 이름(&N):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileSizeHeader.textAndMnemonic"_s),
-			$of(u"\ud06c\uae30"_s)
+			$of(u"크기"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileTypeHeader.textAndMnemonic"_s),
-			$of(u"\uc720\ud615"_s)
+			$of(u"유형"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.filesOfTypeLabel.textAndMnemonic"_s),
-			$of(u"\ud30c\uc77c \uc720\ud615(&T):"_s)
+			$of(u"파일 유형(&T):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.folderNameLabel.textAndMnemonic"_s),
-			$of(u"\ud3f4\ub354 \uc774\ub984(&N):"_s)
+			$of(u"폴더 이름(&N):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.homeFolderAccessibleName"_s),
-			$of(u"\ud648"_s)
+			$of(u"홈"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.homeFolderToolTip.textAndMnemonic"_s),
-			$of(u"\ud648"_s)
+			$of(u"홈"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.listViewActionLabel.textAndMnemonic"_s),
-			$of(u"\ubaa9\ub85d"_s)
+			$of(u"목록"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.listViewButtonAccessibleName"_s),
-			$of(u"\ubaa9\ub85d"_s)
+			$of(u"목록"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.listViewButtonToolTip.textAndMnemonic"_s),
-			$of(u"\ubaa9\ub85d"_s)
+			$of(u"목록"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.lookInLabel.textAndMnemonic"_s),
-			$of(u"\ucc3e\ub294 \uc704\uce58(&I):"_s)
+			$of(u"찾는 위치(&I):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderAccessibleName"_s),
-			$of(u"\uc0c8 \ud3f4\ub354"_s)
+			$of(u"새 폴더"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderActionLabel.textAndMnemonic"_s),
-			$of(u"\uc0c8 \ud3f4\ub354"_s)
+			$of(u"새 폴더"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderToolTip.textAndMnemonic"_s),
-			$of(u"\uc0c8 \ud3f4\ub354 \uc0dd\uc131"_s)
+			$of(u"새 폴더 생성"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.refreshActionLabel.textAndMnemonic"_s),
-			$of(u"\uc0c8\ub85c\uace0\uce68"_s)
+			$of(u"새로고침"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveInLabel.textAndMnemonic"_s),
-			$of(u"\uc800\uc7a5 \uc704\uce58:"_s)
+			$of(u"저장 위치:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.upFolderAccessibleName"_s),
-			$of(u"\uc704\ub85c"_s)
+			$of(u"위로"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.upFolderToolTip.textAndMnemonic"_s),
-			$of(u"\ud55c \ub808\ubca8 \uc704\ub85c"_s)
+			$of(u"한 레벨 위로"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuButtonAccessibleName"_s),
-			$of(u"\ubcf4\uae30 \uba54\ub274"_s)
+			$of(u"보기 메뉴"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuButtonToolTipText"_s),
-			$of(u"\ubcf4\uae30 \uba54\ub274"_s)
+			$of(u"보기 메뉴"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuLabel.textAndMnemonic"_s),
-			$of(u"\ubcf4\uae30"_s)
+			$of(u"보기"_s)
 		})
 	});
 }

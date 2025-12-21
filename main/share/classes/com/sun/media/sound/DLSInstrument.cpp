@@ -581,7 +581,7 @@ $ModelPerformerArray* DLSInstrument::getPerformers() {
 			{
 				$var($String, var$2, $$str({$$str($nc(mod)->getSource()), "x"_s}));
 				$var($String, var$1, $$concat(var$2, $$str(mod->getControl())));
-				$var($String, var$0, $$concat(var$1, "="));
+				$var($String, var$0, $$concat(var$1, "="_s));
 				modmap->put($$concat(var$0, $$str(mod->getDestination())), mod);
 			}
 		}
@@ -609,7 +609,7 @@ $ModelPerformerArray* DLSInstrument::getPerformers() {
 						{
 							$var($String, var$5, $$str({$$str($nc(mod)->getSource()), "x"_s}));
 							$var($String, var$4, $$concat(var$5, $$str(mod->getControl())));
-							$var($String, var$3, $$concat(var$4, "="));
+							$var($String, var$3, $$concat(var$4, "="_s));
 							insmodmap->put($$concat(var$3, $$str(mod->getDestination())), mod);
 						}
 					}

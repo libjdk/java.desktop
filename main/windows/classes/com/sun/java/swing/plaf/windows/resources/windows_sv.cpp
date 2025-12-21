@@ -60,7 +60,7 @@ $ObjectArray2* windows_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileDateHeader.textAndMnemonic"_s),
-			$of(u"\u00c4ndrad"_s)
+			$of(u"Ändrad"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileNameHeader.textAndMnemonic"_s),
@@ -124,7 +124,7 @@ $ObjectArray2* windows_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.refreshActionLabel.textAndMnemonic"_s),
-			$of(u"F\u00f6rnya"_s)
+			$of(u"Förnya"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveInLabel.textAndMnemonic"_s),
@@ -136,7 +136,7 @@ $ObjectArray2* windows_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.upFolderToolTip.textAndMnemonic"_s),
-			$of(u"Upp en niv\u00e5"_s)
+			$of(u"Upp en nivå"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuButtonAccessibleName"_s),

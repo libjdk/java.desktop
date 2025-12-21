@@ -198,7 +198,7 @@ void bug8132119::testStringMethods() {
 void bug8132119::testStringWidth() {
 	$init(bug8132119);
 	$useLocalCurrentObjectStackCache();
-	$var($String, str, u"12345678910\u036f"_s);
+	$var($String, str, u"12345678910ͯ"_s);
 	$var($JComponent, comp, createComponent(str));
 	$var($Font, font, $nc(comp)->getFont());
 	$var($FontMetrics, fontMetrics, comp->getFontMetrics(font));

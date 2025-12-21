@@ -429,7 +429,7 @@ void XListPeer$ListPainter::paintFocus($Graphics* g, int32_t options) {
 	if ($nc($XListPeer::log)->isLoggable($PlatformLogger$Level::FINE)) {
 		$var($String, var$2, $$str({"Painting focus, focus index "_s, $$str(this->this$0->getFocusIndex()), ", focus is "_s}));
 		$var($String, var$1, $$concat(var$2, (this->this$0->isItemHidden(this->this$0->getFocusIndex()) ? ("invisible"_s) : ("visible"_s))));
-		$var($String, var$0, $$concat(var$1, ", paint focus is "));
+		$var($String, var$0, $$concat(var$1, ", paint focus is "_s));
 		$nc($XListPeer::log)->fine($$concat(var$0, $$str(paintFocus)));
 	}
 	$var($Shape, clip, $nc(g)->getClip());

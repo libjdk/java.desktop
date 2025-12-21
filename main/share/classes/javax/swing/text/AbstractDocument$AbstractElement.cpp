@@ -201,7 +201,7 @@ void AbstractDocument$AbstractElement::dump($PrintStream* psOut, int32_t indentA
 		indent(out, indentAmount + 1);
 		$var($String, var$2, $$str({"["_s, $$str(getStartOffset()), ","_s}));
 		$var($String, var$1, $$concat(var$2, $$str(getEndOffset())));
-		out->print($$concat(var$1, "]"));
+		out->print($$concat(var$1, "]"_s));
 		$var($AbstractDocument$Content, c, this->this$0->getContent());
 		try {
 			int32_t var$3 = getStartOffset();

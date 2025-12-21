@@ -52,7 +52,7 @@ $ObjectArray2* motif_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"Abortar cuadro de di\u00e1logo del selector de archivos."_s)
+			$of(u"Abortar cuadro de diálogo del selector de archivos."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.enterFileNameLabel.textAndMnemonic"_s),

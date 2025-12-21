@@ -74,7 +74,7 @@ $ObjectArray2* accessibility_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("childNodeOf"_s),
-			$of(u"underordnad nod f\u00f6r"_s)
+			$of(u"underordnad nod för"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("collapsed"_s),
@@ -82,7 +82,7 @@ $ObjectArray2* accessibility_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("colorchooser"_s),
-			$of(u"f\u00e4rgv\u00e4ljare"_s)
+			$of(u"färgväljare"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("columnheader"_s),
@@ -126,11 +126,11 @@ $ObjectArray2* accessibility_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("embeddedBy"_s),
-			$of(u"b\u00e4ddas in av"_s)
+			$of(u"bäddas in av"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("embeds"_s),
-			$of(u"b\u00e4ddar in"_s)
+			$of(u"bäddar in"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("enabled"_s),
@@ -138,15 +138,15 @@ $ObjectArray2* accessibility_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("expandable"_s),
-			$of(u"ut\u00f6kningsbar"_s)
+			$of(u"utökningsbar"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("expanded"_s),
-			$of(u"ut\u00f6kad"_s)
+			$of(u"utökad"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("filechooser"_s),
-			$of(u"filv\u00e4ljare"_s)
+			$of(u"filväljare"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("filler"_s),
@@ -154,11 +154,11 @@ $ObjectArray2* accessibility_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("flowsFrom"_s),
-			$of(u"fl\u00f6dar fr\u00e5n"_s)
+			$of(u"flödar från"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("flowsTo"_s),
-			$of(u"fl\u00f6dar till"_s)
+			$of(u"flödar till"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("focusable"_s),
@@ -198,7 +198,7 @@ $ObjectArray2* accessibility_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("indeterminate"_s),
-			$of(u"obest\u00e4mt"_s)
+			$of(u"obestämt"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("internalframe"_s),
@@ -210,7 +210,7 @@ $ObjectArray2* accessibility_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("labelFor"_s),
-			$of(u"etikett f\u00f6r"_s)
+			$of(u"etikett för"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("labeledBy"_s),
@@ -286,11 +286,11 @@ $ObjectArray2* accessibility_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("parentWindowOf"_s),
-			$of(u"\u00f6verordnat f\u00f6nster f\u00f6r"_s)
+			$of(u"överordnat fönster för"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("passwordtext"_s),
-			$of(u"l\u00f6senordstext"_s)
+			$of(u"lösenordstext"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("popupmenu"_s),
@@ -302,7 +302,7 @@ $ObjectArray2* accessibility_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("progressMonitor"_s),
-			$of(u"f\u00f6rlopps\u00f6vervakare"_s)
+			$of(u"förloppsövervakare"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("progressbar"_s),
@@ -318,7 +318,7 @@ $ObjectArray2* accessibility_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("resizable"_s),
-			$of(u"storleks\u00e4ndringsbar"_s)
+			$of(u"storleksändringsbar"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("rootpane"_s),
@@ -370,7 +370,7 @@ $ObjectArray2* accessibility_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("subwindowOf"_s),
-			$of(u"delf\u00f6nster av"_s)
+			$of(u"delfönster av"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("swingcomponent"_s),
@@ -386,11 +386,11 @@ $ObjectArray2* accessibility_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("togglebutton"_s),
-			$of(u"v\u00e4xlingsknapp"_s)
+			$of(u"växlingsknapp"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("toggleexpand"_s),
-			$of(u"v\u00e4xla expandering"_s)
+			$of(u"växla expandering"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("toolbar"_s),
@@ -402,11 +402,11 @@ $ObjectArray2* accessibility_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("transient"_s),
-			$of(u"tillf\u00e4llig"_s)
+			$of(u"tillfällig"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tree"_s),
-			$of(u"tr\u00e4d"_s)
+			$of(u"träd"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("truncated"_s),
@@ -414,7 +414,7 @@ $ObjectArray2* accessibility_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("unknown"_s),
-			$of(u"ok\u00e4nd"_s)
+			$of(u"okänd"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("vertical"_s),
@@ -430,7 +430,7 @@ $ObjectArray2* accessibility_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("window"_s),
-			$of(u"f\u00f6nster"_s)
+			$of(u"fönster"_s)
 		})
 	});
 }

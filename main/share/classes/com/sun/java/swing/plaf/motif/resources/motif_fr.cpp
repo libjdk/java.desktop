@@ -52,7 +52,7 @@ $ObjectArray2* motif_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"Ferme la bo\u00eete de dialogue du s\u00e9lecteur de fichiers."_s)
+			$of(u"Ferme la boîte de dialogue du sélecteur de fichiers."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.enterFileNameLabel.textAndMnemonic"_s),
@@ -80,7 +80,7 @@ $ObjectArray2* motif_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.helpButtonToolTip.textAndMnemonic"_s),
-			$of(u"Aide du s\u00e9lecteur de fichiers"_s)
+			$of(u"Aide du sélecteur de fichiers"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButton.textAndMnemonic"_s),
@@ -88,7 +88,7 @@ $ObjectArray2* motif_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButtonToolTip.textAndMnemonic"_s),
-			$of(u"Ouvre le fichier s\u00e9lectionn\u00e9."_s)
+			$of(u"Ouvre le fichier sélectionné."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openDialogTitle.textAndMnemonic"_s),
@@ -104,7 +104,7 @@ $ObjectArray2* motif_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButtonToolTip.textAndMnemonic"_s),
-			$of(u"Enregistre le fichier s\u00e9lectionn\u00e9."_s)
+			$of(u"Enregistre le fichier sélectionné."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveDialogTitle.textAndMnemonic"_s),
@@ -112,11 +112,11 @@ $ObjectArray2* motif_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.updateButton.textAndMnemonic"_s),
-			$of(u"Mettre \u00e0 jour"_s)
+			$of(u"Mettre à jour"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.updateButtonToolTip.textAndMnemonic"_s),
-			$of(u"Met \u00e0 jour la liste des r\u00e9pertoires."_s)
+			$of(u"Met à jour la liste des répertoires."_s)
 		})
 	});
 }

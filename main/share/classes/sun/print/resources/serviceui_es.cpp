@@ -40,7 +40,7 @@ $ObjectArray2* serviceui_es::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("Automatic-Feeder"_s),
-			$of(u"Alimentador Autom\u00e1tico"_s)
+			$of(u"Alimentador Automático"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Cassette"_s),
@@ -60,7 +60,7 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("Small-Format"_s),
-			$of(u"Formato Peque\u00f1o"_s)
+			$of(u"Formato Pequeño"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Tractor-Feeder"_s),
@@ -68,7 +68,7 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("a"_s),
-			$of(u"Ingenier\u00eda A"_s)
+			$of(u"Ingeniería A"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("accepting-jobs"_s),
@@ -76,11 +76,11 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("auto-select"_s),
-			$of(u"Seleccionar Autom\u00e1ticamente"_s)
+			$of(u"Seleccionar Automáticamente"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("b"_s),
-			$of(u"Ingenier\u00eda B"_s)
+			$of(u"Ingeniería B"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.chromaticity"_s),
@@ -96,7 +96,7 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("border.margins"_s),
-			$of(u"M\u00e1rgenes"_s)
+			$of(u"Márgenes"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.media"_s),
@@ -104,15 +104,15 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("border.orientation"_s),
-			$of(u"Orientaci\u00f3n"_s)
+			$of(u"Orientación"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.printrange"_s),
-			$of(u"Rango de Impresi\u00f3n"_s)
+			$of(u"Rango de Impresión"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.printservice"_s),
-			$of(u"Servicio de Impresi\u00f3n"_s)
+			$of(u"Servicio de Impresión"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.quality"_s),
@@ -144,7 +144,7 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("c"_s),
-			$of(u"Ingenier\u00eda C"_s)
+			$of(u"Ingeniería C"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.collate"_s),
@@ -152,7 +152,7 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.jobsheets"_s),
-			$of(u"P\u00e1gina de R\u00f3tu&lo"_s)
+			$of(u"Página de Rótu&lo"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.printtofile"_s),
@@ -160,15 +160,15 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("d"_s),
-			$of(u"Ingenier\u00eda D"_s)
+			$of(u"Ingeniería D"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.noprintermsg"_s),
-			$of(u"No se ha encontrado el servicio de impresi\u00f3n."_s)
+			$of(u"No se ha encontrado el servicio de impresión."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.overwrite"_s),
-			$of(u"Este archivo ya existe. \u00bfDesea sobrescribirlo?"_s)
+			$of(u"Este archivo ya existe. ¿Desea sobrescribirlo?"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.owtitle"_s),
@@ -184,7 +184,7 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.pstitle"_s),
-			$of(u"Preparar P\u00e1gina"_s)
+			$of(u"Preparar Página"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.writeerror"_s),
@@ -192,7 +192,7 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("e"_s),
-			$of(u"Ingenier\u00eda E"_s)
+			$of(u"Ingeniería E"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("envelope"_s),
@@ -200,11 +200,11 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("error.destination"_s),
-			$of(u"Nombre de archivo no v\u00e1lido; int\u00e9ntelo de nuevo"_s)
+			$of(u"Nombre de archivo no válido; inténtelo de nuevo"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("error.pagerange"_s),
-			$of(u"Rango de p\u00e1ginas no v\u00e1lido; vuelva a introducir los valores (por ejemplo, 1-3, 5, 7-10)"_s)
+			$of(u"Rango de páginas no válido; vuelva a introducir los valores (por ejemplo, 1-3, 5, 7-10)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("executive"_s),
@@ -216,7 +216,7 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("invite-envelope"_s),
-			$of(u"Sobre de Invitaci\u00f3n"_s)
+			$of(u"Sobre de Invitación"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("invoice"_s),
@@ -432,7 +432,7 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.info"_s),
-			$of(u"Informaci\u00f3n:"_s)
+			$of(u"Información:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.jobname"_s),
@@ -448,7 +448,7 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.numcopies"_s),
-			$of(u"N\u00famero de C&opias:"_s)
+			$of(u"Número de C&opias:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.priority"_s),
@@ -472,7 +472,7 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.size"_s),
-			$of(u"Tama&\u00f1o:"_s)
+			$of(u"Tama&ño:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.source"_s),
@@ -560,23 +560,23 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("na-number-10-envelope"_s),
-			$of(u"Sobre N\u00ba 10"_s)
+			$of(u"Sobre Nº 10"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-number-11-envelope"_s),
-			$of(u"Sobre N\u00ba 11"_s)
+			$of(u"Sobre Nº 11"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-number-12-envelope"_s),
-			$of(u"Sobre N\u00ba 12"_s)
+			$of(u"Sobre Nº 12"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-number-14-envelope"_s),
-			$of(u"Sobre N\u00ba 14"_s)
+			$of(u"Sobre Nº 14"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-number-9-envelope"_s),
-			$of(u"Sobre N\u00ba 9"_s)
+			$of(u"Sobre Nº 9"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("not-accepting-jobs"_s),
@@ -604,7 +604,7 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.duplex"_s),
-			$of(u"&D\u00faplex"_s)
+			$of(u"&Dúplex"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.highq"_s),
@@ -636,7 +636,7 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.rangepages"_s),
-			$of(u"P\u00e1gina&s"_s)
+			$of(u"Página&s"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.revlandscape"_s),
@@ -664,7 +664,7 @@ $ObjectArray2* serviceui_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("tab.pagesetup"_s),
-			$of(u"&Preparar P\u00e1gina"_s)
+			$of(u"&Preparar Página"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tabloid"_s),

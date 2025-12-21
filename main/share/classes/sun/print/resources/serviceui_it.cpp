@@ -116,7 +116,7 @@ $ObjectArray2* serviceui_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("border.quality"_s),
-			$of(u"Qualit\u00e0"_s)
+			$of(u"Qualità"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.sides"_s),
@@ -140,7 +140,7 @@ $ObjectArray2* serviceui_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("button.properties"_s),
-			$of(u"P&ropriet\u00e0..."_s)
+			$of(u"P&roprietà..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("c"_s),
@@ -168,7 +168,7 @@ $ObjectArray2* serviceui_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.overwrite"_s),
-			$of(u"Il file esiste gi\u00e0. Sovrascrivere il file esistente?"_s)
+			$of(u"Il file esiste già. Sovrascrivere il file esistente?"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.owtitle"_s),
@@ -452,7 +452,7 @@ $ObjectArray2* serviceui_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.priority"_s),
-			$of(u"P&riorit\u00e0:"_s)
+			$of(u"P&riorità:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.psname"_s),
@@ -492,7 +492,7 @@ $ObjectArray2* serviceui_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("large-capacity"_s),
-			$of(u"Grande capacit\u00e0"_s)
+			$of(u"Grande capacità"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ledger"_s),

@@ -40,7 +40,7 @@ $ObjectArray2* serviceui_de::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("Automatic-Feeder"_s),
-			$of(u"Automatische Zuf\u00fchrung"_s)
+			$of(u"Automatische Zuführung"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Cassette"_s),
@@ -52,11 +52,11 @@ $ObjectArray2* serviceui_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("Large-Format"_s),
-			$of(u"Gro\u00dfformat"_s)
+			$of(u"Großformat"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Manual-Envelope"_s),
-			$of(u"Manuelle Umschlagzuf\u00fchrung"_s)
+			$of(u"Manuelle Umschlagzuführung"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Small-Format"_s),
@@ -96,7 +96,7 @@ $ObjectArray2* serviceui_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("border.margins"_s),
-			$of(u"R\u00e4nder"_s)
+			$of(u"Ränder"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.media"_s),
@@ -116,7 +116,7 @@ $ObjectArray2* serviceui_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("border.quality"_s),
-			$of(u"Qualit\u00e4t"_s)
+			$of(u"Qualität"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.sides"_s),
@@ -168,7 +168,7 @@ $ObjectArray2* serviceui_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.overwrite"_s),
-			$of(u"Diese Datei ist bereits vorhanden. M\u00f6chten Sie die vorhandene Datei \u00fcberschreiben?"_s)
+			$of(u"Diese Datei ist bereits vorhanden. Möchten Sie die vorhandene Datei überschreiben?"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.owtitle"_s),
@@ -188,7 +188,7 @@ $ObjectArray2* serviceui_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.writeerror"_s),
-			$of(u"Schreiben in Datei nicht m\u00f6glich:"_s)
+			$of(u"Schreiben in Datei nicht möglich:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("e"_s),
@@ -200,11 +200,11 @@ $ObjectArray2* serviceui_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("error.destination"_s),
-			$of(u"Ung\u00fcltiger Dateiname. Wiederholen Sie den Vorgang"_s)
+			$of(u"Ungültiger Dateiname. Wiederholen Sie den Vorgang"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("error.pagerange"_s),
-			$of(u"Ung\u00fcltiger Seitenbereich. Geben Sie die Werte erneut ein (Beispiel: 1-3,5,7-10)"_s)
+			$of(u"Ungültiger Seitenbereich. Geben Sie die Werte erneut ein (Beispiel: 1-3,5,7-10)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("executive"_s),
@@ -452,7 +452,7 @@ $ObjectArray2* serviceui_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.priority"_s),
-			$of(u"P&riorit\u00e4t:"_s)
+			$of(u"P&riorität:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.psname"_s),
@@ -472,7 +472,7 @@ $ObjectArray2* serviceui_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.size"_s),
-			$of(u"G&r\u00f6\u00dfe:"_s)
+			$of(u"G&röße:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.source"_s),
@@ -492,7 +492,7 @@ $ObjectArray2* serviceui_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("large-capacity"_s),
-			$of(u"Hohe Kapazit\u00e4t"_s)
+			$of(u"Hohe Kapazität"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ledger"_s),
@@ -588,7 +588,7 @@ $ObjectArray2* serviceui_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("personal-envelope"_s),
-			$of(u"Pers\u00f6nlicher Umschlag"_s)
+			$of(u"Persönlicher Umschlag"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("quarto"_s),

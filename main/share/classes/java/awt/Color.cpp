@@ -420,11 +420,11 @@ $String* Color::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$5, $$str({$($of(this)->getClass()->getName()), "[r="_s}));
 	$var($String, var$4, $$concat(var$5, $$str(getRed())));
-	$var($String, var$3, $$concat(var$4, ",g="));
+	$var($String, var$3, $$concat(var$4, ",g="_s));
 	$var($String, var$2, $$concat(var$3, $$str(getGreen())));
-	$var($String, var$1, $$concat(var$2, ",b="));
+	$var($String, var$1, $$concat(var$2, ",b="_s));
 	$var($String, var$0, $$concat(var$1, $$str(getBlue())));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 Color* Color::decode($String* nm) {

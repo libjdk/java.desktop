@@ -48,75 +48,75 @@ $ObjectArray2* motif_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButton.textAndMnemonic"_s),
-			$of(u"\ucde8\uc18c"_s)
+			$of(u"취소"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"\ud30c\uc77c \uc120\ud0dd\uae30 \ub300\ud654\uc0c1\uc790\ub97c \uc911\ub2e8\ud569\ub2c8\ub2e4."_s)
+			$of(u"파일 선택기 대화상자를 중단합니다."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.enterFileNameLabel.textAndMnemonic"_s),
-			$of(u"\ud30c\uc77c \uc774\ub984 \uc785\ub825(&N):"_s)
+			$of(u"파일 이름 입력(&N):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.enterFolderNameLabel.textAndMnemonic"_s),
-			$of(u"\ud3f4\ub354 \uc774\ub984 \uc785\ub825:"_s)
+			$of(u"폴더 이름 입력:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.filesLabel.textAndMnemonic"_s),
-			$of(u"\ud30c\uc77c(&I)"_s)
+			$of(u"파일(&I)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.filterLabel.textAndMnemonic"_s),
-			$of(u"\ud544\ud130(&R)"_s)
+			$of(u"필터(&R)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.foldersLabel.textAndMnemonic"_s),
-			$of(u"\ud3f4\ub354(&L)"_s)
+			$of(u"폴더(&L)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.helpButton.textAndMnemonic"_s),
-			$of(u"\ub3c4\uc6c0\ub9d0"_s)
+			$of(u"도움말"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.helpButtonToolTip.textAndMnemonic"_s),
-			$of(u"FileChooser \ub3c4\uc6c0\ub9d0\uc785\ub2c8\ub2e4."_s)
+			$of(u"FileChooser 도움말입니다."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButton.textAndMnemonic"_s),
-			$of(u"\ud655\uc778"_s)
+			$of(u"확인"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButtonToolTip.textAndMnemonic"_s),
-			$of(u"\uc120\ud0dd\ub41c \ud30c\uc77c\uc744 \uc5fd\ub2c8\ub2e4."_s)
+			$of(u"선택된 파일을 엽니다."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openDialogTitle.textAndMnemonic"_s),
-			$of(u"\uc5f4\uae30"_s)
+			$of(u"열기"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.pathLabel.textAndMnemonic"_s),
-			$of(u"\uacbd\ub85c \ub610\ub294 \ud3f4\ub354 \uc774\ub984 \uc785\ub825(&P):"_s)
+			$of(u"경로 또는 폴더 이름 입력(&P):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButton.textAndMnemonic"_s),
-			$of(u"\uc800\uc7a5"_s)
+			$of(u"저장"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButtonToolTip.textAndMnemonic"_s),
-			$of(u"\uc120\ud0dd\ub41c \ud30c\uc77c\uc744 \uc800\uc7a5\ud569\ub2c8\ub2e4."_s)
+			$of(u"선택된 파일을 저장합니다."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveDialogTitle.textAndMnemonic"_s),
-			$of(u"\uc800\uc7a5"_s)
+			$of(u"저장"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.updateButton.textAndMnemonic"_s),
-			$of(u"\uc5c5\ub370\uc774\ud2b8"_s)
+			$of(u"업데이트"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.updateButtonToolTip.textAndMnemonic"_s),
-			$of(u"\ub514\ub809\ud1a0\ub9ac \ubaa9\ub85d\uc744 \uc5c5\ub370\uc774\ud2b8\ud569\ub2c8\ub2e4."_s)
+			$of(u"디렉토리 목록을 업데이트합니다."_s)
 		})
 	});
 }

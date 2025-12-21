@@ -76,11 +76,11 @@ $String* JTextComponent$DropLocation::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$5, $$str({$($of(this)->getClass()->getName()), "[dropPoint="_s}));
 	$var($String, var$4, $$concat(var$5, $(getDropPoint())));
-	$var($String, var$3, $$concat(var$4, ",index="));
+	$var($String, var$3, $$concat(var$4, ",index="_s));
 	$var($String, var$2, $$concat(var$3, $$str(this->index)));
-	$var($String, var$1, $$concat(var$2, ",bias="));
+	$var($String, var$1, $$concat(var$2, ",bias="_s));
 	$var($String, var$0, $$concat(var$1, this->bias));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 JTextComponent$DropLocation::JTextComponent$DropLocation() {

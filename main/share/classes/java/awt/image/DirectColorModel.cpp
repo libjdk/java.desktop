@@ -917,9 +917,9 @@ $String* DirectColorModel::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$4, $$str({"DirectColorModel: rmask="_s, $($Integer::toHexString(this->red_mask)), " gmask="_s}));
 	$var($String, var$3, $$concat(var$4, $($Integer::toHexString(this->green_mask))));
-	$var($String, var$2, $$concat(var$3, " bmask="));
+	$var($String, var$2, $$concat(var$3, " bmask="_s));
 	$var($String, var$1, $$concat(var$2, $($Integer::toHexString(this->blue_mask))));
-	$var($String, var$0, $$concat(var$1, " amask="));
+	$var($String, var$0, $$concat(var$1, " amask="_s));
 	return $new($String, $$concat(var$0, $($Integer::toHexString(this->alpha_mask))));
 }
 

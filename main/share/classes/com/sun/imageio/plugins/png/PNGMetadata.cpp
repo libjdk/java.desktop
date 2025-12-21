@@ -907,7 +907,7 @@ $IIOMetadataNode* PNGMetadata::getStandardDataNode() {
 		} else {
 			$var($String, var$2, $$str({$($Integer::toString(this->sBIT_redBits)), " "_s}));
 			$var($String, var$1, $$concat(var$2, $($Integer::toString(this->sBIT_greenBits))));
-			$var($String, var$0, $$concat(var$1, " "));
+			$var($String, var$0, $$concat(var$1, " "_s));
 			$assign(sbits, $concat(var$0, $($Integer::toString(this->sBIT_blueBits))));
 		}
 		if (this->sBIT_colorType == $PNGImageReader::PNG_COLOR_GRAY_ALPHA || this->sBIT_colorType == $PNGImageReader::PNG_COLOR_RGB_ALPHA) {
@@ -1024,7 +1024,7 @@ $IIOMetadataNode* PNGMetadata::getStandardTransparencyNode() {
 		if (this->tRNS_colorType == $PNGImageReader::PNG_COLOR_RGB) {
 			$var($String, var$2, $$str({$($Integer::toString(this->tRNS_red)), " "_s}));
 			$var($String, var$1, $$concat(var$2, $($Integer::toString(this->tRNS_green))));
-			$var($String, var$0, $$concat(var$1, " "));
+			$var($String, var$0, $$concat(var$1, " "_s));
 			node->setAttribute("value"_s, $$concat(var$0, $($Integer::toString(this->tRNS_blue))));
 		} else if (this->tRNS_colorType == $PNGImageReader::PNG_COLOR_GRAY) {
 			node->setAttribute("value"_s, $($Integer::toString(this->tRNS_gray)));

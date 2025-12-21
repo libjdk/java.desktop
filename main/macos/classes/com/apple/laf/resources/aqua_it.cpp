@@ -229,7 +229,7 @@ $ObjectArray2* aqua_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderError.textAndMnemonic"_s),
-			$of(u"Si \u00e8 verificato un errore durante la creazione della cartella"_s)
+			$of(u"Si è verificato un errore durante la creazione della cartella"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderErrorSeparator"_s),
@@ -237,7 +237,7 @@ $ObjectArray2* aqua_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderExistsError.textAndMnemonic"_s),
-			$of(u"Il nome \u00e8 gi\u00e0 stato assegnato"_s)
+			$of(u"Il nome è già stato assegnato"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderPrompt.textAndMnemonic"_s),
@@ -353,7 +353,7 @@ $ObjectArray2* aqua_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("IsindexView.prompt"_s),
-			$of(u"Questo \u00e8 un indice di ricerca. Immettere le parole chiave:"_s)
+			$of(u"Questo è un indice di ricerca. Immettere le parole chiave:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.cancelButton.textAndMnemonic"_s),
@@ -381,7 +381,7 @@ $ObjectArray2* aqua_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.yesButton.textAndMnemonic"_s),
-			$of(u"&S\u00ec"_s)
+			$of(u"&Sì"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.abortButton.textAndMnemonic"_s),

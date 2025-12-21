@@ -336,19 +336,19 @@ $String* PageAttributes::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$13, $$str({"color="_s, $(getColor()), ",media="_s}));
 	$var($String, var$12, $$concat(var$13, $(getMedia())));
-	$var($String, var$11, $$concat(var$12, ",orientation-requested="));
+	$var($String, var$11, $$concat(var$12, ",orientation-requested="_s));
 	$var($String, var$10, $$concat(var$11, $(getOrientationRequested())));
-	$var($String, var$9, $$concat(var$10, ",origin="));
+	$var($String, var$9, $$concat(var$10, ",origin="_s));
 	$var($String, var$8, $$concat(var$9, $(getOrigin())));
-	$var($String, var$7, $$concat(var$8, ",print-quality="));
+	$var($String, var$7, $$concat(var$8, ",print-quality="_s));
 	$var($String, var$6, $$concat(var$7, $(getPrintQuality())));
-	$var($String, var$5, $$concat(var$6, ",printer-resolution=["));
+	$var($String, var$5, $$concat(var$6, ",printer-resolution=["_s));
 	$var($String, var$4, $$concat(var$5, $$str($nc(this->printerResolution)->get(0))));
-	$var($String, var$3, $$concat(var$4, ","));
+	$var($String, var$3, $$concat(var$4, ","_s));
 	$var($String, var$2, $$concat(var$3, $$str($nc(this->printerResolution)->get(1))));
-	$var($String, var$1, $$concat(var$2, ","));
+	$var($String, var$1, $$concat(var$2, ","_s));
 	$var($String, var$0, $$concat(var$1, $$str($nc(this->printerResolution)->get(2))));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 PageAttributes::PageAttributes() {

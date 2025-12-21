@@ -247,7 +247,7 @@ void ColorEditor::changeColor($Color* c) {
 	$set(this, color, c);
 	$var($String, var$2, $$str({""_s, $$str($nc(c)->getRed()), ","_s}));
 	$var($String, var$1, $$concat(var$2, $$str(c->getGreen())));
-	$var($String, var$0, $$concat(var$1, ","));
+	$var($String, var$0, $$concat(var$1, ","_s));
 	$nc(this->text)->setText($$concat(var$0, $$str(c->getBlue())));
 	int32_t active = 0;
 	for (int32_t i = 0; i < $nc(this->colorNames)->length; ++i) {
@@ -285,7 +285,7 @@ $String* ColorEditor::getAsText() {
 	if (this->color != nullptr) {
 		$var($String, var$3, $$str({$$str($nc(this->color)->getRed()), ","_s}));
 		$var($String, var$2, $$concat(var$3, $$str($nc(this->color)->getGreen())));
-		$var($String, var$1, $$concat(var$2, ","));
+		$var($String, var$1, $$concat(var$2, ","_s));
 		$assign(var$0, $concat(var$1, $$str($nc(this->color)->getBlue())));
 	} else {
 		$assign(var$0, nullptr);

@@ -3794,15 +3794,15 @@ $String* AffineTransform::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$9, $$str({"AffineTransform[["_s, $$str(_matround(this->m00)), ", "_s}));
 	$var($String, var$8, $$concat(var$9, $$str(_matround(this->m01))));
-	$var($String, var$7, $$concat(var$8, ", "));
+	$var($String, var$7, $$concat(var$8, ", "_s));
 	$var($String, var$6, $$concat(var$7, $$str(_matround(this->m02))));
-	$var($String, var$5, $$concat(var$6, "], ["));
+	$var($String, var$5, $$concat(var$6, "], ["_s));
 	$var($String, var$4, $$concat(var$5, $$str(_matround(this->m10))));
-	$var($String, var$3, $$concat(var$4, ", "));
+	$var($String, var$3, $$concat(var$4, ", "_s));
 	$var($String, var$2, $$concat(var$3, $$str(_matround(this->m11))));
-	$var($String, var$1, $$concat(var$2, ", "));
+	$var($String, var$1, $$concat(var$2, ", "_s));
 	$var($String, var$0, $$concat(var$1, $$str(_matround(this->m12))));
-	return ($concat(var$0, "]]"));
+	return ($concat(var$0, "]]"_s));
 }
 
 bool AffineTransform::isIdentity() {

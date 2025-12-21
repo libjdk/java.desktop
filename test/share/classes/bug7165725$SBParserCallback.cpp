@@ -123,7 +123,7 @@ void bug7165725$SBParserCallback::handleText($chars* data, int32_t pos) {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({$(pIndent()), "Text("_s, $$str($nc(data)->length), " chars) \""_s}));
 	$var($String, var$0, $$concat(var$1, $$new($String, data)));
-	$nc(this->elist)->add($$concat(var$0, "\""));
+	$nc(this->elist)->add($$concat(var$0, "\""_s));
 }
 
 void bug7165725$SBParserCallback::handleComment($chars* data, int32_t pos) {
@@ -135,11 +135,11 @@ void bug7165725$SBParserCallback::handleStartTag($HTML$Tag* t, $MutableAttribute
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$5, $$str({$(pIndent()), "Tag start(<"_s}));
 	$var($String, var$4, $$concat(var$5, $($nc(t)->toString())));
-	$var($String, var$3, $$concat(var$4, " "));
+	$var($String, var$3, $$concat(var$4, " "_s));
 	$var($String, var$2, $$concat(var$3, $(a)));
-	$var($String, var$1, $$concat(var$2, ">, "));
+	$var($String, var$1, $$concat(var$2, ">, "_s));
 	$var($String, var$0, $$concat(var$1, $$str($nc(a)->getAttributeCount())));
-	$nc(this->elist)->add($$concat(var$0, " attrs)"));
+	$nc(this->elist)->add($$concat(var$0, " attrs)"_s));
 	indent();
 }
 
@@ -148,16 +148,16 @@ void bug7165725$SBParserCallback::handleEndTag($HTML$Tag* t, int32_t pos) {
 	unIndent();
 	$var($String, var$1, $$str({$(pIndent()), "Tag end(</"_s}));
 	$var($String, var$0, $$concat(var$1, $($nc(t)->toString())));
-	$nc(this->elist)->add($$concat(var$0, ">)"));
+	$nc(this->elist)->add($$concat(var$0, ">)"_s));
 }
 
 void bug7165725$SBParserCallback::handleSimpleTag($HTML$Tag* t, $MutableAttributeSet* a, int32_t pos) {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$3, $$str({$(pIndent()), "Tag(<"_s}));
 	$var($String, var$2, $$concat(var$3, $($nc(t)->toString())));
-	$var($String, var$1, $$concat(var$2, ">, "));
+	$var($String, var$1, $$concat(var$2, ">, "_s));
 	$var($String, var$0, $$concat(var$1, $$str($nc(a)->getAttributeCount())));
-	$nc(this->elist)->add($$concat(var$0, " attrs)"));
+	$nc(this->elist)->add($$concat(var$0, " attrs)"_s));
 }
 
 void bug7165725$SBParserCallback::handleError($String* errorMsg, int32_t pos) {

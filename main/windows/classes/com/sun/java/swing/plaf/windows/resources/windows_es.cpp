@@ -72,7 +72,7 @@ $ObjectArray2* windows_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileSizeHeader.textAndMnemonic"_s),
-			$of(u"Tama\u00f1o"_s)
+			$of(u"Tamaño"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileTypeHeader.textAndMnemonic"_s),
@@ -140,11 +140,11 @@ $ObjectArray2* windows_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuButtonAccessibleName"_s),
-			$of(u"Men\u00fa Ver"_s)
+			$of(u"Menú Ver"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuButtonToolTipText"_s),
-			$of(u"Men\u00fa Ver"_s)
+			$of(u"Menú Ver"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuLabel.textAndMnemonic"_s),

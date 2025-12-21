@@ -130,7 +130,7 @@ $String* AudioFileFormat::toString() {
 	if (getType() != nullptr) {
 		$var($String, var$1, $$str({$(getType()), " (."_s}));
 		$var($String, var$0, $$concat(var$1, $($nc($(getType()))->getExtension())));
-		$assign(str, $concat(var$0, ") file"));
+		$assign(str, $concat(var$0, ") file"_s));
 	}
 	if (getByteLength() != $AudioSystem::NOT_SPECIFIED) {
 		$plusAssign(str, $$str({", byte length: "_s, $$str(getByteLength())}));

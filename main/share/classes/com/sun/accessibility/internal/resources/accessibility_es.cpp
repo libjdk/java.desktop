@@ -110,7 +110,7 @@ $ObjectArray2* accessibility_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("dialog"_s),
-			$of(u"cuadro de di\u00e1logo"_s)
+			$of(u"cuadro de diálogo"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("directorypane"_s),
@@ -122,7 +122,7 @@ $ObjectArray2* accessibility_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("editbar"_s),
-			$of(u"barra de edici\u00f3n"_s)
+			$of(u"barra de edición"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("embeddedBy"_s),
@@ -238,15 +238,15 @@ $ObjectArray2* accessibility_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("menu"_s),
-			$of(u"men\u00fa"_s)
+			$of(u"menú"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("menubar"_s),
-			$of(u"barra de men\u00fas"_s)
+			$of(u"barra de menús"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("menuitem"_s),
-			$of(u"elemento de men\u00fa"_s)
+			$of(u"elemento de menú"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("modal"_s),
@@ -254,7 +254,7 @@ $ObjectArray2* accessibility_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("multiline"_s),
-			$of(u"l\u00ednea m\u00faltiple"_s)
+			$of(u"línea múltiple"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("multiselectable"_s),
@@ -270,11 +270,11 @@ $ObjectArray2* accessibility_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("pagetab"_s),
-			$of(u"separador de p\u00e1gina"_s)
+			$of(u"separador de página"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("pagetablist"_s),
-			$of(u"lista de separadores de p\u00e1gina"_s)
+			$of(u"lista de separadores de página"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("panel"_s),
@@ -282,7 +282,7 @@ $ObjectArray2* accessibility_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("paragraph"_s),
-			$of(u"p\u00e1rrafo"_s)
+			$of(u"párrafo"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("parentWindowOf"_s),
@@ -290,11 +290,11 @@ $ObjectArray2* accessibility_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("passwordtext"_s),
-			$of(u"texto de contrase\u00f1a"_s)
+			$of(u"texto de contraseña"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("popupmenu"_s),
-			$of(u"men\u00fa emergente"_s)
+			$of(u"menú emergente"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("pressed"_s),
@@ -310,11 +310,11 @@ $ObjectArray2* accessibility_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("pushbutton"_s),
-			$of(u"bot\u00f3n"_s)
+			$of(u"botón"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton"_s),
-			$of(u"bot\u00f3n de radio"_s)
+			$of(u"botón de radio"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("resizable"_s),
@@ -322,7 +322,7 @@ $ObjectArray2* accessibility_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("rootpane"_s),
-			$of(u"panel ra\u00edz"_s)
+			$of(u"panel raíz"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("rowheader"_s),
@@ -358,7 +358,7 @@ $ObjectArray2* accessibility_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("singleline"_s),
-			$of(u"l\u00ednea \u00fanica"_s)
+			$of(u"línea única"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("slider"_s),
@@ -366,7 +366,7 @@ $ObjectArray2* accessibility_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("splitpane"_s),
-			$of(u"panel de divisi\u00f3n"_s)
+			$of(u"panel de división"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("subwindowOf"_s),
@@ -386,11 +386,11 @@ $ObjectArray2* accessibility_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("togglebutton"_s),
-			$of(u"bot\u00f3n conmutador"_s)
+			$of(u"botón conmutador"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("toggleexpand"_s),
-			$of(u"conmutar ampliaci\u00f3n"_s)
+			$of(u"conmutar ampliación"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("toolbar"_s),
@@ -406,7 +406,7 @@ $ObjectArray2* accessibility_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("tree"_s),
-			$of(u"\u00e1rbol"_s)
+			$of(u"árbol"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("truncated"_s),

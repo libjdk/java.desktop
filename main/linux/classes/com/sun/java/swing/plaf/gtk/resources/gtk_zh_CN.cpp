@@ -44,123 +44,123 @@ $ObjectArray2* gtk_zh_CN::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("FileChooser.acceptAllFileFilter.textAndMnemonic"_s),
-			$of(u"\u6240\u6709\u6587\u4ef6"_s)
+			$of(u"所有文件"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButton.textAndMnemonic"_s),
-			$of(u"\u53d6\u6d88"_s)
+			$of(u"取消"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u4e2d\u6b62\u6587\u4ef6\u9009\u62e9\u5668\u5bf9\u8bdd\u6846\u3002"_s)
+			$of(u"中止文件选择器对话框。"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.deleteFileButton.textAndMnemonic"_s),
-			$of(u"\u5220\u9664\u6587\u4ef6(&L)"_s)
+			$of(u"删除文件(&L)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.filesLabel.textAndMnemonic"_s),
-			$of(u"\u6587\u4ef6(&F)"_s)
+			$of(u"文件(&F)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.filterLabel.textAndMnemonic"_s),
-			$of(u"\u7b5b\u9009\u5668: "_s)
+			$of(u"筛选器: "_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.foldersLabel.textAndMnemonic"_s),
-			$of(u"\u6587\u4ef6\u5939(&D)"_s)
+			$of(u"文件夹(&D)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderButton.textAndMnemonic"_s),
-			$of(u"\u65b0\u6587\u4ef6\u5939(&N)"_s)
+			$of(u"新文件夹(&N)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderDialog.textAndMnemonic"_s),
-			$of(u"\u6587\u4ef6\u5939\u540d: "_s)
+			$of(u"文件夹名: "_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderNoDirectoryError.textAndMnemonic"_s),
-			$of(u"\u521b\u5efa\u76ee\u5f55 \"{0}\" \u65f6\u51fa\u9519: \u6ca1\u6709\u6b64\u7c7b\u6587\u4ef6\u6216\u76ee\u5f55"_s)
+			$of(u"创建目录 \"{0}\" 时出错: 没有此类文件或目录"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderNoDirectoryErrorTitle.textAndMnemonic"_s),
-			$of(u"\u9519\u8bef"_s)
+			$of(u"错误"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButton.textAndMnemonic"_s),
-			$of(u"\u786e\u5b9a"_s)
+			$of(u"确定"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u6253\u5f00\u6240\u9009\u6587\u4ef6\u3002"_s)
+			$of(u"打开所选文件。"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openDialogTitle.textAndMnemonic"_s),
-			$of(u"\u6253\u5f00"_s)
+			$of(u"打开"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.pathLabel.textAndMnemonic"_s),
-			$of(u"\u9009\u5b9a\u5185\u5bb9(&S):"_s)
+			$of(u"选定内容(&S):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameFileButton.textAndMnemonic"_s),
-			$of(u"\u91cd\u547d\u540d\u6587\u4ef6(&R)"_s)
+			$of(u"重命名文件(&R)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameFileDialog.textAndMnemonic"_s),
-			$of(u"\u5c06\u6587\u4ef6 \"{0}\" \u91cd\u547d\u540d\u4e3a"_s)
+			$of(u"将文件 \"{0}\" 重命名为"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameFileError.textAndMnemonic"_s),
-			$of(u"\u5c06\u6587\u4ef6 \"{0}\" \u91cd\u547d\u540d\u4e3a \"{1}\" \u65f6\u51fa\u9519"_s)
+			$of(u"将文件 \"{0}\" 重命名为 \"{1}\" 时出错"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameFileError.titleAndMnemonic"_s),
-			$of(u"\u9519\u8bef"_s)
+			$of(u"错误"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButton.textAndMnemonic"_s),
-			$of(u"\u786e\u5b9a"_s)
+			$of(u"确定"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u4fdd\u5b58\u6240\u9009\u6587\u4ef6\u3002"_s)
+			$of(u"保存所选文件。"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveDialogTitle.textAndMnemonic"_s),
-			$of(u"\u4fdd\u5b58"_s)
+			$of(u"保存"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.blue.textAndMnemonic"_s),
-			$of(u"\u84dd\u8272(&B):"_s)
+			$of(u"蓝色(&B):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.color.textAndMnemonic"_s),
-			$of(u"\u989c\u8272\u540d(&N):"_s)
+			$of(u"颜色名(&N):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.green.textAndMnemonic"_s),
-			$of(u"\u7eff\u8272(&G):"_s)
+			$of(u"绿色(&G):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.hue.textAndMnemonic"_s),
-			$of(u"\u8272\u8c03(&H):"_s)
+			$of(u"色调(&H):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.red.textAndMnemonic"_s),
-			$of(u"\u7ea2\u8272(&E):"_s)
+			$of(u"红色(&E):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.saturation.textAndMnemonic"_s),
-			$of(u"\u9971\u548c\u5ea6(&S):"_s)
+			$of(u"饱和度(&S):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.textAndMnemonic"_s),
-			$of(u"GTK \u989c\u8272\u9009\u62e9\u5668(&G)"_s)
+			$of(u"GTK 颜色选择器(&G)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.value.textAndMnemonic"_s),
-			$of(u"\u503c(&V):"_s)
+			$of(u"值(&V):"_s)
 		})
 	});
 }

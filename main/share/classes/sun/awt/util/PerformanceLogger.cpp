@@ -196,7 +196,7 @@ void PerformanceLogger::outputLog($Writer* writer) {
 					if (td != nullptr) {
 						$var($String, var$1, $$str({$$str(i), " "_s, $(td->getMessage()), ": "_s}));
 						$var($String, var$0, $$concat(var$1, $$str((td->getTime() - PerformanceLogger::baseTime))));
-						$nc(writer)->write($$concat(var$0, "\n"));
+						$nc(writer)->write($$concat(var$0, "\n"_s));
 					}
 				}
 			}

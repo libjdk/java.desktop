@@ -50,7 +50,7 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("armed"_s),
-			$of(u"arm\u00e9"_s)
+			$of(u"armé"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("awtcomponent"_s),
@@ -58,7 +58,7 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("busy"_s),
-			$of(u"occup\u00e9"_s)
+			$of(u"occupé"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("canvas"_s),
@@ -66,11 +66,11 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox"_s),
-			$of(u"case \u00e0 cocher"_s)
+			$of(u"case à cocher"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("checked"_s),
-			$of(u"coch\u00e9"_s)
+			$of(u"coché"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("childNodeOf"_s),
@@ -78,31 +78,31 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("collapsed"_s),
-			$of(u"r\u00e9duit"_s)
+			$of(u"réduit"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("colorchooser"_s),
-			$of(u"s\u00e9lecteur de couleurs"_s)
+			$of(u"sélecteur de couleurs"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("columnheader"_s),
-			$of(u"en-t\u00eate de colonne"_s)
+			$of(u"en-tête de colonne"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("combobox"_s),
-			$of(u"liste d\u00e9roulante"_s)
+			$of(u"liste déroulante"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("controlledBy"_s),
-			$of(u"contr\u00f4l\u00e9 par"_s)
+			$of(u"contrôlé par"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("controllerFor"_s),
-			$of(u"contr\u00f4leur pour"_s)
+			$of(u"contrôleur pour"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("desktopicon"_s),
-			$of(u"ic\u00f4ne de bureau"_s)
+			$of(u"icône de bureau"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("desktoppane"_s),
@@ -110,11 +110,11 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("dialog"_s),
-			$of(u"bo\u00eete de dialogue"_s)
+			$of(u"boîte de dialogue"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("directorypane"_s),
-			$of(u"panneau de r\u00e9pertoires"_s)
+			$of(u"panneau de répertoires"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("editable"_s),
@@ -122,11 +122,11 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("editbar"_s),
-			$of(u"barre d\'\u00e9dition"_s)
+			$of(u"barre d\'édition"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("embeddedBy"_s),
-			$of(u"incorpor\u00e9 par"_s)
+			$of(u"incorporé par"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("embeds"_s),
@@ -134,7 +134,7 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("enabled"_s),
-			$of(u"activ\u00e9"_s)
+			$of(u"activé"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("expandable"_s),
@@ -142,15 +142,15 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("expanded"_s),
-			$of(u"d\u00e9velopp\u00e9"_s)
+			$of(u"développé"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("filechooser"_s),
-			$of(u"s\u00e9lecteur de fichiers"_s)
+			$of(u"sélecteur de fichiers"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("filler"_s),
-			$of(u"\u00e9l\u00e9ment de remplissage"_s)
+			$of(u"élément de remplissage"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("flowsFrom"_s),
@@ -162,11 +162,11 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("focusable"_s),
-			$of(u"zone d\'entr\u00e9e possible"_s)
+			$of(u"zone d\'entrée possible"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("focused"_s),
-			$of(u"avec zone d\'entr\u00e9e"_s)
+			$of(u"avec zone d\'entrée"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("footer"_s),
@@ -182,7 +182,7 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("header"_s),
-			$of(u"en-t\u00eate"_s)
+			$of(u"en-tête"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("horizontal"_s),
@@ -194,11 +194,11 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("iconified"_s),
-			$of(u"r\u00e9duit \u00e0 une ic\u00f4ne"_s)
+			$of(u"réduit à une icône"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("indeterminate"_s),
-			$of(u"ind\u00e9termin\u00e9"_s)
+			$of(u"indéterminé"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("internalframe"_s),
@@ -206,19 +206,19 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label"_s),
-			$of(u"libell\u00e9"_s)
+			$of(u"libellé"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("labelFor"_s),
-			$of(u"libell\u00e9 de"_s)
+			$of(u"libellé de"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("labeledBy"_s),
-			$of(u"libell\u00e9 par"_s)
+			$of(u"libellé par"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("layeredpane"_s),
-			$of(u"panneau superpos\u00e9"_s)
+			$of(u"panneau superposé"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("list"_s),
@@ -226,11 +226,11 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("listitem"_s),
-			$of(u"\u00e9l\u00e9ment de liste"_s)
+			$of(u"élément de liste"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("managesDescendants"_s),
-			$of(u"g\u00e8re les descendants"_s)
+			$of(u"gère les descendants"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("memberOf"_s),
@@ -258,7 +258,7 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("multiselectable"_s),
-			$of(u"multis\u00e9lectionnable"_s)
+			$of(u"multisélectionnable"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("opaque"_s),
@@ -286,7 +286,7 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("parentWindowOf"_s),
-			$of(u"fen\u00eatre parente de"_s)
+			$of(u"fenêtre parente de"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("passwordtext"_s),
@@ -298,11 +298,11 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("pressed"_s),
-			$of(u"enfonc\u00e9"_s)
+			$of(u"enfoncé"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("progressMonitor"_s),
-			$of(u"contr\u00f4le de la progression"_s)
+			$of(u"contrôle de la progression"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("progressbar"_s),
@@ -326,31 +326,31 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("rowheader"_s),
-			$of(u"en-t\u00eate de ligne"_s)
+			$of(u"en-tête de ligne"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ruler"_s),
-			$of(u"r\u00e8gle"_s)
+			$of(u"règle"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("scrollbar"_s),
-			$of(u"barre de d\u00e9filement"_s)
+			$of(u"barre de défilement"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("scrollpane"_s),
-			$of(u"panneau de d\u00e9filement"_s)
+			$of(u"panneau de défilement"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("selectable"_s),
-			$of(u"s\u00e9lectionnable"_s)
+			$of(u"sélectionnable"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("selected"_s),
-			$of(u"s\u00e9lectionn\u00e9"_s)
+			$of(u"sélectionné"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("separator"_s),
-			$of(u"s\u00e9parateur"_s)
+			$of(u"séparateur"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("showing"_s),
@@ -366,11 +366,11 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("splitpane"_s),
-			$of(u"panneau divis\u00e9"_s)
+			$of(u"panneau divisé"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("subwindowOf"_s),
-			$of(u"sous-fen\u00eatre de"_s)
+			$of(u"sous-fenêtre de"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("swingcomponent"_s),
@@ -390,7 +390,7 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("toggleexpand"_s),
-			$of(u"activer/d\u00e9sactiver d\u00e9veloppement"_s)
+			$of(u"activer/désactiver développement"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("toolbar"_s),
@@ -410,7 +410,7 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("truncated"_s),
-			$of(u"tronqu\u00e9"_s)
+			$of(u"tronqué"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("unknown"_s),
@@ -430,7 +430,7 @@ $ObjectArray2* accessibility_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("window"_s),
-			$of(u"fen\u00eatre"_s)
+			$of(u"fenêtre"_s)
 		})
 	});
 }

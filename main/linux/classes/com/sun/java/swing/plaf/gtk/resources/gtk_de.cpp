@@ -52,11 +52,11 @@ $ObjectArray2* gtk_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"Dialogfeld f\u00fcr Dateiauswahl schlie\u00dfen."_s)
+			$of(u"Dialogfeld für Dateiauswahl schließen."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.deleteFileButton.textAndMnemonic"_s),
-			$of(u"Datei &l\u00f6schen"_s)
+			$of(u"Datei &löschen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.filesLabel.textAndMnemonic"_s),
@@ -92,11 +92,11 @@ $ObjectArray2* gtk_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButtonToolTip.textAndMnemonic"_s),
-			$of(u"Ausgew\u00e4hlte Datei \u00f6ffnen."_s)
+			$of(u"Ausgewählte Datei öffnen."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openDialogTitle.textAndMnemonic"_s),
-			$of(u"\u00d6ffnen"_s)
+			$of(u"Öffnen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.pathLabel.textAndMnemonic"_s),
@@ -124,7 +124,7 @@ $ObjectArray2* gtk_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButtonToolTip.textAndMnemonic"_s),
-			$of(u"Ausgew\u00e4hlte Datei speichern."_s)
+			$of(u"Ausgewählte Datei speichern."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveDialogTitle.textAndMnemonic"_s),
@@ -140,7 +140,7 @@ $ObjectArray2* gtk_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.green.textAndMnemonic"_s),
-			$of(u"&Gr\u00fcn:"_s)
+			$of(u"&Grün:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.hue.textAndMnemonic"_s),
@@ -152,7 +152,7 @@ $ObjectArray2* gtk_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.saturation.textAndMnemonic"_s),
-			$of(u"&S\u00e4ttigung:"_s)
+			$of(u"&Sättigung:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.textAndMnemonic"_s),

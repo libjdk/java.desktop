@@ -1436,13 +1436,13 @@ void XWindow::dumpKeysymArray($XKeyEvent* ev) {
 		$var($String, var$6, "  "_s);
 		int64_t var$7 = $XToolkit::getDisplay();
 		$var($String, var$5, $$concat(var$6, $($Long::toHexString($XlibWrapper::XKeycodeToKeysym(var$7, $nc(ev)->get_keycode(), 0)))));
-		$var($String, var$4, $$concat(var$5, "\n        "));
+		$var($String, var$4, $$concat(var$5, "\n        "_s));
 		int64_t var$8 = $XToolkit::getDisplay();
 		$var($String, var$3, $$concat(var$4, $($Long::toHexString($XlibWrapper::XKeycodeToKeysym(var$8, $nc(ev)->get_keycode(), 1)))));
-		$var($String, var$2, $$concat(var$3, "\n        "));
+		$var($String, var$2, $$concat(var$3, "\n        "_s));
 		int64_t var$9 = $XToolkit::getDisplay();
 		$var($String, var$1, $$concat(var$2, $($Long::toHexString($XlibWrapper::XKeycodeToKeysym(var$9, $nc(ev)->get_keycode(), 2)))));
-		$var($String, var$0, $$concat(var$1, "\n        "));
+		$var($String, var$0, $$concat(var$1, "\n        "_s));
 		int64_t var$10 = $XToolkit::getDisplay();
 		$nc(XWindow::keyEventLog)->fine($$concat(var$0, $($Long::toHexString($XlibWrapper::XKeycodeToKeysym(var$10, $nc(ev)->get_keycode(), 3)))));
 	}
@@ -1535,13 +1535,13 @@ void XWindow::handleKeyPress($XKeyEvent* ev) {
 	if ($nc(XWindow::keyEventLog)->isLoggable($PlatformLogger$Level::FINE)) {
 		$var($String, var$9, $$str({">>>Fire Event:"_s, ($nc(ev)->get_type() == $XConstants::KeyPress ? "KEY_PRESSED; "_s : "KEY_RELEASED; "_s), "jkeycode:decimal="_s}));
 		$var($String, var$8, $$concat(var$9, $$str($nc(jkc)->getJavaKeycode())));
-		$var($String, var$7, $$concat(var$8, ", hex=0x"));
+		$var($String, var$7, $$concat(var$8, ", hex=0x"_s));
 		$var($String, var$6, $$concat(var$7, $($Integer::toHexString(jkc->getJavaKeycode()))));
-		$var($String, var$5, $$concat(var$6, ";  legacy jkeycode: decimal="));
+		$var($String, var$5, $$concat(var$6, ";  legacy jkeycode: decimal="_s));
 		$var($String, var$4, $$concat(var$5, $$str($XKeysym::getLegacyJavaKeycodeOnly(ev))));
-		$var($String, var$3, $$concat(var$4, ", hex=0x"));
+		$var($String, var$3, $$concat(var$4, ", hex=0x"_s));
 		$var($String, var$2, $$concat(var$3, $($Integer::toHexString($XKeysym::getLegacyJavaKeycodeOnly(ev)))));
-		$nc(XWindow::keyEventLog)->fine($$concat(var$2, "; "));
+		$nc(XWindow::keyEventLog)->fine($$concat(var$2, "; "_s));
 	}
 	int32_t jkeyToReturn = $XKeysym::getLegacyJavaKeycodeOnly(ev);
 	int32_t jkeyExtended = $nc(jkc)->getJavaKeycode() == $KeyEvent::VK_UNDEFINED ? primaryUnicode2JavaKeycode(unicodeFromPrimaryKeysym) : $nc(jkc)->getJavaKeycode();
@@ -1593,13 +1593,13 @@ void XWindow::handleKeyRelease($XKeyEvent* ev) {
 	if ($nc(XWindow::keyEventLog)->isLoggable($PlatformLogger$Level::FINE)) {
 		$var($String, var$7, $$str({">>>Fire Event:"_s, ($nc(ev)->get_type() == $XConstants::KeyPress ? "KEY_PRESSED; "_s : "KEY_RELEASED; "_s), "jkeycode:decimal="_s}));
 		$var($String, var$6, $$concat(var$7, $$str($nc(jkc)->getJavaKeycode())));
-		$var($String, var$5, $$concat(var$6, ", hex=0x"));
+		$var($String, var$5, $$concat(var$6, ", hex=0x"_s));
 		$var($String, var$4, $$concat(var$5, $($Integer::toHexString(jkc->getJavaKeycode()))));
-		$var($String, var$3, $$concat(var$4, ";  legacy jkeycode: decimal="));
+		$var($String, var$3, $$concat(var$4, ";  legacy jkeycode: decimal="_s));
 		$var($String, var$2, $$concat(var$3, $$str($XKeysym::getLegacyJavaKeycodeOnly(ev))));
-		$var($String, var$1, $$concat(var$2, ", hex=0x"));
+		$var($String, var$1, $$concat(var$2, ", hex=0x"_s));
 		$var($String, var$0, $$concat(var$1, $($Integer::toHexString($XKeysym::getLegacyJavaKeycodeOnly(ev)))));
-		$nc(XWindow::keyEventLog)->fine($$concat(var$0, "; "));
+		$nc(XWindow::keyEventLog)->fine($$concat(var$0, "; "_s));
 	}
 	int64_t var$8 = xkeycodeToKeysym(ev);
 	unicodeKey = keysymToUnicode(var$8, $nc(ev)->get_state());

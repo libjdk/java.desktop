@@ -44,111 +44,111 @@ $ObjectArray2* windows_zh_TW::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("FileChooser.detailsViewActionLabel.textAndMnemonic"_s),
-			$of(u"\u8a73\u7d30\u8cc7\u8a0a"_s)
+			$of(u"詳細資訊"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.detailsViewButtonAccessibleName"_s),
-			$of(u"\u8a73\u7d30\u8cc7\u8a0a"_s)
+			$of(u"詳細資訊"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.detailsViewButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u8a73\u7d30\u8cc7\u8a0a"_s)
+			$of(u"詳細資訊"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileAttrHeader.textAndMnemonic"_s),
-			$of(u"\u5c6c\u6027"_s)
+			$of(u"屬性"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileDateHeader.textAndMnemonic"_s),
-			$of(u"\u4fee\u6539\u65e5\u671f"_s)
+			$of(u"修改日期"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileNameHeader.textAndMnemonic"_s),
-			$of(u"\u540d\u7a31"_s)
+			$of(u"名稱"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileNameLabel.textAndMnemonic"_s),
-			$of(u"\u6a94\u6848\u540d\u7a31(&N):"_s)
+			$of(u"檔案名稱(&N):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileSizeHeader.textAndMnemonic"_s),
-			$of(u"\u5927\u5c0f"_s)
+			$of(u"大小"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileTypeHeader.textAndMnemonic"_s),
-			$of(u"\u985e\u578b"_s)
+			$of(u"類型"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.filesOfTypeLabel.textAndMnemonic"_s),
-			$of(u"\u6a94\u6848\u985e\u578b(&T):"_s)
+			$of(u"檔案類型(&T):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.folderNameLabel.textAndMnemonic"_s),
-			$of(u"\u8cc7\u6599\u593e\u540d\u7a31(&N):"_s)
+			$of(u"資料夾名稱(&N):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.homeFolderAccessibleName"_s),
-			$of(u"\u4e3b\u76ee\u9304"_s)
+			$of(u"主目錄"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.homeFolderToolTip.textAndMnemonic"_s),
-			$of(u"\u4e3b\u76ee\u9304"_s)
+			$of(u"主目錄"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.listViewActionLabel.textAndMnemonic"_s),
-			$of(u"\u6e05\u55ae"_s)
+			$of(u"清單"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.listViewButtonAccessibleName"_s),
-			$of(u"\u6e05\u55ae"_s)
+			$of(u"清單"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.listViewButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u6e05\u55ae"_s)
+			$of(u"清單"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.lookInLabel.textAndMnemonic"_s),
-			$of(u"\u67e5\u8a62(&I):"_s)
+			$of(u"查詢(&I):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderAccessibleName"_s),
-			$of(u"\u65b0\u8cc7\u6599\u593e"_s)
+			$of(u"新資料夾"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderActionLabel.textAndMnemonic"_s),
-			$of(u"\u65b0\u8cc7\u6599\u593e"_s)
+			$of(u"新資料夾"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderToolTip.textAndMnemonic"_s),
-			$of(u"\u5efa\u7acb\u65b0\u8cc7\u6599\u593e"_s)
+			$of(u"建立新資料夾"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.refreshActionLabel.textAndMnemonic"_s),
-			$of(u"\u91cd\u65b0\u6574\u7406"_s)
+			$of(u"重新整理"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveInLabel.textAndMnemonic"_s),
-			$of(u"\u5132\u5b58\u65bc: "_s)
+			$of(u"儲存於: "_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.upFolderAccessibleName"_s),
-			$of(u"\u5f80\u4e0a"_s)
+			$of(u"往上"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.upFolderToolTip.textAndMnemonic"_s),
-			$of(u"\u5f80\u4e0a\u4e00\u5c64"_s)
+			$of(u"往上一層"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuButtonAccessibleName"_s),
-			$of(u"\u6aa2\u8996\u529f\u80fd\u8868"_s)
+			$of(u"檢視功能表"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuButtonToolTipText"_s),
-			$of(u"\u6aa2\u8996\u529f\u80fd\u8868"_s)
+			$of(u"檢視功能表"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuLabel.textAndMnemonic"_s),
-			$of(u"\u6aa2\u8996"_s)
+			$of(u"檢視"_s)
 		})
 	});
 }

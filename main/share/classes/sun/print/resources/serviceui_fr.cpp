@@ -68,19 +68,19 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("a"_s),
-			$of(u"Ing\u00e9nierie A"_s)
+			$of(u"Ingénierie A"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("accepting-jobs"_s),
-			$of(u"Acceptation des t\u00e2ches"_s)
+			$of(u"Acceptation des tâches"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("auto-select"_s),
-			$of(u"S\u00e9lection automatique"_s)
+			$of(u"Sélection automatique"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("b"_s),
-			$of(u"Ing\u00e9nierie B"_s)
+			$of(u"Ingénierie B"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.chromaticity"_s),
@@ -92,7 +92,7 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("border.jobattributes"_s),
-			$of(u"Attributs de t\u00e2che"_s)
+			$of(u"Attributs de tâche"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.margins"_s),
@@ -116,11 +116,11 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("border.quality"_s),
-			$of(u"Qualit\u00e9"_s)
+			$of(u"Qualité"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.sides"_s),
-			$of(u"C\u00f4t\u00e9s"_s)
+			$of(u"Côtés"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("bottom"_s),
@@ -140,11 +140,11 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("button.properties"_s),
-			$of(u"P&ropri\u00e9t\u00e9s..."_s)
+			$of(u"P&ropriétés..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("c"_s),
-			$of(u"Ing\u00e9nierie C"_s)
+			$of(u"Ingénierie C"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.collate"_s),
@@ -152,7 +152,7 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.jobsheets"_s),
-			$of(u"Page de &banni\u00e8re"_s)
+			$of(u"Page de &bannière"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.printtofile"_s),
@@ -160,7 +160,7 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("d"_s),
-			$of(u"Ing\u00e9nierie D"_s)
+			$of(u"Ingénierie D"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.noprintermsg"_s),
@@ -168,7 +168,7 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.overwrite"_s),
-			$of(u"Ce fichier existe d\u00e9j\u00e0. Remplacer le fichier existant ?"_s)
+			$of(u"Ce fichier existe déjà. Remplacer le fichier existant ?"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.owtitle"_s),
@@ -188,11 +188,11 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.writeerror"_s),
-			$of(u"Impossible d\'\u00e9crire dans le fichier :"_s)
+			$of(u"Impossible d\'écrire dans le fichier :"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("e"_s),
-			$of(u"Ing\u00e9nierie E"_s)
+			$of(u"Ingénierie E"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("envelope"_s),
@@ -204,7 +204,7 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("error.pagerange"_s),
-			$of(u"Plage de pages non valide. Sp\u00e9cifiez les valeurs de nouveau (ex. : 1-3,5,7-10)"_s)
+			$of(u"Plage de pages non valide. Spécifiez les valeurs de nouveau (ex. : 1-3,5,7-10)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("executive"_s),
@@ -452,7 +452,7 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.priority"_s),
-			$of(u"P&riorit\u00e9 :"_s)
+			$of(u"P&riorité :"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.psname"_s),
@@ -492,7 +492,7 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("large-capacity"_s),
-			$of(u"Grande capacit\u00e9"_s)
+			$of(u"Grande capacité"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ledger"_s),
@@ -552,7 +552,7 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("na-legal"_s),
-			$of(u"L\u00e9gal"_s)
+			$of(u"Légal"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-letter"_s),
@@ -560,27 +560,27 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("na-number-10-envelope"_s),
-			$of(u"Enveloppe n\u00b010"_s)
+			$of(u"Enveloppe n°10"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-number-11-envelope"_s),
-			$of(u"Enveloppe n\u00b011"_s)
+			$of(u"Enveloppe n°11"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-number-12-envelope"_s),
-			$of(u"Enveloppe n\u00b012"_s)
+			$of(u"Enveloppe n°12"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-number-14-envelope"_s),
-			$of(u"Enveloppe n\u00b014"_s)
+			$of(u"Enveloppe n°14"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-number-9-envelope"_s),
-			$of(u"Enveloppe n\u00b09"_s)
+			$of(u"Enveloppe n°9"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("not-accepting-jobs"_s),
-			$of(u"Refus des t\u00e2ches"_s)
+			$of(u"Refus des tâches"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("oufuko-postcard"_s),
@@ -624,7 +624,7 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.oneside"_s),
-			$of(u"Un &c\u00f4t\u00e9"_s)
+			$of(u"Un &côté"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.portrait"_s),
@@ -640,19 +640,19 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.revlandscape"_s),
-			$of(u"Paysage i&nvers\u00e9"_s)
+			$of(u"Paysage i&nversé"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.revportrait"_s),
-			$of(u"Portrait &invers\u00e9"_s)
+			$of(u"Portrait &inversé"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.tumble"_s),
-			$of(u"&T\u00eate-b\u00eache"_s)
+			$of(u"&Tête-bêche"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("side"_s),
-			$of(u"C\u00f4t\u00e9"_s)
+			$of(u"Côté"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tab.appearance"_s),
@@ -660,7 +660,7 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("tab.general"_s),
-			$of(u"&G\u00e9n\u00e9ral"_s)
+			$of(u"&Général"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tab.pagesetup"_s),
@@ -668,7 +668,7 @@ $ObjectArray2* serviceui_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("tabloid"_s),
-			$of(u"Tablo\u00efd"_s)
+			$of(u"Tabloïd"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("top"_s),

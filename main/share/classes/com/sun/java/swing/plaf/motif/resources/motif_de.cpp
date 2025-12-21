@@ -52,7 +52,7 @@ $ObjectArray2* motif_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"Dialogfeld f\u00fcr Dateiauswahl schlie\u00dfen."_s)
+			$of(u"Dialogfeld für Dateiauswahl schließen."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.enterFileNameLabel.textAndMnemonic"_s),
@@ -88,11 +88,11 @@ $ObjectArray2* motif_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButtonToolTip.textAndMnemonic"_s),
-			$of(u"Ausgew\u00e4hlte Datei \u00f6ffnen."_s)
+			$of(u"Ausgewählte Datei öffnen."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openDialogTitle.textAndMnemonic"_s),
-			$of(u"\u00d6ffnen"_s)
+			$of(u"Öffnen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.pathLabel.textAndMnemonic"_s),
@@ -104,7 +104,7 @@ $ObjectArray2* motif_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButtonToolTip.textAndMnemonic"_s),
-			$of(u"Ausgew\u00e4hlte Datei speichern."_s)
+			$of(u"Ausgewählte Datei speichern."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveDialogTitle.textAndMnemonic"_s),

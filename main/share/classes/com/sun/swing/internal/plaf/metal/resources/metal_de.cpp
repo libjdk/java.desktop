@@ -60,7 +60,7 @@ $ObjectArray2* metal_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileDateHeader.textAndMnemonic"_s),
-			$of(u"Ge\u00e4ndert"_s)
+			$of(u"Geändert"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileNameHeader.textAndMnemonic"_s),
@@ -72,7 +72,7 @@ $ObjectArray2* metal_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileSizeHeader.textAndMnemonic"_s),
-			$of(u"Gr\u00f6\u00dfe"_s)
+			$of(u"Größe"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileTypeHeader.textAndMnemonic"_s),
@@ -136,7 +136,7 @@ $ObjectArray2* metal_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.upFolderToolTip.textAndMnemonic"_s),
-			$of(u"Eine Ebene h\u00f6her"_s)
+			$of(u"Eine Ebene höher"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuLabel.textAndMnemonic"_s),
@@ -144,7 +144,7 @@ $ObjectArray2* metal_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("MetalTitlePane.close.titleAndMnemonic"_s),
-			$of(u"&Schlie\u00dfen"_s)
+			$of(u"&Schließen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("MetalTitlePane.iconify.titleAndMnemonic"_s),

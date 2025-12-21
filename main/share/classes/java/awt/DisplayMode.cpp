@@ -113,9 +113,9 @@ $String* DisplayMode::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$4, $$str({$$str(getWidth()), "x"_s}));
 	$var($String, var$3, $$concat(var$4, $$str(getHeight())));
-	$var($String, var$2, $$concat(var$3, "x"));
+	$var($String, var$2, $$concat(var$3, "x"_s));
 	$var($String, var$1, $$concat(var$2, (getBitDepth() > 0 ? $$str({$$str(getBitDepth()), "bpp"_s}) : "[Multi depth]"_s)));
-	$var($String, var$0, $$concat(var$1, "@"));
+	$var($String, var$0, $$concat(var$1, "@"_s));
 	return $concat(var$0, (getRefreshRate() > 0 ? $$str({$$str(getRefreshRate()), "Hz"_s}) : "[Unknown refresh rate]"_s));
 }
 

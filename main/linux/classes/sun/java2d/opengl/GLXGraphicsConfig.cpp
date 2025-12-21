@@ -337,7 +337,7 @@ $String* GLXGraphicsConfig::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({"GLXGraphicsConfig[dev="_s, $($cast($X11GraphicsDevice, getDevice())), ",vis=0x"_s}));
 	$var($String, var$0, $$concat(var$1, $($Integer::toHexString(this->visual))));
-	return ($concat(var$0, "]"));
+	return ($concat(var$0, "]"_s));
 }
 
 $SurfaceData* GLXGraphicsConfig::createSurfaceData($X11ComponentPeer* peer) {

@@ -548,7 +548,7 @@ void XEmbedCanvasPeer::dispatchEvent($XEvent* ev) {
 				if ($nc(XEmbedCanvasPeer::xembedLog)->isLoggable($PlatformLogger$Level::FINER)) {
 					$var($String, var$3, $$str({"Reparent notify for parent "_s, $($Long::toHexString($nc(rep)->get_parent())), ", window "_s}));
 					$var($String, var$2, $$concat(var$3, $($Long::toHexString($nc(rep)->get_window()))));
-					$var($String, var$1, $$concat(var$2, ", event "));
+					$var($String, var$1, $$concat(var$2, ", event "_s));
 					$nc(XEmbedCanvasPeer::xembedLog)->finer($$concat(var$1, $($Long::toHexString($nc(rep)->get_event()))));
 				}
 				int64_t var$4 = $nc(rep)->get_parent();

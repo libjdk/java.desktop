@@ -72,7 +72,7 @@ $ObjectArray2* synth_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileSizeHeader.textAndMnemonic"_s),
-			$of(u"Tama\u00f1o"_s)
+			$of(u"Tamaño"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileTypeHeader.textAndMnemonic"_s),

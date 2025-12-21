@@ -476,7 +476,7 @@ $String* JColorChooser::paramString() {
 	$var($String, previewPanelString, this->previewPanel != nullptr ? $nc(this->previewPanel)->toString() : ""_s);
 	$var($String, var$2, $$str({$($JComponent::paramString()), ",chooserPanels="_s}));
 	$var($String, var$1, $$concat(var$2, $(chooserPanelsString->toString())));
-	$var($String, var$0, $$concat(var$1, ",previewPanel="));
+	$var($String, var$0, $$concat(var$1, ",previewPanel="_s));
 	return $concat(var$0, previewPanelString);
 }
 

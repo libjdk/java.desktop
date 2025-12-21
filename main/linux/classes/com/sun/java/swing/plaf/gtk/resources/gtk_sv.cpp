@@ -52,7 +52,7 @@ $ObjectArray2* gtk_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"Avbryt dialogrutan f\u00f6r filval."_s)
+			$of(u"Avbryt dialogrutan för filval."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.deleteFileButton.textAndMnemonic"_s),
@@ -80,7 +80,7 @@ $ObjectArray2* gtk_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderNoDirectoryError.textAndMnemonic"_s),
-			$of(u"Ett fel intr\u00e4ffade vid f\u00f6rs\u00f6k att skapa katalogen \"{0}\": Filen eller katalogen finns inte"_s)
+			$of(u"Ett fel inträffade vid försök att skapa katalogen \"{0}\": Filen eller katalogen finns inte"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderNoDirectoryErrorTitle.textAndMnemonic"_s),
@@ -92,11 +92,11 @@ $ObjectArray2* gtk_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u00d6ppna vald fil."_s)
+			$of(u"Öppna vald fil."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openDialogTitle.textAndMnemonic"_s),
-			$of(u"\u00d6ppna"_s)
+			$of(u"Öppna"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.pathLabel.textAndMnemonic"_s),
@@ -104,15 +104,15 @@ $ObjectArray2* gtk_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameFileButton.textAndMnemonic"_s),
-			$of(u"&\u00c4ndra namn p\u00e5 filen"_s)
+			$of(u"&Ändra namn på filen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameFileDialog.textAndMnemonic"_s),
-			$of(u"\u00c4ndra namn p\u00e5 fil \"{0}\" till"_s)
+			$of(u"Ändra namn på fil \"{0}\" till"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameFileError.textAndMnemonic"_s),
-			$of(u"Fel vid namn\u00e4ndring av fil \"{0}\" till \"{1}\""_s)
+			$of(u"Fel vid namnändring av fil \"{0}\" till \"{1}\""_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameFileError.titleAndMnemonic"_s),
@@ -132,15 +132,15 @@ $ObjectArray2* gtk_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.blue.textAndMnemonic"_s),
-			$of(u"&Bl\u00e5:"_s)
+			$of(u"&Blå:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.color.textAndMnemonic"_s),
-			$of(u"F\u00e4rg&namn:"_s)
+			$of(u"Färg&namn:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.green.textAndMnemonic"_s),
-			$of(u"&Gr\u00f6n:"_s)
+			$of(u"&Grön:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.hue.textAndMnemonic"_s),
@@ -148,19 +148,19 @@ $ObjectArray2* gtk_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.red.textAndMnemonic"_s),
-			$of(u"R&\u00f6d:"_s)
+			$of(u"R&öd:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.saturation.textAndMnemonic"_s),
-			$of(u"&M\u00e4ttnad:"_s)
+			$of(u"&Mättnad:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.textAndMnemonic"_s),
-			$of(u"&GTK-f\u00e4rgv\u00e4ljaren"_s)
+			$of(u"&GTK-färgväljaren"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.value.textAndMnemonic"_s),
-			$of(u"&V\u00e4rde:"_s)
+			$of(u"&Värde:"_s)
 		})
 	});
 }

@@ -104,7 +104,7 @@ $String* SunDropTargetEvent::paramString() {
 	}
 	$var($String, var$1, $$str({typeStr, ",("_s, $$str(getX()), ","_s}));
 	$var($String, var$0, $$concat(var$1, $$str(getY())));
-	return $concat(var$0, ")");
+	return $concat(var$0, ")"_s);
 }
 
 SunDropTargetEvent::SunDropTargetEvent() {

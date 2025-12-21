@@ -44,15 +44,15 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.add"_s),
-			$of(u"\u2328 +"_s)
+			$of(u"⌨ +"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.alt"_s),
-			$of(u"\u2325"_s)
+			$of(u"⌥"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.altGraph"_s),
-			$of(u"\u2325"_s)
+			$of(u"⌥"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.ampersand"_s),
@@ -76,7 +76,7 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.backSpace"_s),
-			$of(u"\u232b"_s)
+			$of(u"⌫"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.braceLeft"_s),
@@ -88,11 +88,11 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.cancel"_s),
-			$of(u"\u238b"_s)
+			$of(u"⎋"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.capsLock"_s),
-			$of(u"\u21ea"_s)
+			$of(u"⇪"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.circumflex"_s),
@@ -100,7 +100,7 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.clear"_s),
-			$of(u"\u2327"_s)
+			$of(u"⌧"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.closeBracket"_s),
@@ -116,19 +116,19 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.control"_s),
-			$of(u"\u2303"_s)
+			$of(u"⌃"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.decimal"_s),
-			$of(u"\u2328 ."_s)
+			$of(u"⌨ ."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.delete"_s),
-			$of(u"\u2326"_s)
+			$of(u"⌦"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.divide"_s),
-			$of(u"\u2328 /"_s)
+			$of(u"⌨ /"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.dollar"_s),
@@ -136,15 +136,15 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.down"_s),
-			$of(u"\u2193"_s)
+			$of(u"↓"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.end"_s),
-			$of(u"\u2198"_s)
+			$of(u"↘"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.enter"_s),
-			$of(u"\u23ce"_s)
+			$of(u"⏎"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.equals"_s),
@@ -152,11 +152,11 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.escape"_s),
-			$of(u"\u238b"_s)
+			$of(u"⎋"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.euro"_s),
-			$of(u"\u20ac"_s)
+			$of(u"€"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.exclamationMark"_s),
@@ -168,15 +168,15 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.home"_s),
-			$of(u"\u2196"_s)
+			$of(u"↖"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.invertedExclamationMark"_s),
-			$of(u"\u00a1"_s)
+			$of(u"¡"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.left"_s),
-			$of(u"\u2190"_s)
+			$of(u"←"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.leftParenthesis"_s),
@@ -184,7 +184,7 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.meta"_s),
-			$of(u"\u2318"_s)
+			$of(u"⌘"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.minus"_s),
@@ -192,7 +192,7 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.multiply"_s),
-			$of(u"\u2328 *"_s)
+			$of(u"⌨ *"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.numberSign"_s),
@@ -200,7 +200,7 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.numpad"_s),
-			$of(u"\u2328"_s)
+			$of(u"⌨"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.openBracket"_s),
@@ -212,11 +212,11 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.pgdn"_s),
-			$of(u"\u21df"_s)
+			$of(u"⇟"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.pgup"_s),
-			$of(u"\u21de"_s)
+			$of(u"⇞"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.plus"_s),
@@ -224,7 +224,7 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.printScreen"_s),
-			$of(u"\u2399"_s)
+			$of(u"⎙"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.quote"_s),
@@ -236,7 +236,7 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.right"_s),
-			$of(u"\u2192"_s)
+			$of(u"→"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.rightParenthesis"_s),
@@ -248,15 +248,15 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.separater"_s),
-			$of(u"\u2328 ,"_s)
+			$of(u"⌨ ,"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.separator"_s),
-			$of(u"\u2328 ,"_s)
+			$of(u"⌨ ,"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.shift"_s),
-			$of(u"\u21e7"_s)
+			$of(u"⇧"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.slash"_s),
@@ -264,15 +264,15 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.space"_s),
-			$of(u"\u2423"_s)
+			$of(u"␣"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.subtract"_s),
-			$of(u"\u2328 -"_s)
+			$of(u"⌨ -"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.tab"_s),
-			$of(u"\u21e5"_s)
+			$of(u"⇥"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.underscore"_s),
@@ -280,7 +280,7 @@ $ObjectArray2* awtosx::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.up"_s),
-			$of(u"\u2191"_s)
+			$of(u"↑"_s)
 		})
 	});
 }

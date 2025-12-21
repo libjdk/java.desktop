@@ -45,7 +45,7 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.addition.textAndMnemonic"_s),
-			$of(u"till\u00e4gg"_s)
+			$of(u"tillägg"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.deletion.textAndMnemonic"_s),
@@ -53,23 +53,23 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.redo.textAndMnemonic"_s),
-			$of(u"G\u00f6r om"_s)
+			$of(u"Gör om"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.styleChange.textAndMnemonic"_s),
-			$of(u"format\u00e4ndring"_s)
+			$of(u"formatändring"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.undo.textAndMnemonic"_s),
-			$of(u"\u00c5ngra"_s)
+			$of(u"Ångra"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractUndoableEdit.redo.textAndMnemonic"_s),
-			$of(u"G\u00f6r om"_s)
+			$of(u"Gör om"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractUndoableEdit.undo.textAndMnemonic"_s),
-			$of(u"\u00c5ngra"_s)
+			$of(u"Ångra"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.cancel.textAndMnemonic"_s),
@@ -109,11 +109,11 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.preview.textAndMnemonic"_s),
-			$of(u"F\u00f6rhandsgranska"_s)
+			$of(u"Förhandsgranska"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.reset.textAndMnemonic"_s),
-			$of(u"&\u00c5terst\u00e4ll"_s)
+			$of(u"&Återställ"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgb.textAndMnemonic"_s),
@@ -121,15 +121,15 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgbBlue.textAndMnemonic"_s),
-			$of(u"&Bl\u00e5"_s)
+			$of(u"&Blå"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgbGreen.textAndMnemonic"_s),
-			$of(u"Gr\u00f6&n"_s)
+			$of(u"Grö&n"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgbRed.textAndMnemonic"_s),
-			$of(u"R\u00f6&d"_s)
+			$of(u"Rö&d"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.sample.textAndMnemonic"_s),
@@ -145,7 +145,7 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ComboBox.togglePopup.textAndMnemonic"_s),
-			$of(u"v\u00e4xlaPopup"_s)
+			$of(u"växlaPopup"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.acceptAllFileFilter.textAndMnemonic"_s),
@@ -157,7 +157,7 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.byDate.textAndMnemonic"_s),
-			$of(u"\u00c4ndringsdatum"_s)
+			$of(u"Ändringsdatum"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButton.textAndMnemonic"_s),
@@ -165,7 +165,7 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.chooseButton.textAndMnemonic"_s),
-			$of(u"V\u00e4lj"_s)
+			$of(u"Välj"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.createButton.textAndMnemonic"_s),
@@ -181,7 +181,7 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.directoryOpenButton.textAndMnemonic"_s),
-			$of(u"\u00d6ppna"_s)
+			$of(u"Öppna"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileDescription.textAndMnemonic"_s),
@@ -209,15 +209,15 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.helpButton.textAndMnemonic"_s),
-			$of(u"Hj\u00e4lp"_s)
+			$of(u"Hjälp"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.mac.newFolder"_s),
-			$of(u"namnl\u00f6s mapp"_s)
+			$of(u"namnlös mapp"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.mac.newFolder.subsequent"_s),
-			$of(u"namnl\u00f6s mapp {0}"_s)
+			$of(u"namnlös mapp {0}"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderAccessibleName"_s),
@@ -229,7 +229,7 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderError.textAndMnemonic"_s),
-			$of(u"Ett fel intr\u00e4ffade n\u00e4r en mapp skulle skapas"_s)
+			$of(u"Ett fel inträffade när en mapp skulle skapas"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderErrorSeparator"_s),
@@ -241,7 +241,7 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderPrompt.textAndMnemonic"_s),
-			$of(u"Namn p\u00e5 ny mapp:"_s)
+			$of(u"Namn på ny mapp:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderTitle.textAndMnemonic"_s),
@@ -249,15 +249,15 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButton.textAndMnemonic"_s),
-			$of(u"\u00d6ppna"_s)
+			$of(u"Öppna"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openDialogTitle.textAndMnemonic"_s),
-			$of(u"\u00d6ppna"_s)
+			$of(u"Öppna"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openTitle.textAndMnemonic"_s),
-			$of(u"\u00d6ppna"_s)
+			$of(u"Öppna"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButton.textAndMnemonic"_s),
@@ -277,11 +277,11 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.untitledFileName"_s),
-			$of(u"namnl\u00f6s"_s)
+			$of(u"namnlös"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.untitledFolderName"_s),
-			$of(u"namnl\u00f6s mapp"_s)
+			$of(u"namnlös mapp"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.updateButton.textAndMnemonic"_s),
@@ -289,19 +289,19 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FormView.browseFileButton.textAndMnemonic"_s),
-			$of(u"Bl\u00e4ddra..."_s)
+			$of(u"Bläddra..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FormView.resetButton.textAndMnemonic"_s),
-			$of(u"\u00c5terst\u00e4ll"_s)
+			$of(u"Återställ"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FormView.submitButton.textAndMnemonic"_s),
-			$of(u"Skicka fr\u00e5ga"_s)
+			$of(u"Skicka fråga"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrame.closeButtonToolTip"_s),
-			$of(u"St\u00e4ng"_s)
+			$of(u"Stäng"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrame.iconButtonToolTip"_s),
@@ -313,15 +313,15 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrame.restoreButtonToolTip"_s),
-			$of(u"\u00c5terst\u00e4ll"_s)
+			$of(u"Återställ"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.closeButton.textAndMnemonic"_s),
-			$of(u"St\u00e4ng"_s)
+			$of(u"Stäng"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.closeButtonAccessibleName"_s),
-			$of(u"St\u00e4ng"_s)
+			$of(u"Stäng"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.iconifyButtonAccessibleName"_s),
@@ -345,7 +345,7 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.restoreButton.textAndMnemonic"_s),
-			$of(u"\u00c5terst\u00e4ll"_s)
+			$of(u"Återställ"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.sizeButton.textAndMnemonic"_s),
@@ -353,7 +353,7 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("IsindexView.prompt"_s),
-			$of(u"Detta \u00e4r ett s\u00f6kbart index. Ange s\u00f6kord:"_s)
+			$of(u"Detta är ett sökbart index. Ange sökord:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.cancelButton.textAndMnemonic"_s),
@@ -377,7 +377,7 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.title.textAndMnemonic"_s),
-			$of(u"V\u00e4lj ett alternativ"_s)
+			$of(u"Välj ett alternativ"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.yesButton.textAndMnemonic"_s),
@@ -397,7 +397,7 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentInitial.textAndMnemonic"_s),
-			$of(u"Utskrift p\u00e5g\u00e5r..."_s)
+			$of(u"Utskrift pågår..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentProgress.textAndMnemonic"_s),
@@ -413,15 +413,15 @@ $ObjectArray2* aqua_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ProgressMonitor.progress.textAndMnemonic"_s),
-			$of(u"P\u00e5g\u00e5r..."_s)
+			$of(u"Pågår..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("SplitPane.leftButton.textAndMnemonic"_s),
-			$of(u"v\u00e4nsterknapp"_s)
+			$of(u"vänsterknapp"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("SplitPane.rightButton.textAndMnemonic"_s),
-			$of(u"h\u00f6gerknapp"_s)
+			$of(u"högerknapp"_s)
 		})
 	});
 }

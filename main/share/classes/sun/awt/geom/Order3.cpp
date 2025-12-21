@@ -614,10 +614,10 @@ $String* Order3::controlPointString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$2, $$str({"("_s, $$str(round(getCX0())), ", "_s}));
 	$var($String, var$1, $$concat(var$2, $$str(round(getCY0()))));
-	$var($String, var$0, ($$concat(var$1, "), ")));
+	$var($String, var$0, ($$concat(var$1, "), "_s)));
 	$var($String, var$4, $$str({"("_s, $$str(round(getCX1())), ", "_s}));
 	$var($String, var$3, $$concat(var$4, $$str(round(getCY1()))));
-	return ($concat(var$0, ($$concat(var$3, "), "))));
+	return ($concat(var$0, ($$concat(var$3, "), "_s))));
 }
 
 Order3::Order3() {

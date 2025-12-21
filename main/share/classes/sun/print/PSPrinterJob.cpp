@@ -726,7 +726,7 @@ $String* PSPrinterJob::getCoordPrep() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({" 0 exch translate 1 -1 scale[72 "_s, $$str(getXRes()), " div 0 0 72 "_s}));
 	$var($String, var$0, $$concat(var$1, $$str(getYRes())));
-	return $concat(var$0, " div 0 0]concat");
+	return $concat(var$0, " div 0 0]concat"_s);
 }
 
 void PSPrinterJob::startPage($PageFormat* pageFormat, $Printable* painter, int32_t index, bool paperChanged) {
@@ -1074,13 +1074,13 @@ void PSPrinterJob::bezierTo(float control1x, float control1y, float control2x, f
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$9, $$str({$(trunc(control1x)), " "_s}));
 	$var($String, var$8, $$concat(var$9, $(trunc(control1y))));
-	$var($String, var$7, $$concat(var$8, " "));
+	$var($String, var$7, $$concat(var$8, " "_s));
 	$var($String, var$6, $$concat(var$7, $(trunc(control2x))));
-	$var($String, var$5, $$concat(var$6, " "));
+	$var($String, var$5, $$concat(var$6, " "_s));
 	$var($String, var$4, $$concat(var$5, $(trunc(control2y))));
-	$var($String, var$3, $$concat(var$4, " "));
+	$var($String, var$3, $$concat(var$4, " "_s));
 	$var($String, var$2, $$concat(var$3, $(trunc(endX))));
-	$var($String, var$1, $$concat(var$2, " "));
+	$var($String, var$1, $$concat(var$2, " "_s));
 	$var($String, var$0, $$concat(var$1, $(trunc(endY))));
 	$nc(this->mPSStream)->println($$concat(var$0, PSPrinterJob::CURVETO_STR));
 	this->mPenX = endX;

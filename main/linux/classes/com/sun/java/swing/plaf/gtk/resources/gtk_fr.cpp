@@ -52,7 +52,7 @@ $ObjectArray2* gtk_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"Ferme la bo\u00eete de dialogue du s\u00e9lecteur de fichiers."_s)
+			$of(u"Ferme la boîte de dialogue du sélecteur de fichiers."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.deleteFileButton.textAndMnemonic"_s),
@@ -80,7 +80,7 @@ $ObjectArray2* gtk_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderNoDirectoryError.textAndMnemonic"_s),
-			$of(u"Erreur lors de la cr\u00e9ation du r\u00e9pertoire \"{0}\" : ce fichier ou r\u00e9pertoire n\'\'existe pas"_s)
+			$of(u"Erreur lors de la création du répertoire \"{0}\" : ce fichier ou répertoire n\'\'existe pas"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderNoDirectoryErrorTitle.textAndMnemonic"_s),
@@ -92,7 +92,7 @@ $ObjectArray2* gtk_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButtonToolTip.textAndMnemonic"_s),
-			$of(u"Ouvre le fichier s\u00e9lectionn\u00e9."_s)
+			$of(u"Ouvre le fichier sélectionné."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openDialogTitle.textAndMnemonic"_s),
@@ -100,7 +100,7 @@ $ObjectArray2* gtk_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.pathLabel.textAndMnemonic"_s),
-			$of(u"&S\u00e9lection :"_s)
+			$of(u"&Sélection :"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameFileButton.textAndMnemonic"_s),
@@ -124,7 +124,7 @@ $ObjectArray2* gtk_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButtonToolTip.textAndMnemonic"_s),
-			$of(u"Enregistre le fichier s\u00e9lectionn\u00e9."_s)
+			$of(u"Enregistre le fichier sélectionné."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveDialogTitle.textAndMnemonic"_s),
@@ -148,7 +148,7 @@ $ObjectArray2* gtk_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.red.textAndMnemonic"_s),
-			$of(u"Roug&e\u00a0:"_s)
+			$of(u"Roug&e :"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.saturation.textAndMnemonic"_s),
@@ -156,7 +156,7 @@ $ObjectArray2* gtk_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.textAndMnemonic"_s),
-			$of(u"S\u00e9lecteur de couleurs &GTK"_s)
+			$of(u"Sélecteur de couleurs &GTK"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("GTKColorChooserPanel.value.textAndMnemonic"_s),

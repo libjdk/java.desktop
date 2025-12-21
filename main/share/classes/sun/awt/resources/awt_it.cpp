@@ -352,7 +352,7 @@ $ObjectArray2* awt_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.down"_s),
-			$of(u"Gi\u00f9"_s)
+			$of(u"Giù"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.end"_s),
@@ -564,7 +564,7 @@ $ObjectArray2* awt_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.modechange"_s),
-			$of(u"Modifica modalit\u00e0"_s)
+			$of(u"Modifica modalità"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.multiply"_s),
@@ -604,7 +604,7 @@ $ObjectArray2* awt_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.pgdn"_s),
-			$of(u"Pg Gi\u00f9"_s)
+			$of(u"Pg Giù"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.pgup"_s),
@@ -612,7 +612,7 @@ $ObjectArray2* awt_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.plus"_s),
-			$of(u"Pi\u00f9"_s)
+			$of(u"Più"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.previousCandidate"_s),
@@ -624,7 +624,7 @@ $ObjectArray2* awt_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.props"_s),
-			$of(u"Propriet\u00e0"_s)
+			$of(u"Proprietà"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.quote"_s),

@@ -45,11 +45,11 @@ $ObjectArray2* aqua_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.addition.textAndMnemonic"_s),
-			$of(u"adi\u00e7\u00e3o"_s)
+			$of(u"adição"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.deletion.textAndMnemonic"_s),
-			$of(u"exclus\u00e3o"_s)
+			$of(u"exclusão"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.redo.textAndMnemonic"_s),
@@ -57,7 +57,7 @@ $ObjectArray2* aqua_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.styleChange.textAndMnemonic"_s),
-			$of(u"altera\u00e7\u00e3o de estilo"_s)
+			$of(u"alteração de estilo"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.undo.textAndMnemonic"_s),
@@ -157,7 +157,7 @@ $ObjectArray2* aqua_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.byDate.textAndMnemonic"_s),
-			$of(u"Data da Modifica\u00e7\u00e3o"_s)
+			$of(u"Data da Modificação"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButton.textAndMnemonic"_s),
@@ -173,11 +173,11 @@ $ObjectArray2* aqua_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.desktopName"_s),
-			$of(u"\u00c1rea de Trabalho"_s)
+			$of(u"Área de Trabalho"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.directoryDescription.textAndMnemonic"_s),
-			$of(u"Diret\u00f3rio"_s)
+			$of(u"Diretório"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.directoryOpenButton.textAndMnemonic"_s),
@@ -185,7 +185,7 @@ $ObjectArray2* aqua_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileDescription.textAndMnemonic"_s),
-			$of(u"Arquivo Gen\u00e9rico"_s)
+			$of(u"Arquivo Genérico"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileNameLabel.textAndMnemonic"_s),
@@ -213,11 +213,11 @@ $ObjectArray2* aqua_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.mac.newFolder"_s),
-			$of(u"pasta sem t\u00edtulo"_s)
+			$of(u"pasta sem título"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.mac.newFolder.subsequent"_s),
-			$of(u"pasta sem t\u00edtulo {0}"_s)
+			$of(u"pasta sem título {0}"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderAccessibleName"_s),
@@ -229,7 +229,7 @@ $ObjectArray2* aqua_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderError.textAndMnemonic"_s),
-			$of(u"Ocorreu um erro durante a cria\u00e7\u00e3o da pasta"_s)
+			$of(u"Ocorreu um erro durante a criação da pasta"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderErrorSeparator"_s),
@@ -237,7 +237,7 @@ $ObjectArray2* aqua_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderExistsError.textAndMnemonic"_s),
-			$of(u"Este nome j\u00e1 foi utilizado"_s)
+			$of(u"Este nome já foi utilizado"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderPrompt.textAndMnemonic"_s),
@@ -277,11 +277,11 @@ $ObjectArray2* aqua_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.untitledFileName"_s),
-			$of(u"sem t\u00edtulo"_s)
+			$of(u"sem título"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.untitledFolderName"_s),
-			$of(u"pasta sem t\u00edtulo"_s)
+			$of(u"pasta sem título"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.updateButton.textAndMnemonic"_s),
@@ -353,7 +353,7 @@ $ObjectArray2* aqua_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("IsindexView.prompt"_s),
-			$of(u"Trata-se de um \u00edndice pesquis\u00e1vel. Informe as palavras-chave de pesquisa:"_s)
+			$of(u"Trata-se de um índice pesquisável. Informe as palavras-chave de pesquisa:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.cancelButton.textAndMnemonic"_s),
@@ -369,7 +369,7 @@ $ObjectArray2* aqua_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.noButton.textAndMnemonic"_s),
-			$of(u"&N\u00e3o"_s)
+			$of(u"&Não"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.okButton.textAndMnemonic"_s),
@@ -377,7 +377,7 @@ $ObjectArray2* aqua_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.title.textAndMnemonic"_s),
-			$of(u"Selecionar uma Op\u00e7\u00e3o"_s)
+			$of(u"Selecionar uma Opção"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.yesButton.textAndMnemonic"_s),
@@ -389,27 +389,27 @@ $ObjectArray2* aqua_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.abortButtonToolTip.textAndMnemonic"_s),
-			$of(u"Abortar Impress\u00e3o"_s)
+			$of(u"Abortar Impressão"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentAborting.textAndMnemonic"_s),
-			$of(u"Abortando impress\u00e3o..."_s)
+			$of(u"Abortando impressão..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentInitial.textAndMnemonic"_s),
-			$of(u"Impress\u00e3o em andamento..."_s)
+			$of(u"Impressão em andamento..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentProgress.textAndMnemonic"_s),
-			$of(u"P\u00e1gina impressa {0}..."_s)
+			$of(u"Página impressa {0}..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.titleAborting.textAndMnemonic"_s),
-			$of(u"Impress\u00e3o (Abortando)"_s)
+			$of(u"Impressão (Abortando)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.titleProgress.textAndMnemonic"_s),
-			$of(u"Impress\u00e3o"_s)
+			$of(u"Impressão"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ProgressMonitor.progress.textAndMnemonic"_s),
@@ -417,11 +417,11 @@ $ObjectArray2* aqua_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("SplitPane.leftButton.textAndMnemonic"_s),
-			$of(u"bot\u00e3o esquerdo"_s)
+			$of(u"botão esquerdo"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("SplitPane.rightButton.textAndMnemonic"_s),
-			$of(u"bot\u00e3o direito"_s)
+			$of(u"botão direito"_s)
 		})
 	});
 }

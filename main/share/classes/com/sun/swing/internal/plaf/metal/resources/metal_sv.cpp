@@ -60,7 +60,7 @@ $ObjectArray2* metal_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileDateHeader.textAndMnemonic"_s),
-			$of(u"\u00c4ndrad"_s)
+			$of(u"Ändrad"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileNameHeader.textAndMnemonic"_s),
@@ -124,7 +124,7 @@ $ObjectArray2* metal_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.refreshActionLabel.textAndMnemonic"_s),
-			$of(u"F\u00f6rnya"_s)
+			$of(u"Förnya"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveInLabel.textAndMnemonic"_s),
@@ -136,7 +136,7 @@ $ObjectArray2* metal_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.upFolderToolTip.textAndMnemonic"_s),
-			$of(u"Upp en niv\u00e5"_s)
+			$of(u"Upp en nivå"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuLabel.textAndMnemonic"_s),
@@ -144,7 +144,7 @@ $ObjectArray2* metal_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("MetalTitlePane.close.titleAndMnemonic"_s),
-			$of(u"&St\u00e4ng"_s)
+			$of(u"&Stäng"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("MetalTitlePane.iconify.titleAndMnemonic"_s),
@@ -156,7 +156,7 @@ $ObjectArray2* metal_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("MetalTitlePane.restore.titleAndMnemonic"_s),
-			$of(u"&\u00c5terst\u00e4ll"_s)
+			$of(u"&Återställ"_s)
 		})
 	});
 }

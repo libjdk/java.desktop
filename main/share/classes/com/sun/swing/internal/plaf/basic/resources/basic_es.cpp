@@ -48,11 +48,11 @@ $ObjectArray2* basic_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.addition.textAndMnemonic"_s),
-			$of(u"agregaci\u00f3n"_s)
+			$of(u"agregación"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.deletion.textAndMnemonic"_s),
-			$of(u"supresi\u00f3n"_s)
+			$of(u"supresión"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.redo.textAndMnemonic"_s),
@@ -112,11 +112,11 @@ $ObjectArray2* basic_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hslLightness.textAndMnemonic"_s),
-			$of(u"Iluminaci\u00f3n"_s)
+			$of(u"Iluminación"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hslSaturation.textAndMnemonic"_s),
-			$of(u"Saturaci\u00f3n"_s)
+			$of(u"Saturación"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hslTransparency.textAndMnemonic"_s),
@@ -132,7 +132,7 @@ $ObjectArray2* basic_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hsvSaturation.textAndMnemonic"_s),
-			$of(u"Saturaci\u00f3n"_s)
+			$of(u"Saturación"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hsvTransparency.textAndMnemonic"_s),
@@ -172,7 +172,7 @@ $ObjectArray2* basic_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgbHexCode.textAndMnemonic"_s),
-			$of(u"&C\u00f3digo de Color"_s)
+			$of(u"&Código de Color"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgbRed.textAndMnemonic"_s),
@@ -204,7 +204,7 @@ $ObjectArray2* basic_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"Cuadro de di\u00e1logo para abortar el selector de archivos"_s)
+			$of(u"Cuadro de diálogo para abortar el selector de archivos"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.directoryDescription.textAndMnemonic"_s),
@@ -220,7 +220,7 @@ $ObjectArray2* basic_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileDescription.textAndMnemonic"_s),
-			$of(u"Archivo Gen\u00e9rico"_s)
+			$of(u"Archivo Genérico"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileSizeGigaBytes"_s),
@@ -388,11 +388,11 @@ $ObjectArray2* basic_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.sizeButton.textAndMnemonic"_s),
-			$of(u"&Tama\u00f1o"_s)
+			$of(u"&Tamaño"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("IsindexView.prompt"_s),
-			$of(u"En este \u00edndice se pueden efectuar b\u00fasquedas. Escriba las palabras clave de b\u00fasqueda:"_s)
+			$of(u"En este índice se pueden efectuar búsquedas. Escriba las palabras clave de búsqueda:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.cancelButton.textAndMnemonic"_s),
@@ -416,11 +416,11 @@ $ObjectArray2* basic_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.title.textAndMnemonic"_s),
-			$of(u"Seleccionar una Opci\u00f3n"_s)
+			$of(u"Seleccionar una Opción"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.yesButton.textAndMnemonic"_s),
-			$of(u"&S\u00ed"_s)
+			$of(u"&Sí"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.abortButton.textAndMnemonic"_s),
@@ -428,27 +428,27 @@ $ObjectArray2* basic_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.abortButtonToolTip.textAndMnemonic"_s),
-			$of(u"Abortar Impresi\u00f3n"_s)
+			$of(u"Abortar Impresión"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentAborting.textAndMnemonic"_s),
-			$of(u"Abortando la impresi\u00f3n..."_s)
+			$of(u"Abortando la impresión..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentInitial.textAndMnemonic"_s),
-			$of(u"Impresi\u00f3n en curso..."_s)
+			$of(u"Impresión en curso..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentProgress.textAndMnemonic"_s),
-			$of(u"P\u00e1gina {0} impresa..."_s)
+			$of(u"Página {0} impresa..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.titleAborting.textAndMnemonic"_s),
-			$of(u"Impresi\u00f3n (Abortando)"_s)
+			$of(u"Impresión (Abortando)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.titleProgress.textAndMnemonic"_s),
-			$of(u"Impresi\u00f3n"_s)
+			$of(u"Impresión"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ProgressMonitor.progress.textAndMnemonic"_s),
@@ -456,11 +456,11 @@ $ObjectArray2* basic_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("SplitPane.leftButton.textAndMnemonic"_s),
-			$of(u"bot\u00f3n izquierdo"_s)
+			$of(u"botón izquierdo"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("SplitPane.rightButton.textAndMnemonic"_s),
-			$of(u"bot\u00f3n derecho"_s)
+			$of(u"botón derecho"_s)
 		})
 	});
 }

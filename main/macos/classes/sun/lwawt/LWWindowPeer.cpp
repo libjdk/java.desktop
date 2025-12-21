@@ -1577,7 +1577,7 @@ $String* LWWindowPeer::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({$($LWContainerPeer::toString()), " [target is "_s}));
 	$var($String, var$0, $$concat(var$1, $(getTarget())));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 void LWWindowPeer::setFont($Font* f) {

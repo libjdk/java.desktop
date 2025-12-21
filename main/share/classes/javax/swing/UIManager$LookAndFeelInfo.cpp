@@ -67,9 +67,9 @@ $String* UIManager$LookAndFeelInfo::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$3, $$str({$($of(this)->getClass()->getName()), "["_s}));
 	$var($String, var$2, $$concat(var$3, $(getName())));
-	$var($String, var$1, $$concat(var$2, " "));
+	$var($String, var$1, $$concat(var$2, " "_s));
 	$var($String, var$0, $$concat(var$1, $(getClassName())));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 UIManager$LookAndFeelInfo::UIManager$LookAndFeelInfo() {

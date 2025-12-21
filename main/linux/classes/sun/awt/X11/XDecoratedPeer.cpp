@@ -1416,9 +1416,9 @@ void XDecoratedPeer::dumpWindow($String* id, int64_t window) {
 			}
 			$var($String, var$7, $$str({">>>> "_s, id, ": "_s, $$str(pattr->get_x()), ", "_s}));
 			$var($String, var$6, $$concat(var$7, $$str(pattr->get_y())));
-			$var($String, var$5, $$concat(var$6, ", "));
+			$var($String, var$5, $$concat(var$6, ", "_s));
 			$var($String, var$4, $$concat(var$5, $$str(pattr->get_width())));
-			$var($String, var$3, $$concat(var$4, ", "));
+			$var($String, var$3, $$concat(var$4, ", "_s));
 			$nc($System::err)->println($$concat(var$3, $$str(pattr->get_height())));
 		} catch ($Throwable& var$8) {
 			$assign(var$0, var$8);

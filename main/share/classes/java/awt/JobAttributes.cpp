@@ -469,27 +469,27 @@ $String* JobAttributes::toString() {
 	$plusAssign(prStr, "]"_s);
 	$var($String, var$22, $$str({"copies="_s, $$str(getCopies()), ",defaultSelection="_s}));
 	$var($String, var$21, $$concat(var$22, $(getDefaultSelection())));
-	$var($String, var$20, $$concat(var$21, ",destination="));
+	$var($String, var$20, $$concat(var$21, ",destination="_s));
 	$var($String, var$19, $$concat(var$20, $(getDestination())));
-	$var($String, var$18, $$concat(var$19, ",dialog="));
+	$var($String, var$18, $$concat(var$19, ",dialog="_s));
 	$var($String, var$17, $$concat(var$18, $(getDialog())));
-	$var($String, var$16, $$concat(var$17, ",fileName="));
+	$var($String, var$16, $$concat(var$17, ",fileName="_s));
 	$var($String, var$15, $$concat(var$16, $(getFileName())));
-	$var($String, var$14, $$concat(var$15, ",fromPage="));
+	$var($String, var$14, $$concat(var$15, ",fromPage="_s));
 	$var($String, var$13, $$concat(var$14, $$str(getFromPage())));
-	$var($String, var$12, $$concat(var$13, ",maxPage="));
+	$var($String, var$12, $$concat(var$13, ",maxPage="_s));
 	$var($String, var$11, $$concat(var$12, $$str(getMaxPage())));
-	$var($String, var$10, $$concat(var$11, ",minPage="));
+	$var($String, var$10, $$concat(var$11, ",minPage="_s));
 	$var($String, var$9, $$concat(var$10, $$str(getMinPage())));
-	$var($String, var$8, $$concat(var$9, ",multiple-document-handling="));
+	$var($String, var$8, $$concat(var$9, ",multiple-document-handling="_s));
 	$var($String, var$7, $$concat(var$8, $(getMultipleDocumentHandling())));
-	$var($String, var$6, $$concat(var$7, ",page-ranges="));
+	$var($String, var$6, $$concat(var$7, ",page-ranges="_s));
 	$var($String, var$5, $$concat(var$6, prStr));
-	$var($String, var$4, $$concat(var$5, ",printer="));
+	$var($String, var$4, $$concat(var$5, ",printer="_s));
 	$var($String, var$3, $$concat(var$4, $(getPrinter())));
-	$var($String, var$2, $$concat(var$3, ",sides="));
+	$var($String, var$2, $$concat(var$3, ",sides="_s));
 	$var($String, var$1, $$concat(var$2, $(getSides())));
-	$var($String, var$0, $$concat(var$1, ",toPage="));
+	$var($String, var$0, $$concat(var$1, ",toPage="_s));
 	return $concat(var$0, $$str(getToPage()));
 }
 

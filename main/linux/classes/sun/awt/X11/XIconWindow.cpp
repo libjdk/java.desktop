@@ -315,9 +315,9 @@ $Dimension* XIconWindow::calcIconSize(int32_t widthHint, int32_t heightHint) {
 		if ($nc(XIconWindow::log)->isLoggable($PlatformLogger$Level::FINEST)) {
 			$var($String, var$10, $$str({"widthHint="_s, $$str(widthHint), ", heightHint="_s, $$str(heightHint), ", saveWidth="_s, $$str(saveWidth), ", saveHeight="_s, $$str(saveHeight), ", max_width="_s, $$str($nc($nc(sizeList)->get(0))->get_max_width()), ", max_height="_s}));
 			$var($String, var$9, $$concat(var$10, $$str($nc(sizeList->get(0))->get_max_height())));
-			$var($String, var$8, $$concat(var$9, ", min_width="));
+			$var($String, var$8, $$concat(var$9, ", min_width="_s));
 			$var($String, var$7, $$concat(var$8, $$str($nc(sizeList->get(0))->get_min_width())));
-			$var($String, var$6, $$concat(var$7, ", min_height="));
+			$var($String, var$6, $$concat(var$7, ", min_height="_s));
 			$nc(XIconWindow::log)->finest($$concat(var$6, $$str($nc(sizeList->get(0))->get_min_height())));
 		}
 		bool var$11 = widthHint > $nc($nc(sizeList)->get(0))->get_max_width();

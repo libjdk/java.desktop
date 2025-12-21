@@ -502,7 +502,7 @@ $String* DefaultListSelectionModel::toString() {
 	$var($String, s, $concat(var$0, $($nc(this->value)->toString())));
 	$var($String, var$3, $$str({$($of(this)->getClass()->getName()), " "_s}));
 	$var($String, var$2, $$concat(var$3, $($Integer::toString(hashCode()))));
-	$var($String, var$1, $$concat(var$2, " "));
+	$var($String, var$1, $$concat(var$2, " "_s));
 	return $concat(var$1, s);
 }
 

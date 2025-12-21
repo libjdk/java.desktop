@@ -48,75 +48,75 @@ $ObjectArray2* motif_zh_CN::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButton.textAndMnemonic"_s),
-			$of(u"\u53d6\u6d88"_s)
+			$of(u"取消"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u4e2d\u6b62\u6587\u4ef6\u9009\u62e9\u5668\u5bf9\u8bdd\u6846\u3002"_s)
+			$of(u"中止文件选择器对话框。"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.enterFileNameLabel.textAndMnemonic"_s),
-			$of(u"\u8f93\u5165\u6587\u4ef6\u540d(&N):"_s)
+			$of(u"输入文件名(&N):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.enterFolderNameLabel.textAndMnemonic"_s),
-			$of(u"\u8f93\u5165\u6587\u4ef6\u5939\u540d:"_s)
+			$of(u"输入文件夹名:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.filesLabel.textAndMnemonic"_s),
-			$of(u"\u6587\u4ef6(&I)"_s)
+			$of(u"文件(&I)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.filterLabel.textAndMnemonic"_s),
-			$of(u"\u7b5b\u9009\u5668(&R)"_s)
+			$of(u"筛选器(&R)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.foldersLabel.textAndMnemonic"_s),
-			$of(u"\u6587\u4ef6\u5939(&L)"_s)
+			$of(u"文件夹(&L)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.helpButton.textAndMnemonic"_s),
-			$of(u"\u5e2e\u52a9"_s)
+			$of(u"帮助"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.helpButtonToolTip.textAndMnemonic"_s),
-			$of(u"FileChooser \u5e2e\u52a9\u3002"_s)
+			$of(u"FileChooser 帮助。"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButton.textAndMnemonic"_s),
-			$of(u"\u786e\u5b9a"_s)
+			$of(u"确定"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u6253\u5f00\u6240\u9009\u6587\u4ef6\u3002"_s)
+			$of(u"打开所选文件。"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openDialogTitle.textAndMnemonic"_s),
-			$of(u"\u6253\u5f00"_s)
+			$of(u"打开"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.pathLabel.textAndMnemonic"_s),
-			$of(u"\u8f93\u5165\u8def\u5f84\u6216\u6587\u4ef6\u5939\u540d(&P):"_s)
+			$of(u"输入路径或文件夹名(&P):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButton.textAndMnemonic"_s),
-			$of(u"\u4fdd\u5b58"_s)
+			$of(u"保存"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u4fdd\u5b58\u6240\u9009\u6587\u4ef6\u3002"_s)
+			$of(u"保存所选文件。"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveDialogTitle.textAndMnemonic"_s),
-			$of(u"\u4fdd\u5b58"_s)
+			$of(u"保存"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.updateButton.textAndMnemonic"_s),
-			$of(u"\u66f4\u65b0"_s)
+			$of(u"更新"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.updateButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u66f4\u65b0\u76ee\u5f55\u5217\u8868\u3002"_s)
+			$of(u"更新目录列表。"_s)
 		})
 	});
 }

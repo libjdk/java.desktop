@@ -116,7 +116,7 @@ $String* CInputMethodDescriptor::toString() {
 	}
 	$var($String, var$1, $$str({$($of(this)->getClass()->getName()), "[locales="_s, locnames, ",localelist="_s}));
 	$var($String, var$0, $$concat(var$1, (hasDynamicLocaleList() ? "dynamic"_s : "static"_s)));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 void CInputMethodDescriptor::nativeInit() {

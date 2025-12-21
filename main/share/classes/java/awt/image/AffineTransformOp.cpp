@@ -306,7 +306,7 @@ $WritableRaster* AffineTransformOp::filter($Raster* src, $WritableRaster* dst$re
 	if (var$0 != $nc(dst)->getNumBands()) {
 		$var($String, var$2, $$str({"Number of src bands ("_s, $$str(src->getNumBands()), ") does not match number of  dst bands ("_s}));
 		$var($String, var$1, $$concat(var$2, $$str(dst->getNumBands())));
-		$throwNew($IllegalArgumentException, $$concat(var$1, ")"));
+		$throwNew($IllegalArgumentException, $$concat(var$1, ")"_s));
 	}
 	if ($ImagingLib::filter(static_cast<$RasterOp*>(this), src, dst) == nullptr) {
 		$throwNew($ImagingOpException, "Unable to transform src image"_s);

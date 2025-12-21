@@ -160,7 +160,7 @@ $String* SwatchPanel::getToolTipText($MouseEvent* e) {
 	$var($Color, color, getColorForLocation(var$0, e->getY()));
 	$var($String, var$3, $$str({$$str($nc(color)->getRed()), ", "_s}));
 	$var($String, var$2, $$concat(var$3, $$str(color->getGreen())));
-	$var($String, var$1, $$concat(var$2, ", "));
+	$var($String, var$1, $$concat(var$2, ", "_s));
 	return $concat(var$1, $$str(color->getBlue()));
 }
 

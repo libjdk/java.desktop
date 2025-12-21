@@ -480,7 +480,7 @@ $PrintService* PrintServiceLookupProvider::getServiceByName($PrinterName* nameAt
 		try {
 			$var($String, var$3, $$str({"http://"_s, $($CUPSPrinter::getServer()), ":"_s}));
 			$var($String, var$2, $$concat(var$3, $$str($CUPSPrinter::getPort())));
-			$var($String, var$1, $$concat(var$2, "/"));
+			$var($String, var$1, $$concat(var$2, "/"_s));
 			return $new($IPPPrintService, name, $$new($URL, $$concat(var$1, name)));
 		} catch ($Exception& e) {
 			$IPPPrintService::debug_println($$str({PrintServiceLookupProvider::debugPrefix, " getServiceByName Exception "_s, e}));
@@ -641,7 +641,7 @@ $PrintService* PrintServiceLookupProvider::getDefaultPrintService() {
 					} else {
 						$var($String, var$2, $$str({"http://"_s, $($CUPSPrinter::getServer()), ":"_s}));
 						$var($String, var$1, $$concat(var$2, $$str($CUPSPrinter::getPort())));
-						$var($String, var$0, $$concat(var$1, "/"));
+						$var($String, var$0, $$concat(var$1, "/"_s));
 						$assign(defaultPS, $new($IPPPrintService, this->defaultPrinter, $$new($URL, $$concat(var$0, this->defaultPrinter))));
 					}
 					$set(this, defaultPrintService, defaultPS);

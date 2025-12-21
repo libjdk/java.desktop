@@ -75,21 +75,21 @@ $String* FontInfo::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$15, $$str({"FontInfo[font="_s, this->font, ", devTx="_s}));
 	$var($String, var$14, $$concat(var$15, $(mtx(this->devTx))));
-	$var($String, var$13, $$concat(var$14, ", glyphTx="));
+	$var($String, var$13, $$concat(var$14, ", glyphTx="_s));
 	$var($String, var$12, $$concat(var$13, $(mtx(this->glyphTx))));
-	$var($String, var$11, $$concat(var$12, ", pixelHeight="));
+	$var($String, var$11, $$concat(var$12, ", pixelHeight="_s));
 	$var($String, var$10, $$concat(var$11, $$str(this->pixelHeight)));
-	$var($String, var$9, $$concat(var$10, ", origin=("));
+	$var($String, var$9, $$concat(var$10, ", origin=("_s));
 	$var($String, var$8, $$concat(var$9, $$str(this->originX)));
-	$var($String, var$7, $$concat(var$8, ","));
+	$var($String, var$7, $$concat(var$8, ","_s));
 	$var($String, var$6, $$concat(var$7, $$str(this->originY)));
-	$var($String, var$5, $$concat(var$6, "), aaHint="));
+	$var($String, var$5, $$concat(var$6, "), aaHint="_s));
 	$var($String, var$4, $$concat(var$5, $$str(this->aaHint)));
-	$var($String, var$3, $$concat(var$4, ", lcdRGBOrder="));
+	$var($String, var$3, $$concat(var$4, ", lcdRGBOrder="_s));
 	$var($String, var$2, $$concat(var$3, (this->lcdRGBOrder ? "RGB"_s : "BGR"_s)));
-	$var($String, var$1, $$concat(var$2, "lcdSubPixPos="));
+	$var($String, var$1, $$concat(var$2, "lcdSubPixPos="_s));
 	$var($String, var$0, $$concat(var$1, $$str(this->lcdSubPixPos)));
-	return ($concat(var$0, "]"));
+	return ($concat(var$0, "]"_s));
 }
 
 FontInfo::FontInfo() {

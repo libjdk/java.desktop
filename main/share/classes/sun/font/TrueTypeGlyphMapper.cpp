@@ -128,7 +128,7 @@ char16_t TrueTypeGlyphMapper::getGlyphFromCMAP(int32_t charCode) {
 			if ($FontUtilities::isLogging()) {
 				$var($String, var$2, $$str({this->font, " out of range glyph id="_s}));
 				$var($String, var$1, $$concat(var$2, $($Integer::toHexString((int32_t)glyphCode))));
-				$var($String, var$0, $$concat(var$1, " for char "));
+				$var($String, var$0, $$concat(var$1, " for char "_s));
 				$FontUtilities::logWarning($$concat(var$0, $($Integer::toHexString(charCode))));
 			}
 			return (char16_t)this->missingGlyph;
@@ -153,9 +153,9 @@ char16_t TrueTypeGlyphMapper::getGlyphFromCMAP(int32_t charCode, int32_t variati
 			if ($FontUtilities::isLogging()) {
 				$var($String, var$4, $$str({this->font, " out of range glyph id="_s}));
 				$var($String, var$3, $$concat(var$4, $($Integer::toHexString((int32_t)glyphCode))));
-				$var($String, var$2, $$concat(var$3, " for char "));
+				$var($String, var$2, $$concat(var$3, " for char "_s));
 				$var($String, var$1, $$concat(var$2, $($Integer::toHexString(charCode))));
-				$var($String, var$0, $$concat(var$1, " for vs "));
+				$var($String, var$0, $$concat(var$1, " for vs "_s));
 				$FontUtilities::logWarning($$concat(var$0, $($Integer::toHexString(variationSelector))));
 			}
 			return (char16_t)this->missingGlyph;

@@ -40,7 +40,7 @@ $ObjectArray2* awtLocalization_zh_HK::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("allFiles"_s),
-			$of(u"\u6240\u6709\u6a94\u6848"_s)
+			$of(u"所有檔案"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("menuFont"_s),

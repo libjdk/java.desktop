@@ -108,11 +108,11 @@ $ObjectArray2* basic_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hslHue.textAndMnemonic"_s),
-			$of(u"Tonalit\u00e0"_s)
+			$of(u"Tonalità"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hslLightness.textAndMnemonic"_s),
-			$of(u"Luminosit\u00e0"_s)
+			$of(u"Luminosità"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hslSaturation.textAndMnemonic"_s),
@@ -128,7 +128,7 @@ $ObjectArray2* basic_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hsvHue.textAndMnemonic"_s),
-			$of(u"Tonalit\u00e0"_s)
+			$of(u"Tonalità"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hsvSaturation.textAndMnemonic"_s),
@@ -260,7 +260,7 @@ $ObjectArray2* basic_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderParentDoesntExist.textAndMnemonic"_s),
-			$of(u"Impossibile creare la cartella.\n\nIl sistema non \u00e8 in grado di trovare il percorso specificato."_s)
+			$of(u"Impossibile creare la cartella.\n\nIl sistema non è in grado di trovare il percorso specificato."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderParentDoesntExistTitle.textAndMnemonic"_s),
@@ -292,7 +292,7 @@ $ObjectArray2* basic_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameErrorFileExists.textAndMnemonic"_s),
-			$of(u"Impossibile rinominare {0}: esiste gi\u00e0 un file con il nome specificato. Specificare un altro nome. "_s)
+			$of(u"Impossibile rinominare {0}: esiste già un file con il nome specificato. Specificare un altro nome. "_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameErrorTitle.textAndMnemonic"_s),
@@ -392,7 +392,7 @@ $ObjectArray2* basic_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("IsindexView.prompt"_s),
-			$of(u"Questo \u00e8 un indice di ricerca. Immettere le parole chiave:"_s)
+			$of(u"Questo è un indice di ricerca. Immettere le parole chiave:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.cancelButton.textAndMnemonic"_s),
@@ -420,7 +420,7 @@ $ObjectArray2* basic_it::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.yesButton.textAndMnemonic"_s),
-			$of(u"&S\u00ec"_s)
+			$of(u"&Sì"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.abortButton.textAndMnemonic"_s),

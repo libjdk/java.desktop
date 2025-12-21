@@ -40,7 +40,7 @@ $ObjectArray2* awt_zh_HK::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("AWT.CompositionWindowTitle"_s),
-			$of(u"\u8f38\u5165\u8996\u7a97"_s)
+			$of(u"輸入視窗"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.CrosshairCursor"_s),
@@ -72,39 +72,39 @@ $ObjectArray2* awt_zh_HK::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.HostInputMethodDisplayName"_s),
-			$of(u"\u7cfb\u7d71\u8f38\u5165\u6cd5"_s)
+			$of(u"系統輸入法"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InconsistentDLLsWarning"_s),
-			$of(u"\u4ee5\u6587\u5b57\u70ba\u57fa\u790e\u7684\u4f5c\u696d\u53ef\u80fd\u7121\u6cd5\u6b63\u78ba\u904b\u4f5c\uff0c\u56e0\u70ba\u60a8\u7cfb\u7d71\u4e0a\u6709\u4e00\u7d44\u52d5\u614b\u9023\u7d50\u7a0b\u5f0f\u5eab (DLL) \u4e0d\u4e00\u81f4\u3002\u82e5\u8981\u53d6\u5f97\u6709\u95dc\u6b64\u554f\u984c\u53ca\u5efa\u8b70\u89e3\u6c7a\u65b9\u6cd5\u7684\u5176\u4ed6\u8cc7\u8a0a\uff0c\u8acb\u53c3\u95b1 java.sun.com \u7db2\u7ad9\u4e0a\u7684 Java(TM) 2 SDK, Standard Edition Release Notes"_s)
+			$of(u"以文字為基礎的作業可能無法正確運作，因為您系統上有一組動態連結程式庫 (DLL) 不一致。若要取得有關此問題及建議解決方法的其他資訊，請參閱 java.sun.com 網站上的 Java(TM) 2 SDK, Standard Edition Release Notes"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodCreationFailed"_s),
-			$of(u"\u7121\u6cd5\u5efa\u7acb {0}\u3002\u539f\u56e0: {1}"_s)
+			$of(u"無法建立 {0}。原因: {1}"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.ja"_s),
-			$of(u"\u65e5\u6587"_s)
+			$of(u"日文"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.ko"_s),
-			$of(u"\u97d3\u6587"_s)
+			$of(u"韓文"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.zh"_s),
-			$of(u"\u4e2d\u6587"_s)
+			$of(u"中文"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.zh_CN"_s),
-			$of(u"\u7c21\u9ad4\u4e2d\u6587"_s)
+			$of(u"簡體中文"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.zh_TW"_s),
-			$of(u"\u7e41\u9ad4\u4e2d\u6587"_s)
+			$of(u"繁體中文"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodSelectionMenu"_s),
-			$of(u"\u9078\u64c7\u8f38\u5165\u6cd5"_s)
+			$of(u"選擇輸入法"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.Less"_s),

@@ -66,7 +66,7 @@ $String* GroupLayout$AutoPreferredGapMatch::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({"["_s, $(toString(this->source)), "-"_s}));
 	$var($String, var$0, $$concat(var$1, $(toString(this->target))));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 GroupLayout$AutoPreferredGapMatch::GroupLayout$AutoPreferredGapMatch() {

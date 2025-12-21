@@ -65,7 +65,7 @@ $String* RenderingHints$Key::getIdentity() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$2, $$str({$($of(this)->getClass()->getName()), "@"_s}));
 	$var($String, var$1, $$concat(var$2, $($Integer::toHexString($System::identityHashCode($of(this)->getClass())))));
-	$var($String, var$0, $$concat(var$1, ":"));
+	$var($String, var$0, $$concat(var$1, ":"_s));
 	return $concat(var$0, $($Integer::toHexString(this->privatekey)));
 }
 

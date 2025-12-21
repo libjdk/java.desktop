@@ -305,9 +305,9 @@ $String* ProxyGraphics::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$3, $$str({$($of(this)->getClass()->getName()), "[font="_s}));
 	$var($String, var$2, $$concat(var$3, $(getFont())));
-	$var($String, var$1, $$concat(var$2, ",color="));
+	$var($String, var$1, $$concat(var$2, ",color="_s));
 	$var($String, var$0, $$concat(var$1, $(getColor())));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 $Rectangle* ProxyGraphics::getClipRect() {

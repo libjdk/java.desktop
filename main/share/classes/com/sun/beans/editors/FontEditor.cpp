@@ -234,9 +234,9 @@ $String* FontEditor::getJavaInitializationString() {
 	}
 	$var($String, var$3, $$str({"new java.awt.Font(\""_s, $($nc(this->font)->getName()), "\", "_s}));
 	$var($String, var$2, $$concat(var$3, $$str($nc(this->font)->getStyle())));
-	$var($String, var$1, $$concat(var$2, ", "));
+	$var($String, var$1, $$concat(var$2, ", "_s));
 	$var($String, var$0, $$concat(var$1, $$str($nc(this->font)->getSize())));
-	return $concat(var$0, ")");
+	return $concat(var$0, ")"_s);
 }
 
 bool FontEditor::action($Event* e, Object$* arg) {

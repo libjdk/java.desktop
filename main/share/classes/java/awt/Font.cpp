@@ -1071,13 +1071,13 @@ $String* Font::toString() {
 	}
 	$var($String, var$7, $$str({$($of(this)->getClass()->getName()), "[family="_s}));
 	$var($String, var$6, $$concat(var$7, $(getFamily())));
-	$var($String, var$5, $$concat(var$6, ",name="));
+	$var($String, var$5, $$concat(var$6, ",name="_s));
 	$var($String, var$4, $$concat(var$5, this->name));
-	$var($String, var$3, $$concat(var$4, ",style="));
+	$var($String, var$3, $$concat(var$4, ",style="_s));
 	$var($String, var$2, $$concat(var$3, strStyle));
-	$var($String, var$1, $$concat(var$2, ",size="));
+	$var($String, var$1, $$concat(var$2, ",size="_s));
 	$var($String, var$0, $$concat(var$1, $$str(this->size)));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 void Font::writeObject($ObjectOutputStream* s) {

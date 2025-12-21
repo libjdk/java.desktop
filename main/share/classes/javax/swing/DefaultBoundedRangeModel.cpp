@@ -236,11 +236,11 @@ $String* DefaultBoundedRangeModel::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$6, $$str({"value="_s, $$str(getValue()), ", extent="_s}));
 	$var($String, var$5, $$concat(var$6, $$str(getExtent())));
-	$var($String, var$4, $$concat(var$5, ", min="));
+	$var($String, var$4, $$concat(var$5, ", min="_s));
 	$var($String, var$3, $$concat(var$4, $$str(getMinimum())));
-	$var($String, var$2, $$concat(var$3, ", max="));
+	$var($String, var$2, $$concat(var$3, ", max="_s));
 	$var($String, var$1, $$concat(var$2, $$str(getMaximum())));
-	$var($String, var$0, $$concat(var$1, ", adj="));
+	$var($String, var$0, $$concat(var$1, ", adj="_s));
 	$var($String, modelString, $concat(var$0, $$str(getValueIsAdjusting())));
 	return $str({$($of(this)->getClass()->getName()), "["_s, modelString, "]"_s});
 }

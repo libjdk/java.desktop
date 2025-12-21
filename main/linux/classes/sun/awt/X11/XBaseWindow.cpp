@@ -1706,7 +1706,7 @@ $String* XBaseWindow::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({$($Object::toString()), "("_s}));
 	$var($String, var$0, $$concat(var$1, $($Long::toString(getWindow(), 16))));
-	return $concat(var$0, ")");
+	return $concat(var$0, ")"_s);
 }
 
 bool XBaseWindow::contains(int32_t x, int32_t y) {

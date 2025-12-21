@@ -479,7 +479,7 @@ $String* AppContext::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({$($of(this)->getClass()->getName()), "[threadGroup="_s}));
 	$var($String, var$0, $$concat(var$1, $($nc(this->threadGroup)->getName())));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 $PropertyChangeListenerArray* AppContext::getPropertyChangeListeners() {

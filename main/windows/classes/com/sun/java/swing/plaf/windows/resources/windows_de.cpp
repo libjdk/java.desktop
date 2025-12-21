@@ -60,7 +60,7 @@ $ObjectArray2* windows_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileDateHeader.textAndMnemonic"_s),
-			$of(u"Ge\u00e4ndert"_s)
+			$of(u"Geändert"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileNameHeader.textAndMnemonic"_s),
@@ -72,7 +72,7 @@ $ObjectArray2* windows_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileSizeHeader.textAndMnemonic"_s),
-			$of(u"Gr\u00f6\u00dfe"_s)
+			$of(u"Größe"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileTypeHeader.textAndMnemonic"_s),
@@ -136,15 +136,15 @@ $ObjectArray2* windows_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.upFolderToolTip.textAndMnemonic"_s),
-			$of(u"Eine Ebene h\u00f6her"_s)
+			$of(u"Eine Ebene höher"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuButtonAccessibleName"_s),
-			$of(u"Ansichtsmen\u00fc"_s)
+			$of(u"Ansichtsmenü"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuButtonToolTipText"_s),
-			$of(u"Ansichtsmen\u00fc"_s)
+			$of(u"Ansichtsmenü"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuLabel.textAndMnemonic"_s),

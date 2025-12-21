@@ -77,8 +77,8 @@ void bug8001470$1::run() {
 	$nc($bug8001470::frame)->setDefaultCloseOperation($JFrame::EXIT_ON_CLOSE);
 	$var($JPanel, container, $cast($JPanel, $nc($bug8001470::frame)->getContentPane()));
 	$nc(container)->setLayout($$new($GridLayout, 2, 1));
-	$assignStatic($bug8001470::textField1, $new($JTextField, u"\u0e01"_s));
-	$assignStatic($bug8001470::textField2, $new($JTextField, u"\u0c01"_s));
+	$assignStatic($bug8001470::textField1, $new($JTextField, u"ก"_s));
+	$assignStatic($bug8001470::textField2, $new($JTextField, u"ఁ"_s));
 	container->add(static_cast<$Component*>($bug8001470::textField1));
 	container->add(static_cast<$Component*>($bug8001470::textField2));
 	$nc($bug8001470::frame)->setVisible(true);

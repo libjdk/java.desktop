@@ -45,11 +45,11 @@ $ObjectArray2* aqua_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.addition.textAndMnemonic"_s),
-			$of(u"adici\u00f3n"_s)
+			$of(u"adición"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.deletion.textAndMnemonic"_s),
-			$of(u"supresi\u00f3n"_s)
+			$of(u"supresión"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.redo.textAndMnemonic"_s),
@@ -157,7 +157,7 @@ $ObjectArray2* aqua_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.byDate.textAndMnemonic"_s),
-			$of(u"Fecha de Modificaci\u00f3n"_s)
+			$of(u"Fecha de Modificación"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButton.textAndMnemonic"_s),
@@ -185,7 +185,7 @@ $ObjectArray2* aqua_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileDescription.textAndMnemonic"_s),
-			$of(u"Archivo Gen\u00e9rico"_s)
+			$of(u"Archivo Genérico"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileNameLabel.textAndMnemonic"_s),
@@ -213,11 +213,11 @@ $ObjectArray2* aqua_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.mac.newFolder"_s),
-			$of(u"carpeta sin t\u00edtulo"_s)
+			$of(u"carpeta sin título"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.mac.newFolder.subsequent"_s),
-			$of(u"carpeta sin t\u00edtulo {0}"_s)
+			$of(u"carpeta sin título {0}"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderAccessibleName"_s),
@@ -229,7 +229,7 @@ $ObjectArray2* aqua_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderError.textAndMnemonic"_s),
-			$of(u"Se ha producido un error durante la creaci\u00f3n de carpetas"_s)
+			$of(u"Se ha producido un error durante la creación de carpetas"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderErrorSeparator"_s),
@@ -277,11 +277,11 @@ $ObjectArray2* aqua_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.untitledFileName"_s),
-			$of(u"sin t\u00edtulo"_s)
+			$of(u"sin título"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.untitledFolderName"_s),
-			$of(u"carpeta sin t\u00edtulo"_s)
+			$of(u"carpeta sin título"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.updateButton.textAndMnemonic"_s),
@@ -349,11 +349,11 @@ $ObjectArray2* aqua_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.sizeButton.textAndMnemonic"_s),
-			$of(u"Tama\u00f1o"_s)
+			$of(u"Tamaño"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("IsindexView.prompt"_s),
-			$of(u"En este \u00edndice se pueden efectuar b\u00fasquedas. Escriba las palabras clave de b\u00fasqueda:"_s)
+			$of(u"En este índice se pueden efectuar búsquedas. Escriba las palabras clave de búsqueda:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.cancelButton.textAndMnemonic"_s),
@@ -377,11 +377,11 @@ $ObjectArray2* aqua_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.title.textAndMnemonic"_s),
-			$of(u"Seleccionar una Opci\u00f3n"_s)
+			$of(u"Seleccionar una Opción"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.yesButton.textAndMnemonic"_s),
-			$of(u"&S\u00ed"_s)
+			$of(u"&Sí"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.abortButton.textAndMnemonic"_s),
@@ -389,27 +389,27 @@ $ObjectArray2* aqua_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.abortButtonToolTip.textAndMnemonic"_s),
-			$of(u"Abortar Impresi\u00f3n"_s)
+			$of(u"Abortar Impresión"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentAborting.textAndMnemonic"_s),
-			$of(u"Abortando la impresi\u00f3n..."_s)
+			$of(u"Abortando la impresión..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentInitial.textAndMnemonic"_s),
-			$of(u"Impresi\u00f3n en curso..."_s)
+			$of(u"Impresión en curso..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentProgress.textAndMnemonic"_s),
-			$of(u"P\u00e1gina {0} impresa..."_s)
+			$of(u"Página {0} impresa..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.titleAborting.textAndMnemonic"_s),
-			$of(u"Impresi\u00f3n (Abortando)"_s)
+			$of(u"Impresión (Abortando)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.titleProgress.textAndMnemonic"_s),
-			$of(u"Impresi\u00f3n"_s)
+			$of(u"Impresión"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ProgressMonitor.progress.textAndMnemonic"_s),
@@ -417,11 +417,11 @@ $ObjectArray2* aqua_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("SplitPane.leftButton.textAndMnemonic"_s),
-			$of(u"bot\u00f3n: izquierda"_s)
+			$of(u"botón: izquierda"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("SplitPane.rightButton.textAndMnemonic"_s),
-			$of(u"bot\u00f3n: derecha"_s)
+			$of(u"botón: derecha"_s)
 		})
 	});
 }

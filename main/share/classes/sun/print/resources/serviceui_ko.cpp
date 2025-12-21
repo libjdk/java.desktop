@@ -40,31 +40,31 @@ $ObjectArray2* serviceui_ko::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("Automatic-Feeder"_s),
-			$of(u"\uc790\ub3d9 \uacf5\uae09\uae30"_s)
+			$of(u"자동 공급기"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Cassette"_s),
-			$of(u"\uce74\uc138\ud2b8"_s)
+			$of(u"카세트"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Form-Source"_s),
-			$of(u"\uc591\uc2dd \uc18c\uc2a4"_s)
+			$of(u"양식 소스"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Large-Format"_s),
-			$of(u"\ud070 \ud615\uc2dd"_s)
+			$of(u"큰 형식"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Manual-Envelope"_s),
-			$of(u"\uc218\ub3d9 \ubd09\ud22c"_s)
+			$of(u"수동 봉투"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Small-Format"_s),
-			$of(u"\uc791\uc740 \ud615\uc2dd"_s)
+			$of(u"작은 형식"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Tractor-Feeder"_s),
-			$of(u"\ud2b8\ub799\ud130 \uacf5\uae09\uae30"_s)
+			$of(u"트랙터 공급기"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("a"_s),
@@ -72,11 +72,11 @@ $ObjectArray2* serviceui_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("accepting-jobs"_s),
-			$of(u"\uc791\uc5c5 \uc2b9\uc778"_s)
+			$of(u"작업 승인"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("auto-select"_s),
-			$of(u"\uc790\ub3d9 \uc120\ud0dd"_s)
+			$of(u"자동 선택"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("b"_s),
@@ -84,63 +84,63 @@ $ObjectArray2* serviceui_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("border.chromaticity"_s),
-			$of(u"\uc0c9\uc0c1 \ubaa8\uc591"_s)
+			$of(u"색상 모양"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.copies"_s),
-			$of(u"\ubcf5\uc0ac"_s)
+			$of(u"복사"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.jobattributes"_s),
-			$of(u"\uc791\uc5c5 \uc18d\uc131"_s)
+			$of(u"작업 속성"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.margins"_s),
-			$of(u"\uc5ec\ubc31"_s)
+			$of(u"여백"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.media"_s),
-			$of(u"\ub9e4\uccb4"_s)
+			$of(u"매체"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.orientation"_s),
-			$of(u"\ubc29\ud5a5"_s)
+			$of(u"방향"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.printrange"_s),
-			$of(u"\uc778\uc1c4 \ubc94\uc704"_s)
+			$of(u"인쇄 범위"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.printservice"_s),
-			$of(u"\uc778\uc1c4 \uc11c\ube44\uc2a4"_s)
+			$of(u"인쇄 서비스"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.quality"_s),
-			$of(u"\ud488\uc9c8"_s)
+			$of(u"품질"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.sides"_s),
-			$of(u"\uce21\uba74"_s)
+			$of(u"측면"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("bottom"_s),
-			$of(u"\uc544\ub798\ucabd"_s)
+			$of(u"아래쪽"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("button.cancel"_s),
-			$of(u"\ucde8\uc18c"_s)
+			$of(u"취소"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("button.ok"_s),
-			$of(u"\ud655\uc778"_s)
+			$of(u"확인"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("button.print"_s),
-			$of(u"\uc778\uc1c4"_s)
+			$of(u"인쇄"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("button.properties"_s),
-			$of(u"\uc18d\uc131(&R)..."_s)
+			$of(u"속성(&R)..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("c"_s),
@@ -148,15 +148,15 @@ $ObjectArray2* serviceui_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.collate"_s),
-			$of(u"\ud55c \ubd80\uc529 \uc778\uc1c4(&C)"_s)
+			$of(u"한 부씩 인쇄(&C)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.jobsheets"_s),
-			$of(u"\ubc30\ub108 \ud398\uc774\uc9c0(&B)"_s)
+			$of(u"배너 페이지(&B)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.printtofile"_s),
-			$of(u"\ud30c\uc77c\ub85c \uc778\uc1c4(&F)"_s)
+			$of(u"파일로 인쇄(&F)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("d"_s),
@@ -164,31 +164,31 @@ $ObjectArray2* serviceui_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.noprintermsg"_s),
-			$of(u"\uc778\uc1c4 \uc11c\ube44\uc2a4\ub97c \ucc3e\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4."_s)
+			$of(u"인쇄 서비스를 찾을 수 없습니다."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.overwrite"_s),
-			$of(u"\uc774 \ud30c\uc77c\uc774 \uc874\uc7ac\ud569\ub2c8\ub2e4. \uae30\uc874 \ud30c\uc77c\uc744 \uacb9\uccd0 \uc4f0\uaca0\uc2b5\ub2c8\uae4c?"_s)
+			$of(u"이 파일이 존재합니다. 기존 파일을 겹쳐 쓰겠습니까?"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.owtitle"_s),
-			$of(u"\ud30c\uc77c\ub85c \uc778\uc1c4"_s)
+			$of(u"파일로 인쇄"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.printtitle"_s),
-			$of(u"\uc778\uc1c4"_s)
+			$of(u"인쇄"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.printtofile"_s),
-			$of(u"\ud30c\uc77c\ub85c \uc778\uc1c4"_s)
+			$of(u"파일로 인쇄"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.pstitle"_s),
-			$of(u"\ud398\uc774\uc9c0 \uc124\uc815"_s)
+			$of(u"페이지 설정"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.writeerror"_s),
-			$of(u"\ud30c\uc77c\uc5d0 \uc4f8 \uc218 \uc5c6\uc74c:"_s)
+			$of(u"파일에 쓸 수 없음:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("e"_s),
@@ -200,11 +200,11 @@ $ObjectArray2* serviceui_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("error.destination"_s),
-			$of(u"\ubd80\uc801\ud569\ud55c \ud30c\uc77c \uc774\ub984: \ub2e4\uc2dc \uc2dc\ub3c4\ud558\uc2ed\uc2dc\uc624."_s)
+			$of(u"부적합한 파일 이름: 다시 시도하십시오."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("error.pagerange"_s),
-			$of(u"\ubd80\uc801\ud569\ud55c \ud398\uc774\uc9c0 \ubc94\uc704: \uac12\uc744 \ub2e4\uc2dc \uc785\ub825\ud558\uc2ed\uc2dc\uc624(\uc608: 1-3,5,7-10)."_s)
+			$of(u"부적합한 페이지 범위: 값을 다시 입력하십시오(예: 1-3,5,7-10)."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("executive"_s),
@@ -424,23 +424,23 @@ $ObjectArray2* serviceui_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.bottommargin"_s),
-			$of(u"\uc544\ub798\ucabd(&B)"_s)
+			$of(u"아래쪽(&B)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.inches"_s),
-			$of(u"(\uc778\uce58)"_s)
+			$of(u"(인치)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.info"_s),
-			$of(u"\uc815\ubcf4:"_s)
+			$of(u"정보:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.jobname"_s),
-			$of(u"\uc791\uc5c5 \uc774\ub984(&J):"_s)
+			$of(u"작업 이름(&J):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.leftmargin"_s),
-			$of(u"\uc67c\ucabd(&F)"_s)
+			$of(u"왼쪽(&F)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.millimetres"_s),
@@ -448,51 +448,51 @@ $ObjectArray2* serviceui_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.numcopies"_s),
-			$of(u"\ub9e4\uc218(&O):"_s)
+			$of(u"매수(&O):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.priority"_s),
-			$of(u"\uc6b0\uc120\uc21c\uc704(&R):"_s)
+			$of(u"우선순위(&R):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.psname"_s),
-			$of(u"\uc774\ub984(&N):"_s)
+			$of(u"이름(&N):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.pstype"_s),
-			$of(u"\uc720\ud615:"_s)
+			$of(u"유형:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.rangeto"_s),
-			$of(u"\uc885\ub8cc"_s)
+			$of(u"종료"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.rightmargin"_s),
-			$of(u"\uc624\ub978\ucabd(&R)"_s)
+			$of(u"오른쪽(&R)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.size"_s),
-			$of(u"\ud06c\uae30(&Z):"_s)
+			$of(u"크기(&Z):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.source"_s),
-			$of(u"\uc18c\uc2a4(&C):"_s)
+			$of(u"소스(&C):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.status"_s),
-			$of(u"\uc0c1\ud0dc:"_s)
+			$of(u"상태:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.topmargin"_s),
-			$of(u"\uc704\ucabd(&T)"_s)
+			$of(u"위쪽(&T)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.username"_s),
-			$of(u"\uc0ac\uc6a9\uc790 \uc774\ub984(&U):"_s)
+			$of(u"사용자 이름(&U):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("large-capacity"_s),
-			$of(u"\ud070 \uc6a9\ub7c9"_s)
+			$of(u"큰 용량"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ledger"_s),
@@ -500,15 +500,15 @@ $ObjectArray2* serviceui_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("main"_s),
-			$of(u"\uc8fc"_s)
+			$of(u"주"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("manual"_s),
-			$of(u"\uc218\ub3d9"_s)
+			$of(u"수동"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("middle"_s),
-			$of(u"\uac00\uc6b4\ub370"_s)
+			$of(u"가운데"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("monarch-envelope"_s),
@@ -528,7 +528,7 @@ $ObjectArray2* serviceui_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("na-5x7"_s),
-			$of(u"5\" x 7\" \uc6a9\uc9c0"_s)
+			$of(u"5\" x 7\" 용지"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-6x9-envelope"_s),
@@ -540,7 +540,7 @@ $ObjectArray2* serviceui_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("na-8x10"_s),
-			$of(u"8\" x 10\" \uc6a9\uc9c0"_s)
+			$of(u"8\" x 10\" 용지"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("na-9x11-envelope"_s),
@@ -580,7 +580,7 @@ $ObjectArray2* serviceui_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("not-accepting-jobs"_s),
-			$of(u"\uc791\uc5c5 \uc2b9\uc778 \uc548\ud568"_s)
+			$of(u"작업 승인 안함"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("oufuko-postcard"_s),
@@ -596,75 +596,75 @@ $ObjectArray2* serviceui_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.color"_s),
-			$of(u"\uc0c9\uc0c1(&C)"_s)
+			$of(u"색상(&C)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.draftq"_s),
-			$of(u"\ucd08\uc548(&F)"_s)
+			$of(u"초안(&F)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.duplex"_s),
-			$of(u"\uc591\uba74(&D)"_s)
+			$of(u"양면(&D)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.highq"_s),
-			$of(u"\ub192\uc74c(&H)"_s)
+			$of(u"높음(&H)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.landscape"_s),
-			$of(u"\uac00\ub85c(&L)"_s)
+			$of(u"가로(&L)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.monochrome"_s),
-			$of(u"\ub2e8\uc0c9(&M)"_s)
+			$of(u"단색(&M)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.normalq"_s),
-			$of(u"\ubcf4\ud1b5(&N)"_s)
+			$of(u"보통(&N)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.oneside"_s),
-			$of(u"\ub2e8\uba74(&O)"_s)
+			$of(u"단면(&O)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.portrait"_s),
-			$of(u"\uc138\ub85c(&P)"_s)
+			$of(u"세로(&P)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.rangeall"_s),
-			$of(u"\uc804\uccb4(&L)"_s)
+			$of(u"전체(&L)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.rangepages"_s),
-			$of(u"\ud398\uc774\uc9c0(&E)"_s)
+			$of(u"페이지(&E)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.revlandscape"_s),
-			$of(u"\uac00\ub85c \ubc18\uc804(&N)"_s)
+			$of(u"가로 반전(&N)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.revportrait"_s),
-			$of(u"\uc138\ub85c \ubc18\uc804(&I)"_s)
+			$of(u"세로 반전(&I)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.tumble"_s),
-			$of(u"\ud68c\uc804\uc2dd(&T)"_s)
+			$of(u"회전식(&T)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("side"_s),
-			$of(u"\uce21\uba74"_s)
+			$of(u"측면"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tab.appearance"_s),
-			$of(u"\ubaa8\uc591(&A)"_s)
+			$of(u"모양(&A)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tab.general"_s),
-			$of(u"\uc77c\ubc18 \uc0ac\ud56d(&G)"_s)
+			$of(u"일반 사항(&G)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tab.pagesetup"_s),
-			$of(u"\ud398\uc774\uc9c0 \uc124\uc815(&S)"_s)
+			$of(u"페이지 설정(&S)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tabloid"_s),
@@ -672,7 +672,7 @@ $ObjectArray2* serviceui_ko::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("top"_s),
-			$of(u"\uc704\ucabd"_s)
+			$of(u"위쪽"_s)
 		})
 	});
 }

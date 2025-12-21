@@ -40,171 +40,171 @@ $ObjectArray2* serviceui_zh_HK::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("Automatic-Feeder"_s),
-			$of(u"\u81ea\u52d5\u994b\u7d19\u5668"_s)
+			$of(u"自動饋紙器"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Cassette"_s),
-			$of(u"\u5361\u5f0f\u78c1\u5e36\u6a5f"_s)
+			$of(u"卡式磁帶機"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Form-Source"_s),
-			$of(u"\u8868\u683c\u4f86\u6e90"_s)
+			$of(u"表格來源"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Large-Format"_s),
-			$of(u"\u5927\u683c\u5f0f"_s)
+			$of(u"大格式"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Manual-Envelope"_s),
-			$of(u"\u624b\u9001\u5c01\u5957"_s)
+			$of(u"手送封套"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Small-Format"_s),
-			$of(u"\u5c0f\u683c\u5f0f"_s)
+			$of(u"小格式"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("Tractor-Feeder"_s),
-			$of(u"\u62d6\u66f3\u994b\u7d19\u5668"_s)
+			$of(u"拖曳饋紙器"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("a"_s),
-			$of(u"\u5de5\u7a0b A"_s)
+			$of(u"工程 A"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("accepting-jobs"_s),
-			$of(u"\u63a5\u53d7\u7684\u5de5\u4f5c"_s)
+			$of(u"接受的工作"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("auto-select"_s),
-			$of(u"\u81ea\u52d5\u9078\u53d6"_s)
+			$of(u"自動選取"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("b"_s),
-			$of(u"\u5de5\u7a0b B"_s)
+			$of(u"工程 B"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.chromaticity"_s),
-			$of(u"\u8272\u5f69\u5916\u89c0"_s)
+			$of(u"色彩外觀"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.copies"_s),
-			$of(u"\u4efd\u6578"_s)
+			$of(u"份數"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.jobattributes"_s),
-			$of(u"\u5de5\u4f5c\u5c6c\u6027"_s)
+			$of(u"工作屬性"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.margins"_s),
-			$of(u"\u908a\u8ddd"_s)
+			$of(u"邊距"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.media"_s),
-			$of(u"\u5a92\u9ad4"_s)
+			$of(u"媒體"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.orientation"_s),
-			$of(u"\u65b9\u5411"_s)
+			$of(u"方向"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.printrange"_s),
-			$of(u"\u5217\u5370\u7bc4\u570d"_s)
+			$of(u"列印範圍"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.printservice"_s),
-			$of(u"\u5217\u5370\u670d\u52d9"_s)
+			$of(u"列印服務"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.quality"_s),
-			$of(u"\u54c1\u8cea"_s)
+			$of(u"品質"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("border.sides"_s),
-			$of(u"\u908a"_s)
+			$of(u"邊"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("bottom"_s),
-			$of(u"\u4e0b"_s)
+			$of(u"下"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("button.cancel"_s),
-			$of(u"\u53d6\u6d88"_s)
+			$of(u"取消"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("button.ok"_s),
-			$of(u"\u78ba\u5b9a"_s)
+			$of(u"確定"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("button.print"_s),
-			$of(u"\u5217\u5370"_s)
+			$of(u"列印"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("button.properties"_s),
-			$of(u"\u7279\u6027(&R)..."_s)
+			$of(u"特性(&R)..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("c"_s),
-			$of(u"\u5de5\u7a0b C"_s)
+			$of(u"工程 C"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.collate"_s),
-			$of(u"\u7406\u5e8f(&C)"_s)
+			$of(u"理序(&C)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.jobsheets"_s),
-			$of(u"\u6a19\u984c\u9801(&B)"_s)
+			$of(u"標題頁(&B)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox.printtofile"_s),
-			$of(u"\u5217\u5370\u81f3\u6a94\u6848(&F)"_s)
+			$of(u"列印至檔案(&F)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("d"_s),
-			$of(u"\u5de5\u7a0b D"_s)
+			$of(u"工程 D"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.noprintermsg"_s),
-			$of(u"\u627e\u4e0d\u5230\u5217\u5370\u670d\u52d9\u3002"_s)
+			$of(u"找不到列印服務。"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.overwrite"_s),
-			$of(u"\u9019\u500b\u6a94\u6848\u5df2\u7d93\u5b58\u5728\u3002\u60a8\u8981\u8986\u5beb\u5df2\u5b58\u5728\u7684\u6a94\u6848\u55ce\uff1f"_s)
+			$of(u"這個檔案已經存在。您要覆寫已存在的檔案嗎？"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.owtitle"_s),
-			$of(u"\u5217\u5370\u81f3\u6a94\u6848"_s)
+			$of(u"列印至檔案"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.printtitle"_s),
-			$of(u"\u5217\u5370"_s)
+			$of(u"列印"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.printtofile"_s),
-			$of(u"\u5217\u5370\u81f3\u6a94\u6848"_s)
+			$of(u"列印至檔案"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.pstitle"_s),
-			$of(u"\u9801\u9762\u8a2d\u5b9a"_s)
+			$of(u"頁面設定"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("dialog.writeerror"_s),
-			$of(u"\u7121\u6cd5\u5beb\u5165\u81f3\u6a94\u6848:"_s)
+			$of(u"無法寫入至檔案:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("e"_s),
-			$of(u"\u5de5\u7a0b E"_s)
+			$of(u"工程 E"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("envelope"_s),
-			$of(u"\u5c01\u5957"_s)
+			$of(u"封套"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("error.destination"_s),
-			$of(u"\u7121\u6548\u7684\u6a94\u540d; \u8acb\u518d\u8a66\u4e00\u6b21"_s)
+			$of(u"無效的檔名; 請再試一次"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("error.pagerange"_s),
-			$of(u"\u7121\u6548\u7684\u9801\u9762\u7bc4\u570d; \u8acb\u91cd\u65b0\u8f38\u5165\u6578\u503c (\u4f8b\u5982 1-3,5,7-10)"_s)
+			$of(u"無效的頁面範圍; 請重新輸入數值 (例如 1-3,5,7-10)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("executive"_s),
@@ -424,7 +424,7 @@ $ObjectArray2* serviceui_zh_HK::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.bottommargin"_s),
-			$of(u"\u5e95\u90e8\u908a\u8ddd(&B)"_s)
+			$of(u"底部邊距(&B)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.inches"_s),
@@ -432,15 +432,15 @@ $ObjectArray2* serviceui_zh_HK::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.info"_s),
-			$of(u"\u8cc7\u8a0a: "_s)
+			$of(u"資訊: "_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.jobname"_s),
-			$of(u"\u5de5\u4f5c\u540d\u7a31(&J):"_s)
+			$of(u"工作名稱(&J):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.leftmargin"_s),
-			$of(u"\u5de6\u908a\u8ddd(&F)"_s)
+			$of(u"左邊距(&F)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.millimetres"_s),
@@ -448,51 +448,51 @@ $ObjectArray2* serviceui_zh_HK::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("label.numcopies"_s),
-			$of(u"\u5217\u5370\u4efd\u6578(&O): "_s)
+			$of(u"列印份數(&O): "_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.priority"_s),
-			$of(u"\u512a\u5148\u6b0a(&R):"_s)
+			$of(u"優先權(&R):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.psname"_s),
-			$of(u"\u540d\u7a31(&N):"_s)
+			$of(u"名稱(&N):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.pstype"_s),
-			$of(u"\u985e\u578b: "_s)
+			$of(u"類型: "_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.rangeto"_s),
-			$of(u"\u81f3"_s)
+			$of(u"至"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.rightmargin"_s),
-			$of(u"\u53f3\u908a\u8ddd(&R)"_s)
+			$of(u"右邊距(&R)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.size"_s),
-			$of(u"\u5927\u5c0f(&Z):"_s)
+			$of(u"大小(&Z):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.source"_s),
-			$of(u"\u4f86\u6e90(&C): "_s)
+			$of(u"來源(&C): "_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.status"_s),
-			$of(u"\u72c0\u614b: "_s)
+			$of(u"狀態: "_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.topmargin"_s),
-			$of(u"\u9802\u7aef\u908a\u8ddd(&T)"_s)
+			$of(u"頂端邊距(&T)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("label.username"_s),
-			$of(u"\u4f7f\u7528\u8005\u540d\u7a31(&U):"_s)
+			$of(u"使用者名稱(&U):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("large-capacity"_s),
-			$of(u"\u5927\u5bb9\u91cf"_s)
+			$of(u"大容量"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ledger"_s),
@@ -500,15 +500,15 @@ $ObjectArray2* serviceui_zh_HK::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("main"_s),
-			$of(u"\u4e3b"_s)
+			$of(u"主"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("manual"_s),
-			$of(u"\u624b\u9001"_s)
+			$of(u"手送"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("middle"_s),
-			$of(u"\u4e2d"_s)
+			$of(u"中"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("monarch-envelope"_s),
@@ -580,7 +580,7 @@ $ObjectArray2* serviceui_zh_HK::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("not-accepting-jobs"_s),
-			$of(u"\u4e0d\u63a5\u53d7\u7684\u5de5\u4f5c"_s)
+			$of(u"不接受的工作"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("oufuko-postcard"_s),
@@ -596,75 +596,75 @@ $ObjectArray2* serviceui_zh_HK::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.color"_s),
-			$of(u"\u984f\u8272(&C)"_s)
+			$of(u"顏色(&C)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.draftq"_s),
-			$of(u"\u8349\u7a3f(&F)"_s)
+			$of(u"草稿(&F)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.duplex"_s),
-			$of(u"\u96d9\u9762\u5217\u5370(&D)"_s)
+			$of(u"雙面列印(&D)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.highq"_s),
-			$of(u"\u9ad8(&H)"_s)
+			$of(u"高(&H)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.landscape"_s),
-			$of(u"\u6a6b\u5411(&L)"_s)
+			$of(u"橫向(&L)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.monochrome"_s),
-			$of(u"\u55ae\u8272(&M)"_s)
+			$of(u"單色(&M)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.normalq"_s),
-			$of(u"\u6b63\u5e38(&N)"_s)
+			$of(u"正常(&N)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.oneside"_s),
-			$of(u"\u55ae\u9762(&O)"_s)
+			$of(u"單面(&O)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.portrait"_s),
-			$of(u"\u76f4\u5411(&P)"_s)
+			$of(u"直向(&P)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.rangeall"_s),
-			$of(u"\u5168\u90e8(&L)"_s)
+			$of(u"全部(&L)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.rangepages"_s),
-			$of(u"\u9801\u9762(&E)"_s)
+			$of(u"頁面(&E)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.revlandscape"_s),
-			$of(u"\u53cd\u5411\u6a6b\u5370(&N)"_s)
+			$of(u"反向橫印(&N)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.revportrait"_s),
-			$of(u"\u53cd\u5411\u76f4\u5370(&I)"_s)
+			$of(u"反向直印(&I)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton.tumble"_s),
-			$of(u"\u7ffb\u8f49(&T)"_s)
+			$of(u"翻轉(&T)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("side"_s),
-			$of(u"\u908a"_s)
+			$of(u"邊"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tab.appearance"_s),
-			$of(u"\u5916\u89c0(&A)"_s)
+			$of(u"外觀(&A)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tab.general"_s),
-			$of(u"\u4e00\u822c(&G)"_s)
+			$of(u"一般(&G)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tab.pagesetup"_s),
-			$of(u"\u9801\u9762\u8a2d\u5b9a(&S)"_s)
+			$of(u"頁面設定(&S)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("tabloid"_s),
@@ -672,7 +672,7 @@ $ObjectArray2* serviceui_zh_HK::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("top"_s),
-			$of(u"\u4e0a"_s)
+			$of(u"上"_s)
 		})
 	});
 }

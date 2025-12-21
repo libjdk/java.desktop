@@ -199,8 +199,8 @@ TestBadBreak::TestBadBreak() {
 }
 
 void clinit$TestBadBreak($Class* class$) {
-	$assignStatic(TestBadBreak::withCombiningDiaeresis, u"123p://.aaaaaaaaaaaaaaaaaaaaaa.123/a\u0308"_s);
-	$assignStatic(TestBadBreak::withoutCombiningDiaeresis, u"123p://.aaaaaaaaaaaaaaaaaaaaaa.123/\u00e4"_s);
+	$assignStatic(TestBadBreak::withCombiningDiaeresis, u"123p://.aaaaaaaaaaaaaaaaaaaaaa.123/ä"_s);
+	$assignStatic(TestBadBreak::withoutCombiningDiaeresis, u"123p://.aaaaaaaaaaaaaaaaaaaaaa.123/ä"_s);
 }
 
 $Class* TestBadBreak::load$($String* name, bool initialize) {

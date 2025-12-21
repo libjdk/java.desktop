@@ -422,7 +422,7 @@ $String* Order2::controlPointString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({"("_s, $$str(round(this->cx0)), ", "_s}));
 	$var($String, var$0, $$concat(var$1, $$str(round(this->cy0))));
-	return ($concat(var$0, "), "));
+	return ($concat(var$0, "), "_s));
 }
 
 Order2::Order2() {

@@ -5328,9 +5328,9 @@ bool Component::isMixingNeeded() {
 			if ($nc(Component::mixingLog)->isLoggable($PlatformLogger$Level::FINE)) {
 				$var($String, var$7, $$str({"containing window = "_s, window, "; has h/w descendants = "_s}));
 				$var($String, var$6, $$concat(var$7, $$str(window->hasHeavyweightDescendants())));
-				$var($String, var$5, $$concat(var$6, "; has l/w descendants = "));
+				$var($String, var$5, $$concat(var$6, "; has l/w descendants = "_s));
 				$var($String, var$4, $$concat(var$5, $$str(window->hasLightweightDescendants())));
-				$var($String, var$3, $$concat(var$4, "; disposing = "));
+				$var($String, var$3, $$concat(var$4, "; disposing = "_s));
 				$nc(Component::mixingLog)->fine($$concat(var$3, $$str(window->isDisposing())));
 			}
 			return false;

@@ -468,11 +468,11 @@ $String* GraphicsPrimitive::toString() {
 		}
 		$var($String, var$5, $$str({$($of(this)->getClass()->getName()), "::"_s, sig, "("_s}));
 		$var($String, var$4, $$concat(var$5, $(simplename(this->sourceType))));
-		$var($String, var$3, $$concat(var$4, ", "));
+		$var($String, var$3, $$concat(var$4, ", "_s));
 		$var($String, var$2, $$concat(var$3, $(simplename(this->compositeType))));
-		$var($String, var$1, $$concat(var$2, ", "));
+		$var($String, var$1, $$concat(var$2, ", "_s));
 		$var($String, var$0, $$concat(var$1, $(simplename(this->destType))));
-		$set(this, cachedname, $concat(var$0, ")"));
+		$set(this, cachedname, $concat(var$0, ")"_s));
 	}
 	return this->cachedname;
 }

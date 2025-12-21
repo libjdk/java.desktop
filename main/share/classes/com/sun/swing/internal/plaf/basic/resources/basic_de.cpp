@@ -48,11 +48,11 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.addition.textAndMnemonic"_s),
-			$of(u"Hinzuf\u00fcgen"_s)
+			$of(u"Hinzufügen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.deletion.textAndMnemonic"_s),
-			$of(u"L\u00f6schen"_s)
+			$of(u"Löschen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.redo.textAndMnemonic"_s),
@@ -60,11 +60,11 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.styleChange.textAndMnemonic"_s),
-			$of(u"Formatvorlagen\u00e4nderung"_s)
+			$of(u"Formatvorlagenänderung"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.undo.textAndMnemonic"_s),
-			$of(u"R\u00fcckg\u00e4ngig"_s)
+			$of(u"Rückgängig"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractUndoableEdit.redo.textAndMnemonic"_s),
@@ -72,7 +72,7 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractUndoableEdit.undo.textAndMnemonic"_s),
-			$of(u"R\u00fcckg\u00e4ngig"_s)
+			$of(u"Rückgängig"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.cancel.textAndMnemonic"_s),
@@ -116,7 +116,7 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hslSaturation.textAndMnemonic"_s),
-			$of(u"S\u00e4ttigung"_s)
+			$of(u"Sättigung"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hslTransparency.textAndMnemonic"_s),
@@ -132,7 +132,7 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hsvSaturation.textAndMnemonic"_s),
-			$of(u"S\u00e4ttigung"_s)
+			$of(u"Sättigung"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hsvTransparency.textAndMnemonic"_s),
@@ -152,7 +152,7 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.reset.textAndMnemonic"_s),
-			$of(u"&Zur\u00fccksetzen"_s)
+			$of(u"&Zurücksetzen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgb.textAndMnemonic"_s),
@@ -168,7 +168,7 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgbGreen.textAndMnemonic"_s),
-			$of(u"Gr\u00fc&n"_s)
+			$of(u"Grü&n"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgbHexCode.textAndMnemonic"_s),
@@ -204,7 +204,7 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"Dialogfeld f\u00fcr Dateiauswahl schlie\u00dfen"_s)
+			$of(u"Dialogfeld für Dateiauswahl schließen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.directoryDescription.textAndMnemonic"_s),
@@ -212,11 +212,11 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.directoryOpenButton.textAndMnemonic"_s),
-			$of(u"\u00d6ffnen"_s)
+			$of(u"Öffnen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.directoryOpenButtonToolTip.textAndMnemonic"_s),
-			$of(u"Ausgew\u00e4hltes Verzeichnis \u00f6ffnen"_s)
+			$of(u"Ausgewähltes Verzeichnis öffnen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileDescription.textAndMnemonic"_s),
@@ -268,15 +268,15 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButton.textAndMnemonic"_s),
-			$of(u"\u00d6ffnen"_s)
+			$of(u"Öffnen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButtonToolTip.textAndMnemonic"_s),
-			$of(u"Ausgew\u00e4hlte Datei \u00f6ffnen"_s)
+			$of(u"Ausgewählte Datei öffnen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openDialogTitle.textAndMnemonic"_s),
-			$of(u"\u00d6ffnen"_s)
+			$of(u"Öffnen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.other.newFolder"_s),
@@ -304,7 +304,7 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButtonToolTip.textAndMnemonic"_s),
-			$of(u"Ausgew\u00e4hlte Datei speichern"_s)
+			$of(u"Ausgewählte Datei speichern"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveDialogTitle.textAndMnemonic"_s),
@@ -332,7 +332,7 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FormView.resetButton.textAndMnemonic"_s),
-			$of(u"Zur\u00fccksetzen"_s)
+			$of(u"Zurücksetzen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FormView.submitButton.textAndMnemonic"_s),
@@ -340,7 +340,7 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrame.closeButtonToolTip"_s),
-			$of(u"Schlie\u00dfen"_s)
+			$of(u"Schließen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrame.iconButtonToolTip"_s),
@@ -356,11 +356,11 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.closeButton.textAndMnemonic"_s),
-			$of(u"&Schlie\u00dfen"_s)
+			$of(u"&Schließen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.closeButtonAccessibleName"_s),
-			$of(u"Schlie\u00dfen"_s)
+			$of(u"Schließen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.iconifyButtonAccessibleName"_s),
@@ -388,11 +388,11 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.sizeButton.textAndMnemonic"_s),
-			$of(u"&Gr\u00f6\u00dfe"_s)
+			$of(u"&Größe"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("IsindexView.prompt"_s),
-			$of(u"Dieser Index kann durchsucht werden. Geben Sie Schl\u00fcsselw\u00f6rter f\u00fcr die Suche ein:"_s)
+			$of(u"Dieser Index kann durchsucht werden. Geben Sie Schlüsselwörter für die Suche ein:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.cancelButton.textAndMnemonic"_s),
@@ -416,7 +416,7 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.title.textAndMnemonic"_s),
-			$of(u"Option ausw\u00e4hlen"_s)
+			$of(u"Option auswählen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.yesButton.textAndMnemonic"_s),
@@ -436,7 +436,7 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentInitial.textAndMnemonic"_s),
-			$of(u"Druckvorgang l\u00e4uft..."_s)
+			$of(u"Druckvorgang läuft..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentProgress.textAndMnemonic"_s),
@@ -456,11 +456,11 @@ $ObjectArray2* basic_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("SplitPane.leftButton.textAndMnemonic"_s),
-			$of(u"linke Schaltfl\u00e4che"_s)
+			$of(u"linke Schaltfläche"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("SplitPane.rightButton.textAndMnemonic"_s),
-			$of(u"rechte Schaltfl\u00e4che"_s)
+			$of(u"rechte Schaltfläche"_s)
 		})
 	});
 }

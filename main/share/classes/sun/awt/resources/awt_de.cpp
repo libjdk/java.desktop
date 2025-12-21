@@ -76,7 +76,7 @@ $ObjectArray2* awt_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InconsistentDLLsWarning"_s),
-			$of(u"Textbasierte Vorg\u00e4nge funktionieren m\u00f6glicherweise nicht richtig, weil inkonsistente Dynamic Linking Librarys (DLLs) auf dem System installiert sind. Weitere Informationen zu diesem Problem sowie eine Empfehlung zu der Umgehung finden Sie in den Java(TM) 2 SDK, Standard Edition Release Notes unter java.sun.com."_s)
+			$of(u"Textbasierte Vorgänge funktionieren möglicherweise nicht richtig, weil inkonsistente Dynamic Linking Librarys (DLLs) auf dem System installiert sind. Weitere Informationen zu diesem Problem sowie eine Empfehlung zu der Umgehung finden Sie in den Java(TM) 2 SDK, Standard Edition Release Notes unter java.sun.com."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodCreationFailed"_s),
@@ -104,7 +104,7 @@ $ObjectArray2* awt_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodSelectionMenu"_s),
-			$of(u"Eingabemethode ausw\u00e4hlen"_s)
+			$of(u"Eingabemethode auswählen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.Less"_s),
@@ -192,15 +192,15 @@ $ObjectArray2* awt_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.backQuote"_s),
-			$of(u"Schlie\u00dfendes Anf\u00fchrungszeichen"_s)
+			$of(u"Schließendes Anführungszeichen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.backSlash"_s),
-			$of(u"Umgekehrter Schr\u00e4gstrich"_s)
+			$of(u"Umgekehrter Schrägstrich"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.backSpace"_s),
-			$of(u"R\u00fccktaste"_s)
+			$of(u"Rücktaste"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.begin"_s),
@@ -228,11 +228,11 @@ $ObjectArray2* awt_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.clear"_s),
-			$of(u"L\u00f6schen"_s)
+			$of(u"Löschen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.closeBracket"_s),
-			$of(u"Schlie\u00dfende Klammer"_s)
+			$of(u"Schließende Klammer"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.codeInput"_s),
@@ -252,7 +252,7 @@ $ObjectArray2* awt_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.context"_s),
-			$of(u"Kontextmen\u00fc"_s)
+			$of(u"Kontextmenü"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.control"_s),
@@ -488,7 +488,7 @@ $ObjectArray2* awt_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.greater"_s),
-			$of(u"Gr\u00f6\u00dfer als"_s)
+			$of(u"Größer als"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.halfWidth"_s),
@@ -564,7 +564,7 @@ $ObjectArray2* awt_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.modechange"_s),
-			$of(u"Modus\u00e4nderung"_s)
+			$of(u"Modusänderung"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.multiply"_s),
@@ -588,11 +588,11 @@ $ObjectArray2* awt_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.openBracket"_s),
-			$of(u"\u00d6ffnende Klammer"_s)
+			$of(u"Öffnende Klammer"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.paste"_s),
-			$of(u"Einf\u00fcgen"_s)
+			$of(u"Einfügen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.pause"_s),
@@ -628,11 +628,11 @@ $ObjectArray2* awt_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.quote"_s),
-			$of(u"Anf\u00fchrungszeichen"_s)
+			$of(u"Anführungszeichen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.quoteDbl"_s),
-			$of(u"Doppelte Anf\u00fchrungszeichen"_s)
+			$of(u"Doppelte Anführungszeichen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.right"_s),
@@ -668,7 +668,7 @@ $ObjectArray2* awt_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.slash"_s),
-			$of(u"Schr\u00e4gstrich"_s)
+			$of(u"Schrägstrich"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.space"_s),
@@ -696,7 +696,7 @@ $ObjectArray2* awt_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.undo"_s),
-			$of(u"R\u00fcckg\u00e4ngig"_s)
+			$of(u"Rückgängig"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.unknown"_s),

@@ -88,11 +88,11 @@ $ObjectArray2* windows_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.homeFolderAccessibleName"_s),
-			$of(u"In\u00edcio"_s)
+			$of(u"Início"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.homeFolderToolTip.textAndMnemonic"_s),
-			$of(u"In\u00edcio"_s)
+			$of(u"Início"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.listViewActionLabel.textAndMnemonic"_s),
@@ -136,7 +136,7 @@ $ObjectArray2* windows_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.upFolderToolTip.textAndMnemonic"_s),
-			$of(u"Um N\u00edvel Acima"_s)
+			$of(u"Um Nível Acima"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.viewMenuButtonAccessibleName"_s),

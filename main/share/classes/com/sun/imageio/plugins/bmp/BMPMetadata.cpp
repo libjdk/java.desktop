@@ -270,7 +270,7 @@ $IIOMetadataNode* BMPMetadata::getStandardDataNode() {
 		$var($String, var$3, $$str({""_s, $(countBits(this->redMask)), " "_s}));
 		$var($String, var$2, $$concat(var$3, $(countBits(this->greenMask))));
 		$var($String, var$1, $$concat(var$2, $(countBits(this->blueMask))));
-		$var($String, var$0, $$concat(var$1, ""));
+		$var($String, var$0, $$concat(var$1, ""_s));
 		$assign(bits, $concat(var$0, $(countBits(this->alphaMask))));
 	}
 	$var($IIOMetadataNode, subNode, $new($IIOMetadataNode, "BitsPerSample"_s));

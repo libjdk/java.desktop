@@ -68,7 +68,7 @@ void ScrollPaneWheelScroller::handleWheelScrolling($ScrollPane* sp, $MouseWheelE
 	if ($nc(ScrollPaneWheelScroller::log)->isLoggable($PlatformLogger$Level::FINER)) {
 		$var($String, var$2, $$str({"x = "_s, $$str($nc(e)->getX()), ", y = "_s}));
 		$var($String, var$1, $$concat(var$2, $$str(e->getY())));
-		$var($String, var$0, $$concat(var$1, ", src is "));
+		$var($String, var$0, $$concat(var$1, ", src is "_s));
 		$nc(ScrollPaneWheelScroller::log)->finer($$concat(var$0, $(e->getSource())));
 	}
 	int32_t increment = 0;

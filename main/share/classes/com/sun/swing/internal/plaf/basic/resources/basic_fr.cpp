@@ -56,7 +56,7 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.redo.textAndMnemonic"_s),
-			$of(u"R\u00e9tablir"_s)
+			$of(u"Rétablir"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.styleChange.textAndMnemonic"_s),
@@ -68,7 +68,7 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractUndoableEdit.redo.textAndMnemonic"_s),
-			$of(u"R\u00e9tablir"_s)
+			$of(u"Rétablir"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractUndoableEdit.undo.textAndMnemonic"_s),
@@ -112,7 +112,7 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hslLightness.textAndMnemonic"_s),
-			$of(u"Lumi\u00e8re"_s)
+			$of(u"Lumière"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hslSaturation.textAndMnemonic"_s),
@@ -148,11 +148,11 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.preview.textAndMnemonic"_s),
-			$of(u"Aper\u00e7u"_s)
+			$of(u"Aperçu"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.reset.textAndMnemonic"_s),
-			$of(u"&R\u00e9initialiser"_s)
+			$of(u"&Réinitialiser"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgb.textAndMnemonic"_s),
@@ -204,11 +204,11 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"Ferme la bo\u00eete de dialogue du s\u00e9lecteur de fichiers"_s)
+			$of(u"Ferme la boîte de dialogue du sélecteur de fichiers"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.directoryDescription.textAndMnemonic"_s),
-			$of(u"R\u00e9pertoire"_s)
+			$of(u"Répertoire"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.directoryOpenButton.textAndMnemonic"_s),
@@ -216,11 +216,11 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.directoryOpenButtonToolTip.textAndMnemonic"_s),
-			$of(u"Ouvre le r\u00e9pertoire s\u00e9lectionn\u00e9"_s)
+			$of(u"Ouvre le répertoire sélectionné"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileDescription.textAndMnemonic"_s),
-			$of(u"Fichier g\u00e9n\u00e9rique"_s)
+			$of(u"Fichier générique"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileSizeGigaBytes"_s),
@@ -236,7 +236,7 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.filesDetailsAccessibleName"_s),
-			$of(u"D\u00e9tails des fichiers"_s)
+			$of(u"Détails des fichiers"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.filesListAccessibleName"_s),
@@ -248,11 +248,11 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.helpButtonToolTip.textAndMnemonic"_s),
-			$of(u"Aide du s\u00e9lecteur de fichiers"_s)
+			$of(u"Aide du sélecteur de fichiers"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderError.textAndMnemonic"_s),
-			$of(u"Erreur lors de la cr\u00e9ation du dossier"_s)
+			$of(u"Erreur lors de la création du dossier"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderErrorSeparator"_s),
@@ -260,11 +260,11 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderParentDoesntExist.textAndMnemonic"_s),
-			$of(u"Impossible de cr\u00e9er le dossier.\n\nLe syst\u00e8me ne parvient pas \u00e0 trouver le chemin indiqu\u00e9."_s)
+			$of(u"Impossible de créer le dossier.\n\nLe système ne parvient pas à trouver le chemin indiqué."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderParentDoesntExistTitle.textAndMnemonic"_s),
-			$of(u"Impossible de cr\u00e9er le dossier"_s)
+			$of(u"Impossible de créer le dossier"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButton.textAndMnemonic"_s),
@@ -272,7 +272,7 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButtonToolTip.textAndMnemonic"_s),
-			$of(u"Ouvre le fichier s\u00e9lectionn\u00e9"_s)
+			$of(u"Ouvre le fichier sélectionné"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openDialogTitle.textAndMnemonic"_s),
@@ -292,7 +292,7 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameErrorFileExists.textAndMnemonic"_s),
-			$of(u"Impossible de renommer {0} : il existe d\u00e9j\u00e0 un fichier portant le nom indiqu\u00e9. Indiquez-en un autre. "_s)
+			$of(u"Impossible de renommer {0} : il existe déjà un fichier portant le nom indiqué. Indiquez-en un autre. "_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameErrorTitle.textAndMnemonic"_s),
@@ -304,7 +304,7 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButtonToolTip.textAndMnemonic"_s),
-			$of(u"Enregistre le fichier s\u00e9lectionn\u00e9"_s)
+			$of(u"Enregistre le fichier sélectionné"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveDialogTitle.textAndMnemonic"_s),
@@ -312,11 +312,11 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.updateButton.textAndMnemonic"_s),
-			$of(u"Mettre \u00e0 jo&ur"_s)
+			$of(u"Mettre à jo&ur"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.updateButtonToolTip.textAndMnemonic"_s),
-			$of(u"Met \u00e0 jour la liste des r\u00e9pertoires"_s)
+			$of(u"Met à jour la liste des répertoires"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.win32.newFolder"_s),
@@ -332,11 +332,11 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FormView.resetButton.textAndMnemonic"_s),
-			$of(u"R\u00e9initialiser"_s)
+			$of(u"Réinitialiser"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FormView.submitButton.textAndMnemonic"_s),
-			$of(u"Soumettre la requ\u00eate"_s)
+			$of(u"Soumettre la requête"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrame.closeButtonToolTip"_s),
@@ -344,7 +344,7 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrame.iconButtonToolTip"_s),
-			$of(u"R\u00e9duire"_s)
+			$of(u"Réduire"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrame.maxButtonToolTip"_s),
@@ -364,7 +364,7 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.iconifyButtonAccessibleName"_s),
-			$of(u"R\u00e9duire"_s)
+			$of(u"Réduire"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.maximizeButton.textAndMnemonic"_s),
@@ -376,11 +376,11 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.minimizeButton.textAndMnemonic"_s),
-			$of(u"&R\u00e9duire"_s)
+			$of(u"&Réduire"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.moveButton.textAndMnemonic"_s),
-			$of(u"D\u00e9p&lacer"_s)
+			$of(u"Dép&lacer"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.restoreButton.textAndMnemonic"_s),
@@ -392,7 +392,7 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("IsindexView.prompt"_s),
-			$of(u"Ceci est un index de recherche. Tapez des mots-cl\u00e9s pour la recherche :"_s)
+			$of(u"Ceci est un index de recherche. Tapez des mots-clés pour la recherche :"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.cancelButton.textAndMnemonic"_s),
@@ -400,7 +400,7 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.inputDialog.titleAndMnemonic"_s),
-			$of(u"Entr\u00e9e"_s)
+			$of(u"Entrée"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.messageDialog.titleAndMnemonic"_s),
@@ -416,7 +416,7 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.title.textAndMnemonic"_s),
-			$of(u"S\u00e9lectionner une option"_s)
+			$of(u"Sélectionner une option"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.yesButton.textAndMnemonic"_s),
@@ -440,7 +440,7 @@ $ObjectArray2* basic_fr::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentProgress.textAndMnemonic"_s),
-			$of(u"Page {0} imprim\u00e9e..."_s)
+			$of(u"Page {0} imprimée..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.titleAborting.textAndMnemonic"_s),

@@ -66,7 +66,7 @@ $ObjectArray2* accessibility_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("checkbox"_s),
-			$of(u"Kontrollk\u00e4stchen"_s)
+			$of(u"Kontrollkästchen"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("checked"_s),
@@ -150,15 +150,15 @@ $ObjectArray2* accessibility_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("filler"_s),
-			$of(u"F\u00fcllbereich"_s)
+			$of(u"Füllbereich"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("flowsFrom"_s),
-			$of(u"flie\u00dft von"_s)
+			$of(u"fließt von"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("flowsTo"_s),
-			$of(u"flie\u00dft zu"_s)
+			$of(u"fließt zu"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("focusable"_s),
@@ -210,7 +210,7 @@ $ObjectArray2* accessibility_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("labelFor"_s),
-			$of(u"Label f\u00fcr"_s)
+			$of(u"Label für"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("labeledBy"_s),
@@ -238,15 +238,15 @@ $ObjectArray2* accessibility_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("menu"_s),
-			$of(u"Men\u00fc"_s)
+			$of(u"Menü"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("menubar"_s),
-			$of(u"Men\u00fcleiste"_s)
+			$of(u"Menüleiste"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("menuitem"_s),
-			$of(u"Men\u00fcpunkt"_s)
+			$of(u"Menüpunkt"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("modal"_s),
@@ -258,7 +258,7 @@ $ObjectArray2* accessibility_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("multiselectable"_s),
-			$of(u"mehrfach ausw\u00e4hlbar"_s)
+			$of(u"mehrfach auswählbar"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("opaque"_s),
@@ -286,7 +286,7 @@ $ObjectArray2* accessibility_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("parentWindowOf"_s),
-			$of(u"\u00fcbergeordnetes Fenster von"_s)
+			$of(u"übergeordnetes Fenster von"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("passwordtext"_s),
@@ -294,11 +294,11 @@ $ObjectArray2* accessibility_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("popupmenu"_s),
-			$of(u"Popup-Men\u00fc"_s)
+			$of(u"Popup-Menü"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("pressed"_s),
-			$of(u"gedr\u00fcckt"_s)
+			$of(u"gedrückt"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("progressMonitor"_s),
@@ -310,7 +310,7 @@ $ObjectArray2* accessibility_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("pushbutton"_s),
-			$of(u"Schaltfl\u00e4che"_s)
+			$of(u"Schaltfläche"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("radiobutton"_s),
@@ -342,11 +342,11 @@ $ObjectArray2* accessibility_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("selectable"_s),
-			$of(u"w\u00e4hlbar"_s)
+			$of(u"wählbar"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("selected"_s),
-			$of(u"ausgew\u00e4hlt"_s)
+			$of(u"ausgewählt"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("separator"_s),
@@ -386,7 +386,7 @@ $ObjectArray2* accessibility_de::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("togglebutton"_s),
-			$of(u"Umschaltfl\u00e4che"_s)
+			$of(u"Umschaltfläche"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("toggleexpand"_s),

@@ -181,17 +181,17 @@ $String* DerivedColor::toString() {
 	$var($Color, src, $UIManager::getColor(this->uiDefaultParentName));
 	$var($String, var$12, $$str({"DerivedColor(color="_s, $$str(getRed()), ","_s}));
 	$var($String, var$11, $$concat(var$12, $$str(getGreen())));
-	$var($String, var$10, $$concat(var$11, ","));
+	$var($String, var$10, $$concat(var$11, ","_s));
 	$var($String, var$9, $$concat(var$10, $$str(getBlue())));
-	$var($String, var$8, $$concat(var$9, " parent="));
+	$var($String, var$8, $$concat(var$9, " parent="_s));
 	$var($String, var$7, $$concat(var$8, this->uiDefaultParentName));
-	$var($String, var$6, $$concat(var$7, " offsets="));
+	$var($String, var$6, $$concat(var$7, " offsets="_s));
 	$var($String, var$5, $$concat(var$6, $$str(getHueOffset())));
-	$var($String, var$4, $$concat(var$5, ","));
+	$var($String, var$4, $$concat(var$5, ","_s));
 	$var($String, var$3, $$concat(var$4, $$str(getSaturationOffset())));
-	$var($String, var$2, $$concat(var$3, ","));
+	$var($String, var$2, $$concat(var$3, ","_s));
 	$var($String, var$1, $$concat(var$2, $$str(getBrightnessOffset())));
-	$var($String, var$0, $$concat(var$1, ","));
+	$var($String, var$0, $$concat(var$1, ","_s));
 	$var($String, s, $concat(var$0, $$str(getAlphaOffset())));
 	$var($String, var$13, nullptr);
 	if (src == nullptr) {
@@ -199,7 +199,7 @@ $String* DerivedColor::toString() {
 	} else {
 		$var($String, var$16, $$str({s, " pColor="_s, $$str($nc(src)->getRed()), ","_s}));
 		$var($String, var$15, $$concat(var$16, $$str(src->getGreen())));
-		$var($String, var$14, $$concat(var$15, ","));
+		$var($String, var$14, $$concat(var$15, ","_s));
 		$assign(var$13, $concat(var$14, $$str(src->getBlue())));
 	}
 	return var$13;

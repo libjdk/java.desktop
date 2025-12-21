@@ -41,39 +41,39 @@ $ObjectArray2* aqua_zh_TW::getContents() {
 	return $new($ObjectArray2, {
 		$$new($ObjectArray, {
 			$of("AbstractButton.click.textAndMnemonic"_s),
-			$of(u"\u6309\u4e00\u4e0b"_s)
+			$of(u"按一下"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.addition.textAndMnemonic"_s),
-			$of(u"\u9644\u52a0"_s)
+			$of(u"附加"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.deletion.textAndMnemonic"_s),
-			$of(u"\u522a\u9664"_s)
+			$of(u"刪除"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.redo.textAndMnemonic"_s),
-			$of(u"\u91cd\u505a"_s)
+			$of(u"重做"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.styleChange.textAndMnemonic"_s),
-			$of(u"\u6a23\u5f0f\u8b8a\u66f4"_s)
+			$of(u"樣式變更"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.undo.textAndMnemonic"_s),
-			$of(u"\u9084\u539f"_s)
+			$of(u"還原"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractUndoableEdit.redo.textAndMnemonic"_s),
-			$of(u"\u91cd\u505a"_s)
+			$of(u"重做"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractUndoableEdit.undo.textAndMnemonic"_s),
-			$of(u"\u9084\u539f"_s)
+			$of(u"還原"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.cancel.textAndMnemonic"_s),
-			$of(u"\u53d6\u6d88"_s)
+			$of(u"取消"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hsb.textAndMnemonic"_s),
@@ -105,15 +105,15 @@ $ObjectArray2* aqua_zh_TW::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.ok.textAndMnemonic"_s),
-			$of(u"\u78ba\u5b9a"_s)
+			$of(u"確定"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.preview.textAndMnemonic"_s),
-			$of(u"\u9810\u89bd"_s)
+			$of(u"預覽"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.reset.textAndMnemonic"_s),
-			$of(u"\u91cd\u8a2d(&R)"_s)
+			$of(u"重設(&R)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgb.textAndMnemonic"_s),
@@ -121,75 +121,75 @@ $ObjectArray2* aqua_zh_TW::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgbBlue.textAndMnemonic"_s),
-			$of(u"\u85cd(&B)"_s)
+			$of(u"藍(&B)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgbGreen.textAndMnemonic"_s),
-			$of(u"\u7da0(&N)"_s)
+			$of(u"綠(&N)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgbRed.textAndMnemonic"_s),
-			$of(u"\u7d05(&D)"_s)
+			$of(u"紅(&D)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.sample.textAndMnemonic"_s),
-			$of(u"\u7bc4\u4f8b\u6587\u5b57  \u7bc4\u4f8b\u6587\u5b57"_s)
+			$of(u"範例文字  範例文字"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.swatches.textAndMnemonic"_s),
-			$of(u"\u8abf\u8272\u677f(&S)"_s)
+			$of(u"調色板(&S)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.swatchesRecent.textAndMnemonic"_s),
-			$of(u"\u6700\u65b0\u9078\u64c7:"_s)
+			$of(u"最新選擇:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ComboBox.togglePopup.textAndMnemonic"_s),
-			$of(u"\u5207\u63db\u5373\u73fe\u5f0f\u8996\u7a97"_s)
+			$of(u"切換即現式視窗"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.acceptAllFileFilter.textAndMnemonic"_s),
-			$of(u"\u6240\u6709\u6a94\u6848"_s)
+			$of(u"所有檔案"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.by.textAndMnemonic"_s),
-			$of(u"\u540d\u7a31"_s)
+			$of(u"名稱"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.byDate.textAndMnemonic"_s),
-			$of(u"\u4fee\u6539\u65e5\u671f"_s)
+			$of(u"修改日期"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButton.textAndMnemonic"_s),
-			$of(u"\u53d6\u6d88"_s)
+			$of(u"取消"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.chooseButton.textAndMnemonic"_s),
-			$of(u"\u9078\u64c7"_s)
+			$of(u"選擇"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.createButton.textAndMnemonic"_s),
-			$of(u"\u5efa\u7acb"_s)
+			$of(u"建立"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.desktopName"_s),
-			$of(u"\u684c\u9762"_s)
+			$of(u"桌面"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.directoryDescription.textAndMnemonic"_s),
-			$of(u"\u76ee\u9304"_s)
+			$of(u"目錄"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.directoryOpenButton.textAndMnemonic"_s),
-			$of(u"\u958b\u555f"_s)
+			$of(u"開啟"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileDescription.textAndMnemonic"_s),
-			$of(u"\u4e00\u822c\u6a94\u6848"_s)
+			$of(u"一般檔案"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileNameLabel.textAndMnemonic"_s),
-			$of(u"\u6a94\u6848:"_s)
+			$of(u"檔案:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileSizeGigaBytes"_s),
@@ -205,31 +205,31 @@ $ObjectArray2* aqua_zh_TW::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.filesOfTypeLabel.textAndMnemonic"_s),
-			$of(u"\u6a94\u6848\u683c\u5f0f:"_s)
+			$of(u"檔案格式:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.helpButton.textAndMnemonic"_s),
-			$of(u"\u8aaa\u660e"_s)
+			$of(u"說明"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.mac.newFolder"_s),
-			$of(u"\u672a\u547d\u540d\u7684\u8cc7\u6599\u593e"_s)
+			$of(u"未命名的資料夾"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.mac.newFolder.subsequent"_s),
-			$of(u"\u672a\u547d\u540d\u7684\u8cc7\u6599\u593e {0}"_s)
+			$of(u"未命名的資料夾 {0}"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderAccessibleName"_s),
-			$of(u"\u65b0\u8cc7\u6599\u593e"_s)
+			$of(u"新資料夾"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderButton.textAndMnemonic"_s),
-			$of(u"\u65b0\u8cc7\u6599\u593e"_s)
+			$of(u"新資料夾"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderError.textAndMnemonic"_s),
-			$of(u"\u5efa\u7acb\u8cc7\u6599\u593e\u6642\u767c\u751f\u932f\u8aa4"_s)
+			$of(u"建立資料夾時發生錯誤"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderErrorSeparator"_s),
@@ -237,191 +237,191 @@ $ObjectArray2* aqua_zh_TW::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderExistsError.textAndMnemonic"_s),
-			$of(u"\u8a72\u540d\u7a31\u5df2\u7d93\u88ab\u4f7f\u7528"_s)
+			$of(u"該名稱已經被使用"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderPrompt.textAndMnemonic"_s),
-			$of(u"\u65b0\u8cc7\u6599\u593e\u540d\u7a31:"_s)
+			$of(u"新資料夾名稱:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderTitle.textAndMnemonic"_s),
-			$of(u"\u65b0\u8cc7\u6599\u593e"_s)
+			$of(u"新資料夾"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButton.textAndMnemonic"_s),
-			$of(u"\u958b\u555f"_s)
+			$of(u"開啟"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openDialogTitle.textAndMnemonic"_s),
-			$of(u"\u958b\u555f"_s)
+			$of(u"開啟"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openTitle.textAndMnemonic"_s),
-			$of(u"\u958b\u555f"_s)
+			$of(u"開啟"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButton.textAndMnemonic"_s),
-			$of(u"\u5132\u5b58"_s)
+			$of(u"儲存"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveDialogFileNameLabel.textAndMnemonic"_s),
-			$of(u"\u53e6\u5b58\u65b0\u6a94:"_s)
+			$of(u"另存新檔:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveDialogTitle.textAndMnemonic"_s),
-			$of(u"\u5132\u5b58"_s)
+			$of(u"儲存"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveTitle.textAndMnemonic"_s),
-			$of(u"\u5132\u5b58"_s)
+			$of(u"儲存"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.untitledFileName"_s),
-			$of(u"\u672a\u547d\u540d"_s)
+			$of(u"未命名"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.untitledFolderName"_s),
-			$of(u"\u672a\u547d\u540d\u7684\u8cc7\u6599\u593e"_s)
+			$of(u"未命名的資料夾"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.updateButton.textAndMnemonic"_s),
-			$of(u"\u66f4\u65b0"_s)
+			$of(u"更新"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FormView.browseFileButton.textAndMnemonic"_s),
-			$of(u"\u700f\u89bd..."_s)
+			$of(u"瀏覽..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FormView.resetButton.textAndMnemonic"_s),
-			$of(u"\u91cd\u8a2d"_s)
+			$of(u"重設"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FormView.submitButton.textAndMnemonic"_s),
-			$of(u"\u9001\u51fa\u67e5\u8a62"_s)
+			$of(u"送出查詢"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrame.closeButtonToolTip"_s),
-			$of(u"\u95dc\u9589"_s)
+			$of(u"關閉"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrame.iconButtonToolTip"_s),
-			$of(u"\u6700\u5c0f\u5316"_s)
+			$of(u"最小化"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrame.maxButtonToolTip"_s),
-			$of(u"\u6700\u5927\u5316"_s)
+			$of(u"最大化"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrame.restoreButtonToolTip"_s),
-			$of(u"\u5fa9\u539f"_s)
+			$of(u"復原"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.closeButton.textAndMnemonic"_s),
-			$of(u"\u95dc\u9589"_s)
+			$of(u"關閉"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.closeButtonAccessibleName"_s),
-			$of(u"\u95dc\u9589"_s)
+			$of(u"關閉"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.iconifyButtonAccessibleName"_s),
-			$of(u"\u5716\u793a\u5316"_s)
+			$of(u"圖示化"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.maximizeButton.textAndMnemonic"_s),
-			$of(u"\u6700\u5927\u5316"_s)
+			$of(u"最大化"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.maximizeButtonAccessibleName"_s),
-			$of(u"\u6700\u5927\u5316"_s)
+			$of(u"最大化"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.minimizeButton.textAndMnemonic"_s),
-			$of(u"\u6700\u5c0f\u5316"_s)
+			$of(u"最小化"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.moveButton.textAndMnemonic"_s),
-			$of(u"\u79fb\u52d5"_s)
+			$of(u"移動"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.restoreButton.textAndMnemonic"_s),
-			$of(u"\u5fa9\u539f"_s)
+			$of(u"復原"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.sizeButton.textAndMnemonic"_s),
-			$of(u"\u5927\u5c0f"_s)
+			$of(u"大小"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("IsindexView.prompt"_s),
-			$of(u"\u9019\u662f\u4e00\u500b\u53ef\u641c\u5c0b\u7684\u7d22\u5f15\u3002\u8f38\u5165\u641c\u5c0b\u95dc\u9375\u5b57: "_s)
+			$of(u"這是一個可搜尋的索引。輸入搜尋關鍵字: "_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.cancelButton.textAndMnemonic"_s),
-			$of(u"\u53d6\u6d88"_s)
+			$of(u"取消"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.inputDialog.titleAndMnemonic"_s),
-			$of(u"\u8f38\u5165"_s)
+			$of(u"輸入"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.messageDialog.titleAndMnemonic"_s),
-			$of(u"\u8a0a\u606f"_s)
+			$of(u"訊息"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.noButton.textAndMnemonic"_s),
-			$of(u"\u5426(&N)"_s)
+			$of(u"否(&N)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.okButton.textAndMnemonic"_s),
-			$of(u"\u78ba\u5b9a"_s)
+			$of(u"確定"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.title.textAndMnemonic"_s),
-			$of(u"\u9078\u53d6\u4e00\u500b\u9078\u9805"_s)
+			$of(u"選取一個選項"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.yesButton.textAndMnemonic"_s),
-			$of(u"\u662f(&Y)"_s)
+			$of(u"是(&Y)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.abortButton.textAndMnemonic"_s),
-			$of(u"\u4e2d\u6b62(&A)"_s)
+			$of(u"中止(&A)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.abortButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u4e2d\u6b62\u5217\u5370"_s)
+			$of(u"中止列印"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentAborting.textAndMnemonic"_s),
-			$of(u"\u6b63\u5728\u4e2d\u6b62\u5217\u5370..."_s)
+			$of(u"正在中止列印..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentInitial.textAndMnemonic"_s),
-			$of(u"\u6b63\u5728\u5217\u5370..."_s)
+			$of(u"正在列印..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentProgress.textAndMnemonic"_s),
-			$of(u"\u5df2\u5217\u5370\u7b2c {0} \u9801..."_s)
+			$of(u"已列印第 {0} 頁..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.titleAborting.textAndMnemonic"_s),
-			$of(u"\u5217\u5370 (\u4e2d\u6b62\u4e2d)"_s)
+			$of(u"列印 (中止中)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.titleProgress.textAndMnemonic"_s),
-			$of(u"\u5217\u5370\u4e2d"_s)
+			$of(u"列印中"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ProgressMonitor.progress.textAndMnemonic"_s),
-			$of(u"\u9032\u5ea6..."_s)
+			$of(u"進度..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("SplitPane.leftButton.textAndMnemonic"_s),
-			$of(u"\u5de6\u6309\u9215"_s)
+			$of(u"左按鈕"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("SplitPane.rightButton.textAndMnemonic"_s),
-			$of(u"\u53f3\u6309\u9215"_s)
+			$of(u"右按鈕"_s)
 		})
 	});
 }

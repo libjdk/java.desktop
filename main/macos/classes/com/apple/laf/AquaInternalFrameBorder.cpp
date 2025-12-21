@@ -309,7 +309,7 @@ void AquaInternalFrameBorder::paintTitleContents($Graphics* g, $JInternalFrame* 
 	bool wasTextShortened = false;
 	if (text != nullptr && !text->isEmpty()) {
 		totalTextWidth = $SwingUtilities::computeStringWidth(fm, text);
-		$var($String, clipString, u"\u2026"_s);
+		$var($String, clipString, u"…"_s);
 		if (totalTextWidth > availTextWidth) {
 			wasTextShortened = true;
 			totalTextWidth = $SwingUtilities::computeStringWidth(fm, clipString);

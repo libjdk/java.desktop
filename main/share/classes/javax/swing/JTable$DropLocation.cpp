@@ -87,15 +87,15 @@ $String* JTable$DropLocation::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$9, $$str({$($of(this)->getClass()->getName()), "[dropPoint="_s}));
 	$var($String, var$8, $$concat(var$9, $(getDropPoint())));
-	$var($String, var$7, $$concat(var$8, ",row="));
+	$var($String, var$7, $$concat(var$8, ",row="_s));
 	$var($String, var$6, $$concat(var$7, $$str(this->row)));
-	$var($String, var$5, $$concat(var$6, ",column="));
+	$var($String, var$5, $$concat(var$6, ",column="_s));
 	$var($String, var$4, $$concat(var$5, $$str(this->col)));
-	$var($String, var$3, $$concat(var$4, ",insertRow="));
+	$var($String, var$3, $$concat(var$4, ",insertRow="_s));
 	$var($String, var$2, $$concat(var$3, $$str(this->isInsertRow$)));
-	$var($String, var$1, $$concat(var$2, ",insertColumn="));
+	$var($String, var$1, $$concat(var$2, ",insertColumn="_s));
 	$var($String, var$0, $$concat(var$1, $$str(this->isInsertCol)));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 JTable$DropLocation::JTable$DropLocation() {

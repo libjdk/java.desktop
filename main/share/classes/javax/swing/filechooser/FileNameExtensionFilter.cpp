@@ -113,9 +113,9 @@ $String* FileNameExtensionFilter::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$3, $$str({$($FileFilter::toString()), "[description="_s}));
 	$var($String, var$2, $$concat(var$3, $(getDescription())));
-	$var($String, var$1, $$concat(var$2, " extensions="));
+	$var($String, var$1, $$concat(var$2, " extensions="_s));
 	$var($String, var$0, $$concat(var$1, $($Arrays::asList($(getExtensions())))));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 FileNameExtensionFilter::FileNameExtensionFilter() {

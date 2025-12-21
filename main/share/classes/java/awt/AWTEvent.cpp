@@ -320,7 +320,7 @@ $String* AWTEvent::toString() {
 	}
 	$var($String, var$2, $$str({$($of(this)->getClass()->getName()), "["_s}));
 	$var($String, var$1, $$concat(var$2, $(paramString())));
-	$var($String, var$0, $$concat(var$1, "] on "));
+	$var($String, var$0, $$concat(var$1, "] on "_s));
 	return $concat(var$0, $((srcName != nullptr ? $of(srcName) : this->source)));
 }
 

@@ -195,7 +195,7 @@ void AquaComboBoxRendererInternal::paintComponent($Graphics* g) {
 		if (this->fChecked && !this->fEditable && this->fDrawCheckedItem) {
 			int32_t y = getHeight() - 4;
 			$nc(g)->setColor($(getForeground()));
-			$SwingUtilities2::drawString(static_cast<$JComponent*>(this->fComboBox), g, u"\u2713"_s, 6, y);
+			$SwingUtilities2::drawString(static_cast<$JComponent*>(this->fComboBox), g, u"✓"_s, 6, y);
 		}
 	}
 	$JLabel::paintComponent(g);

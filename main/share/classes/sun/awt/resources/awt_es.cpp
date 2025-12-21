@@ -64,7 +64,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.EResizeCursor"_s),
-			$of(u"Cursor de Cambio de Tama\u00f1o este"_s)
+			$of(u"Cursor de Cambio de Tamaño este"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.HandCursor"_s),
@@ -72,11 +72,11 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.HostInputMethodDisplayName"_s),
-			$of(u"M\u00e9todos de Entrada del Sistema"_s)
+			$of(u"Métodos de Entrada del Sistema"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InconsistentDLLsWarning"_s),
-			$of(u"Puede que las operaciones textuales no funcionen correctamente debido a un juego incoherente de bibliotecas de enlaces din\u00e1micos (DLL) instaladas en su sistema. Para obtener m\u00e1s informaci\u00f3n acerca de este problema y de la soluci\u00f3n alternativa sugerida, consulte Java(TM) 2 SDK, Standard Edition Release Notes en java.sun.com."_s)
+			$of(u"Puede que las operaciones textuales no funcionen correctamente debido a un juego incoherente de bibliotecas de enlaces dinámicos (DLL) instaladas en su sistema. Para obtener más información acerca de este problema y de la solución alternativa sugerida, consulte Java(TM) 2 SDK, Standard Edition Release Notes en java.sun.com."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodCreationFailed"_s),
@@ -84,7 +84,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.ja"_s),
-			$of(u"Japon\u00e9s"_s)
+			$of(u"Japonés"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodLanguage.ko"_s),
@@ -104,7 +104,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.InputMethodSelectionMenu"_s),
-			$of(u"Seleccionar M\u00e9todo de Entrada"_s)
+			$of(u"Seleccionar Método de Entrada"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.Less"_s),
@@ -116,27 +116,27 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.NEResizeCursor"_s),
-			$of(u"Cursor de Cambio de Tama\u00f1o Nordeste"_s)
+			$of(u"Cursor de Cambio de Tamaño Nordeste"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.NResizeCursor"_s),
-			$of(u"Cursor de Cambio de Tama\u00f1o Norte"_s)
+			$of(u"Cursor de Cambio de Tamaño Norte"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.NWResizeCursor"_s),
-			$of(u"Cursor de Cambio de Tama\u00f1o Noroeste"_s)
+			$of(u"Cursor de Cambio de Tamaño Noroeste"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.SEResizeCursor"_s),
-			$of(u"Cursor de Cambio de Tama\u00f1o Sudeste"_s)
+			$of(u"Cursor de Cambio de Tamaño Sudeste"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.SResizeCursor"_s),
-			$of(u"Cursor de Cambio de Tama\u00f1o Sur"_s)
+			$of(u"Cursor de Cambio de Tamaño Sur"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.SWResizeCursor"_s),
-			$of(u"Cursor de Cambio de Tama\u00f1o Suroeste"_s)
+			$of(u"Cursor de Cambio de Tamaño Suroeste"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.TextCursor"_s),
@@ -144,7 +144,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.WResizeCursor"_s),
-			$of(u"Cursor de Cambio de Tama\u00f1o Oeste"_s)
+			$of(u"Cursor de Cambio de Tamaño Oeste"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.WaitCursor"_s),
@@ -156,7 +156,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.add"_s),
-			$of(u"+ de Teclado Num\u00e9rico"_s)
+			$of(u"+ de Teclado Numérico"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.again"_s),
@@ -168,7 +168,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.alphanumeric"_s),
-			$of(u"Alfanum\u00e9rico"_s)
+			$of(u"Alfanumérico"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.alt"_s),
@@ -220,7 +220,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.capsLock"_s),
-			$of(u"Bloqueo de May\u00fasculas"_s)
+			$of(u"Bloqueo de Mayúsculas"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.circumflex"_s),
@@ -232,11 +232,11 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.closeBracket"_s),
-			$of(u"Par\u00e9ntesis de Cierre"_s)
+			$of(u"Paréntesis de Cierre"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.codeInput"_s),
-			$of(u"Entrada de C\u00f3digo"_s)
+			$of(u"Entrada de Código"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.colon"_s),
@@ -252,7 +252,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.context"_s),
-			$of(u"Men\u00fa Contextual"_s)
+			$of(u"Menú Contextual"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.control"_s),
@@ -276,7 +276,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadAboveRing"_s),
-			$of(u"C\u00edrculo Superior (Tecla Muerta)"_s)
+			$of(u"Círculo Superior (Tecla Muerta)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadAcute"_s),
@@ -300,7 +300,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadDiaeresis"_s),
-			$of(u"Di\u00e9resis (Tecla Muerta)"_s)
+			$of(u"Diéresis (Tecla Muerta)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadDoubleAcute"_s),
@@ -316,11 +316,11 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadMacron"_s),
-			$of(u"Macr\u00f3n (Tecla Muerta)"_s)
+			$of(u"Macrón (Tecla Muerta)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadOgonek"_s),
-			$of(u"Esp\u00edritu \u00c1spero (Tecla Muerta)"_s)
+			$of(u"Espíritu Áspero (Tecla Muerta)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.deadSemivoicedSound"_s),
@@ -336,7 +336,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.decimal"_s),
-			$of(u". de Teclado Num\u00e9rico"_s)
+			$of(u". de Teclado Numérico"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.delete"_s),
@@ -344,11 +344,11 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.divide"_s),
-			$of(u"/ de Teclado Num\u00e9rico"_s)
+			$of(u"/ de Teclado Numérico"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.dollar"_s),
-			$of(u"D\u00f3lar"_s)
+			$of(u"Dólar"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.down"_s),
@@ -376,7 +376,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.exclamationMark"_s),
-			$of(u"Signo de Exclamaci\u00f3n de Cierre"_s)
+			$of(u"Signo de Exclamación de Cierre"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.f1"_s),
@@ -508,7 +508,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.inputMethodOnOff"_s),
-			$of(u"Activar/Desactivar M\u00e9todo de Entrada"_s)
+			$of(u"Activar/Desactivar Método de Entrada"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.insert"_s),
@@ -516,7 +516,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.invertedExclamationMark"_s),
-			$of(u"Signo de Exclamaci\u00f3n de Apertura"_s)
+			$of(u"Signo de Exclamación de Apertura"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.japaneseHiragana"_s),
@@ -552,7 +552,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.leftParenthesis"_s),
-			$of(u"Par\u00e9ntesis Izquierdo"_s)
+			$of(u"Paréntesis Izquierdo"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.meta"_s),
@@ -568,7 +568,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.multiply"_s),
-			$of(u"* de Teclado Num\u00e9rico"_s)
+			$of(u"* de Teclado Numérico"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.noconvert"_s),
@@ -576,19 +576,19 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.numLock"_s),
-			$of(u"Bloqueo Num\u00e9rico"_s)
+			$of(u"Bloqueo Numérico"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.numberSign"_s),
-			$of(u"Signo de N\u00famero"_s)
+			$of(u"Signo de Número"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.numpad"_s),
-			$of(u"Teclado Num\u00e9rico"_s)
+			$of(u"Teclado Numérico"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.openBracket"_s),
-			$of(u"Par\u00e9ntesis de Apertura"_s)
+			$of(u"Paréntesis de Apertura"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.paste"_s),
@@ -604,15 +604,15 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.pgdn"_s),
-			$of(u"AvP\u00e1g"_s)
+			$of(u"AvPág"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.pgup"_s),
-			$of(u"ReP\u00e1g"_s)
+			$of(u"RePág"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.plus"_s),
-			$of(u"M\u00e1s"_s)
+			$of(u"Más"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.previousCandidate"_s),
@@ -640,7 +640,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.rightParenthesis"_s),
-			$of(u"Par\u00e9ntesis Derecho"_s)
+			$of(u"Paréntesis Derecho"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.romanCharacters"_s),
@@ -656,15 +656,15 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.separater"_s),
-			$of(u", de Teclado Num\u00e9rico"_s)
+			$of(u", de Teclado Numérico"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.separator"_s),
-			$of(u", de Teclado Num\u00e9rico"_s)
+			$of(u", de Teclado Numérico"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.shift"_s),
-			$of(u"May\u00fas"_s)
+			$of(u"Mayús"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.slash"_s),
@@ -680,7 +680,7 @@ $ObjectArray2* awt_es::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.subtract"_s),
-			$of(u"- de Teclado Num\u00e9rico"_s)
+			$of(u"- de Teclado Numérico"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AWT.tab"_s),

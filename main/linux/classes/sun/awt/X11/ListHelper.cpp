@@ -324,7 +324,7 @@ int32_t ListHelper::y2index(int32_t y) {
 	if ($nc(ListHelper::log)->isLoggable($PlatformLogger$Level::FINE)) {
 		$var($String, var$2, $$str({"y="_s, $$str(y), ", firstIdx="_s, $$str(firstDisplayedIndex()), ", itemHeight="_s}));
 		$var($String, var$1, $$concat(var$2, $$str(getItemHeight())));
-		$var($String, var$0, $$concat(var$1, ",item_margin="));
+		$var($String, var$0, $$concat(var$1, ",item_margin="_s));
 		$nc(ListHelper::log)->fine($$concat(var$0, $$str(this->ITEM_MARGIN)));
 	}
 	int32_t var$3 = firstDisplayedIndex();

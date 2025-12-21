@@ -376,7 +376,7 @@ $String* GraphicComponent::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({"[graphic="_s, this->graphic, ":count="_s}));
 	$var($String, var$0, $$concat(var$1, $$str(getNumCharacters())));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 int32_t GraphicComponent::getNumJustificationInfos() {

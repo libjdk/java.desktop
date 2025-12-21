@@ -48,75 +48,75 @@ $ObjectArray2* motif_zh_TW::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButton.textAndMnemonic"_s),
-			$of(u"\u53d6\u6d88"_s)
+			$of(u"取消"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u4e2d\u6b62\u6a94\u6848\u9078\u64c7\u5668\u5c0d\u8a71\u65b9\u584a\u3002"_s)
+			$of(u"中止檔案選擇器對話方塊。"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.enterFileNameLabel.textAndMnemonic"_s),
-			$of(u"\u8f38\u5165\u6a94\u6848\u540d\u7a31(&N):"_s)
+			$of(u"輸入檔案名稱(&N):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.enterFolderNameLabel.textAndMnemonic"_s),
-			$of(u"\u8f38\u5165\u8cc7\u6599\u593e\u540d\u7a31:"_s)
+			$of(u"輸入資料夾名稱:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.filesLabel.textAndMnemonic"_s),
-			$of(u"\u6a94\u6848(&I)"_s)
+			$of(u"檔案(&I)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.filterLabel.textAndMnemonic"_s),
-			$of(u"\u7be9\u9078(&R)"_s)
+			$of(u"篩選(&R)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.foldersLabel.textAndMnemonic"_s),
-			$of(u"\u8cc7\u6599\u593e(&L)"_s)
+			$of(u"資料夾(&L)"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.helpButton.textAndMnemonic"_s),
-			$of(u"\u8aaa\u660e"_s)
+			$of(u"說明"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.helpButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u300c\u6a94\u6848\u9078\u64c7\u5668\u300d\u8aaa\u660e\u3002"_s)
+			$of(u"\u300c檔案選擇器」說明。"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButton.textAndMnemonic"_s),
-			$of(u"\u78ba\u5b9a"_s)
+			$of(u"確定"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u958b\u555f\u9078\u53d6\u7684\u6a94\u6848\u3002"_s)
+			$of(u"開啟選取的檔案。"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openDialogTitle.textAndMnemonic"_s),
-			$of(u"\u958b\u555f"_s)
+			$of(u"開啟"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.pathLabel.textAndMnemonic"_s),
-			$of(u"\u8f38\u5165\u8def\u5f91\u6216\u8cc7\u6599\u593e\u540d\u7a31(&P):"_s)
+			$of(u"輸入路徑或資料夾名稱(&P):"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButton.textAndMnemonic"_s),
-			$of(u"\u5132\u5b58"_s)
+			$of(u"儲存"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u5132\u5b58\u9078\u53d6\u7684\u6a94\u6848\u3002"_s)
+			$of(u"儲存選取的檔案。"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveDialogTitle.textAndMnemonic"_s),
-			$of(u"\u5132\u5b58"_s)
+			$of(u"儲存"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.updateButton.textAndMnemonic"_s),
-			$of(u"\u66f4\u65b0"_s)
+			$of(u"更新"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.updateButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u66f4\u65b0\u76ee\u9304\u6e05\u55ae\u3002"_s)
+			$of(u"更新目錄清單。"_s)
 		})
 	});
 }

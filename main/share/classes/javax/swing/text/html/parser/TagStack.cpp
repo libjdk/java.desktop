@@ -141,7 +141,7 @@ $String* TagStack::toString() {
 	} else {
 		$var($String, var$2, $$str({this->next, " <"_s}));
 		$var($String, var$1, $$concat(var$2, $($nc($($nc(this->tag)->getElement()))->getName())));
-		$assign(var$0, $concat(var$1, ">"));
+		$assign(var$0, $concat(var$1, ">"_s));
 	}
 	return var$0;
 }

@@ -324,7 +324,7 @@ void DebugGraphics::clipRect(int32_t x, int32_t y, int32_t width, int32_t height
 	if (debugLog()) {
 		$var($String, var$2, $$str({$(toShortString()), " Setting clipRect: "_s}));
 		$var($String, var$1, $$concat(var$2, $(($new($Rectangle, x, y, width, height)))));
-		$var($String, var$0, $$concat(var$1, " New clipRect: "));
+		$var($String, var$0, $$concat(var$1, " New clipRect: "_s));
 		$nc($(info()))->log($$concat(var$0, $($nc(this->graphics)->getClip())));
 	}
 }
@@ -441,9 +441,9 @@ void DebugGraphics::drawRoundRect(int32_t x, int32_t y, int32_t width, int32_t h
 	if (debugLog()) {
 		$var($String, var$4, $$str({$(toShortString()), " Drawing round rect: "_s}));
 		$var($String, var$3, $$concat(var$4, $($new($Rectangle, x, y, width, height))));
-		$var($String, var$2, $$concat(var$3, " arcWidth: "));
+		$var($String, var$2, $$concat(var$3, " arcWidth: "_s));
 		$var($String, var$1, $$concat(var$2, $$str(arcWidth)));
-		$var($String, var$0, $$concat(var$1, " archHeight: "));
+		$var($String, var$0, $$concat(var$1, " archHeight: "_s));
 		$nc($(DebugGraphics::info()))->log($$concat(var$0, $$str(arcHeight)));
 	}
 	if (isDrawingBuffer()) {
@@ -473,9 +473,9 @@ void DebugGraphics::fillRoundRect(int32_t x, int32_t y, int32_t width, int32_t h
 	if (debugLog()) {
 		$var($String, var$4, $$str({$(toShortString()), " Filling round rect: "_s}));
 		$var($String, var$3, $$concat(var$4, $($new($Rectangle, x, y, width, height))));
-		$var($String, var$2, $$concat(var$3, " arcWidth: "));
+		$var($String, var$2, $$concat(var$3, " arcWidth: "_s));
 		$var($String, var$1, $$concat(var$2, $$str(arcWidth)));
-		$var($String, var$0, $$concat(var$1, " archHeight: "));
+		$var($String, var$0, $$concat(var$1, " archHeight: "_s));
 		$nc($(DebugGraphics::info()))->log($$concat(var$0, $$str(arcHeight)));
 	}
 	if (isDrawingBuffer()) {
@@ -505,7 +505,7 @@ void DebugGraphics::drawLine(int32_t x1, int32_t y1, int32_t x2, int32_t y2) {
 	if (debugLog()) {
 		$var($String, var$2, $$str({$(toShortString()), " Drawing line: from "_s}));
 		$var($String, var$1, $$concat(var$2, $(pointToString(x1, y1))));
-		$var($String, var$0, $$concat(var$1, " to "));
+		$var($String, var$0, $$concat(var$1, " to "_s));
 		$nc($(DebugGraphics::info()))->log($$concat(var$0, $(pointToString(x2, y2))));
 	}
 	if (isDrawingBuffer()) {
@@ -535,7 +535,7 @@ void DebugGraphics::draw3DRect(int32_t x, int32_t y, int32_t width, int32_t heig
 	if (debugLog()) {
 		$var($String, var$2, $$str({$(toShortString()), " Drawing 3D rect: "_s}));
 		$var($String, var$1, $$concat(var$2, $($new($Rectangle, x, y, width, height))));
-		$var($String, var$0, $$concat(var$1, " Raised bezel: "));
+		$var($String, var$0, $$concat(var$1, " Raised bezel: "_s));
 		$nc($(DebugGraphics::info()))->log($$concat(var$0, $$str(raised)));
 	}
 	if (isDrawingBuffer()) {
@@ -565,7 +565,7 @@ void DebugGraphics::fill3DRect(int32_t x, int32_t y, int32_t width, int32_t heig
 	if (debugLog()) {
 		$var($String, var$2, $$str({$(toShortString()), " Filling 3D rect: "_s}));
 		$var($String, var$1, $$concat(var$2, $($new($Rectangle, x, y, width, height))));
-		$var($String, var$0, $$concat(var$1, " Raised bezel: "));
+		$var($String, var$0, $$concat(var$1, " Raised bezel: "_s));
 		$nc($(DebugGraphics::info()))->log($$concat(var$0, $$str(raised)));
 	}
 	if (isDrawingBuffer()) {
@@ -651,9 +651,9 @@ void DebugGraphics::drawArc(int32_t x, int32_t y, int32_t width, int32_t height,
 	if (debugLog()) {
 		$var($String, var$4, $$str({$(toShortString()), " Drawing arc: "_s}));
 		$var($String, var$3, $$concat(var$4, $($new($Rectangle, x, y, width, height))));
-		$var($String, var$2, $$concat(var$3, " startAngle: "));
+		$var($String, var$2, $$concat(var$3, " startAngle: "_s));
 		$var($String, var$1, $$concat(var$2, $$str(startAngle)));
-		$var($String, var$0, $$concat(var$1, " arcAngle: "));
+		$var($String, var$0, $$concat(var$1, " arcAngle: "_s));
 		$nc($(DebugGraphics::info()))->log($$concat(var$0, $$str(arcAngle)));
 	}
 	if (isDrawingBuffer()) {
@@ -683,9 +683,9 @@ void DebugGraphics::fillArc(int32_t x, int32_t y, int32_t width, int32_t height,
 	if (debugLog()) {
 		$var($String, var$4, $$str({$(toShortString()), " Filling arc: "_s}));
 		$var($String, var$3, $$concat(var$4, $($new($Rectangle, x, y, width, height))));
-		$var($String, var$2, $$concat(var$3, " startAngle: "));
+		$var($String, var$2, $$concat(var$3, " startAngle: "_s));
 		$var($String, var$1, $$concat(var$2, $$str(startAngle)));
-		$var($String, var$0, $$concat(var$1, " arcAngle: "));
+		$var($String, var$0, $$concat(var$1, " arcAngle: "_s));
 		$nc($(DebugGraphics::info()))->log($$concat(var$0, $$str(arcAngle)));
 	}
 	if (isDrawingBuffer()) {
@@ -974,7 +974,7 @@ bool DebugGraphics::drawImage($Image* img, int32_t x, int32_t y, $Color* bgcolor
 	if (debugLog()) {
 		$var($String, var$2, $$str({$(toShortString()), " Drawing image: "_s, img, " at: "_s}));
 		$var($String, var$1, $$concat(var$2, $($new($Point, x, y))));
-		$var($String, var$0, $$concat(var$1, ", bgcolor: "));
+		$var($String, var$0, $$concat(var$1, ", bgcolor: "_s));
 		$nc(info)->log($$concat(var$0, $(bgcolor)));
 	}
 	if (isDrawingBuffer()) {
@@ -1008,7 +1008,7 @@ bool DebugGraphics::drawImage($Image* img, int32_t x, int32_t y, int32_t width, 
 	if (debugLog()) {
 		$var($String, var$2, $$str({$(toShortString()), " Drawing image: "_s, img, " at: "_s}));
 		$var($String, var$1, $$concat(var$2, $($new($Rectangle, x, y, width, height))));
-		$var($String, var$0, $$concat(var$1, ", bgcolor: "));
+		$var($String, var$0, $$concat(var$1, ", bgcolor: "_s));
 		$nc(info)->log($$concat(var$0, $(bgcolor)));
 	}
 	if (isDrawingBuffer()) {
@@ -1042,7 +1042,7 @@ bool DebugGraphics::drawImage($Image* img, int32_t dx1, int32_t dy1, int32_t dx2
 	if (debugLog()) {
 		$var($String, var$2, $$str({$(toShortString()), " Drawing image: "_s, img, " destination: "_s}));
 		$var($String, var$1, $$concat(var$2, $($new($Rectangle, dx1, dy1, dx2, dy2))));
-		$var($String, var$0, $$concat(var$1, " source: "));
+		$var($String, var$0, $$concat(var$1, " source: "_s));
 		$nc(info)->log($$concat(var$0, $($new($Rectangle, sx1, sy1, sx2, sy2))));
 	}
 	if (isDrawingBuffer()) {
@@ -1076,9 +1076,9 @@ bool DebugGraphics::drawImage($Image* img, int32_t dx1, int32_t dy1, int32_t dx2
 	if (debugLog()) {
 		$var($String, var$4, $$str({$(toShortString()), " Drawing image: "_s, img, " destination: "_s}));
 		$var($String, var$3, $$concat(var$4, $($new($Rectangle, dx1, dy1, dx2, dy2))));
-		$var($String, var$2, $$concat(var$3, " source: "));
+		$var($String, var$2, $$concat(var$3, " source: "_s));
 		$var($String, var$1, $$concat(var$2, $($new($Rectangle, sx1, sy1, sx2, sy2))));
-		$var($String, var$0, $$concat(var$1, ", bgcolor: "));
+		$var($String, var$0, $$concat(var$1, ", bgcolor: "_s));
 		$nc(info)->log($$concat(var$0, $(bgcolor)));
 	}
 	if (isDrawingBuffer()) {
@@ -1116,7 +1116,7 @@ void DebugGraphics::copyArea(int32_t x, int32_t y, int32_t width, int32_t height
 	if (debugLog()) {
 		$var($String, var$2, $$str({$(toShortString()), " Copying area from: "_s}));
 		$var($String, var$1, $$concat(var$2, $($new($Rectangle, x, y, width, height))));
-		$var($String, var$0, $$concat(var$1, " to: "));
+		$var($String, var$0, $$concat(var$1, " to: "_s));
 		$nc($(info()))->log($$concat(var$0, $($new($Point, destX, destY))));
 	}
 	$nc(this->graphics)->copyArea(x, y, width, height, destX, destY);

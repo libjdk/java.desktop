@@ -391,7 +391,7 @@ Cursor* Cursor::getSystemCustomCursor($String* name) {
 		} catch ($Exception& e) {
 			$var($String, var$5, $$str({"Exception: "_s, $of(e)->getClass(), " "_s}));
 			$var($String, var$4, $$concat(var$5, $(e->getMessage())));
-			$var($String, var$3, $$concat(var$4, " occurred while creating cursor "));
+			$var($String, var$3, $$concat(var$4, " occurred while creating cursor "_s));
 			$throwNew($AWTException, $$concat(var$3, name));
 		}
 		if (cursor == nullptr) {
@@ -440,7 +440,7 @@ $String* Cursor::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({$($of(this)->getClass()->getName()), "["_s}));
 	$var($String, var$0, $$concat(var$1, $(getName())));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 void Cursor::loadSystemCustomCursorProperties() {
@@ -455,7 +455,7 @@ void Cursor::loadSystemCustomCursorProperties() {
 			$assignStatic(Cursor::systemCustomCursorProperties, nullptr);
 			$var($String, var$2, $$str({"Exception: "_s, $of(e)->getClass(), " "_s}));
 			$var($String, var$1, $$concat(var$2, $(e->getMessage())));
-			$var($String, var$0, $$concat(var$1, " occurred while loading: "));
+			$var($String, var$0, $$concat(var$1, " occurred while loading: "_s));
 			$throwNew($AWTException, $$concat(var$0, Cursor::PROPERTIES_FILE));
 		}
 	}

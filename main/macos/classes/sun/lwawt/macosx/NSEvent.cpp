@@ -191,25 +191,25 @@ $String* NSEvent::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$19, $$str({"NSEvent["_s, $$str(getType()), " ,"_s}));
 	$var($String, var$18, $$concat(var$19, $$str(getModifierFlags())));
-	$var($String, var$17, $$concat(var$18, " ,"));
+	$var($String, var$17, $$concat(var$18, " ,"_s));
 	$var($String, var$16, $$concat(var$17, $$str(getClickCount())));
-	$var($String, var$15, $$concat(var$16, " ,"));
+	$var($String, var$15, $$concat(var$16, " ,"_s));
 	$var($String, var$14, $$concat(var$15, $$str(getButtonNumber())));
-	$var($String, var$13, $$concat(var$14, " ,"));
+	$var($String, var$13, $$concat(var$14, " ,"_s));
 	$var($String, var$12, $$concat(var$13, $$str(getX())));
-	$var($String, var$11, $$concat(var$12, " ,"));
+	$var($String, var$11, $$concat(var$12, " ,"_s));
 	$var($String, var$10, $$concat(var$11, $$str(getY())));
-	$var($String, var$9, $$concat(var$10, " ,"));
+	$var($String, var$9, $$concat(var$10, " ,"_s));
 	$var($String, var$8, $$concat(var$9, $$str(getAbsX())));
-	$var($String, var$7, $$concat(var$8, " ,"));
+	$var($String, var$7, $$concat(var$8, " ,"_s));
 	$var($String, var$6, $$concat(var$7, $$str(getAbsY())));
-	$var($String, var$5, $$concat(var$6, " ,"));
+	$var($String, var$5, $$concat(var$6, " ,"_s));
 	$var($String, var$4, $$concat(var$5, $$str(getKeyCode())));
-	$var($String, var$3, $$concat(var$4, " ,"));
+	$var($String, var$3, $$concat(var$4, " ,"_s));
 	$var($String, var$2, $$concat(var$3, $(getCharacters())));
-	$var($String, var$1, $$concat(var$2, " ,"));
+	$var($String, var$1, $$concat(var$2, " ,"_s));
 	$var($String, var$0, $$concat(var$1, $(getCharactersIgnoringModifiers())));
-	return $concat(var$0, "]");
+	return $concat(var$0, "]"_s);
 }
 
 int32_t NSEvent::nsToJavaButton(int32_t buttonNumber) {

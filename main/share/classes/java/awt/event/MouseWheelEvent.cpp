@@ -103,9 +103,9 @@ $String* MouseWheelEvent::paramString() {
 	}
 	$var($String, var$4, $$str({$($MouseEvent::paramString()), ",scrollType="_s, scrollTypeStr, ",scrollAmount="_s}));
 	$var($String, var$3, $$concat(var$4, $$str(getScrollAmount())));
-	$var($String, var$2, $$concat(var$3, ",wheelRotation="));
+	$var($String, var$2, $$concat(var$3, ",wheelRotation="_s));
 	$var($String, var$1, $$concat(var$2, $$str(getWheelRotation())));
-	$var($String, var$0, $$concat(var$1, ",preciseWheelRotation="));
+	$var($String, var$0, $$concat(var$1, ",preciseWheelRotation="_s));
 	return $concat(var$0, $$str(getPreciseWheelRotation()));
 }
 

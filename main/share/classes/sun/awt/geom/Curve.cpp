@@ -650,13 +650,13 @@ $String* Curve::toString() {
 	$var($String, var$4, $$str({"Curve["_s, $$str(getOrder()), ", "_s}));
 	$var($String, var$6, $$str({"("_s, $$str(round(getX0())), ", "_s}));
 	$var($String, var$5, $$concat(var$6, $$str(round(getY0()))));
-	$var($String, var$3, $$concat(var$4, ($$concat(var$5, "), "))));
+	$var($String, var$3, $$concat(var$4, ($$concat(var$5, "), "_s))));
 	$var($String, var$2, $$concat(var$3, $(controlPointString())));
 	$var($String, var$8, $$str({"("_s, $$str(round(getX1())), ", "_s}));
 	$var($String, var$7, $$concat(var$8, $$str(round(getY1()))));
-	$var($String, var$1, $$concat(var$2, ($$concat(var$7, "), "))));
+	$var($String, var$1, $$concat(var$2, ($$concat(var$7, "), "_s))));
 	$var($String, var$0, $$concat(var$1, (this->direction == Curve::INCREASING ? "D"_s : "U"_s)));
-	return ($concat(var$0, "]"));
+	return ($concat(var$0, "]"_s));
 }
 
 $String* Curve::controlPointString() {

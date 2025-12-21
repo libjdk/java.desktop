@@ -231,7 +231,7 @@ bool FontFamily::closerWeight($Font2D* currFont, $Font2D* font, int32_t style) {
 	if ($FontUtilities::debugFonts()) {
 		$var($String, var$2, $$str({"New weight for style "_s, $$str(style), ". Curr.font="_s, currFont, " New font="_s, font, " Curr.weight="_s}));
 		$var($String, var$1, $$concat(var$2, $$str(+$nc(currFont)->getWeight())));
-		$var($String, var$0, $$concat(var$1, " New weight="));
+		$var($String, var$0, $$concat(var$1, " New weight="_s));
 		$FontUtilities::logInfo($$concat(var$0, $$str($nc(font)->getWeight())));
 	}
 	int32_t newWeight = $nc(font)->getWeight();
@@ -292,9 +292,9 @@ void FontFamily::setFont($Font2D* font, int32_t style) {
 		if ($FontUtilities::isLogging()) {
 			$var($String, var$5, $$str({"Rejecting adding "_s, font, " of lower rank "_s}));
 			$var($String, var$4, $$concat(var$5, $$str(font->getRank())));
-			$var($String, var$3, $$concat(var$4, " to family "));
+			$var($String, var$3, $$concat(var$4, " to family "_s));
 			$var($String, var$2, $$concat(var$3, this));
-			$var($String, var$1, $$concat(var$2, " of rank "));
+			$var($String, var$1, $$concat(var$2, " of rank "_s));
 			$FontUtilities::logWarning($$concat(var$1, $$str(this->familyRank)));
 		}
 		return;

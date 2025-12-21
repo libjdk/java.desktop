@@ -48,7 +48,7 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.addition.textAndMnemonic"_s),
-			$of(u"till\u00e4gg"_s)
+			$of(u"tillägg"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.deletion.textAndMnemonic"_s),
@@ -56,23 +56,23 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.redo.textAndMnemonic"_s),
-			$of(u"G\u00f6r om"_s)
+			$of(u"Gör om"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.styleChange.textAndMnemonic"_s),
-			$of(u"format\u00e4ndring"_s)
+			$of(u"formatändring"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractDocument.undo.textAndMnemonic"_s),
-			$of(u"\u00c5ngra"_s)
+			$of(u"Ångra"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractUndoableEdit.redo.textAndMnemonic"_s),
-			$of(u"G\u00f6r om"_s)
+			$of(u"Gör om"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("AbstractUndoableEdit.undo.textAndMnemonic"_s),
-			$of(u"\u00c5ngra"_s)
+			$of(u"Ångra"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.cancel.textAndMnemonic"_s),
@@ -116,7 +116,7 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hslSaturation.textAndMnemonic"_s),
-			$of(u"M\u00e4ttnad"_s)
+			$of(u"Mättnad"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hslTransparency.textAndMnemonic"_s),
@@ -132,7 +132,7 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hsvSaturation.textAndMnemonic"_s),
-			$of(u"M\u00e4ttnad"_s)
+			$of(u"Mättnad"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hsvTransparency.textAndMnemonic"_s),
@@ -140,7 +140,7 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.hsvValue.textAndMnemonic"_s),
-			$of(u"V\u00e4rde"_s)
+			$of(u"Värde"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.ok.textAndMnemonic"_s),
@@ -152,7 +152,7 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.reset.textAndMnemonic"_s),
-			$of(u"&\u00c5terst\u00e4ll"_s)
+			$of(u"&Återställ"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgb.textAndMnemonic"_s),
@@ -164,19 +164,19 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgbBlue.textAndMnemonic"_s),
-			$of(u"&Bl\u00e5"_s)
+			$of(u"&Blå"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgbGreen.textAndMnemonic"_s),
-			$of(u"Gr\u00f6&n"_s)
+			$of(u"Grö&n"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgbHexCode.textAndMnemonic"_s),
-			$of(u"&F\u00e4rgkod"_s)
+			$of(u"&Färgkod"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.rgbRed.textAndMnemonic"_s),
-			$of(u"R\u00f6&d"_s)
+			$of(u"Rö&d"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("ColorChooser.sample.textAndMnemonic"_s),
@@ -192,7 +192,7 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ComboBox.togglePopup.textAndMnemonic"_s),
-			$of(u"v\u00e4xlaPopup"_s)
+			$of(u"växlaPopup"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.acceptAllFileFilter.textAndMnemonic"_s),
@@ -204,7 +204,7 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"Avbryt dialogrutan f\u00f6r filval"_s)
+			$of(u"Avbryt dialogrutan för filval"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.directoryDescription.textAndMnemonic"_s),
@@ -212,11 +212,11 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.directoryOpenButton.textAndMnemonic"_s),
-			$of(u"\u00d6ppna"_s)
+			$of(u"Öppna"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.directoryOpenButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u00d6ppna vald katalog"_s)
+			$of(u"Öppna vald katalog"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.fileDescription.textAndMnemonic"_s),
@@ -244,11 +244,11 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.helpButton.textAndMnemonic"_s),
-			$of(u"&Hj\u00e4lp"_s)
+			$of(u"&Hjälp"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.helpButtonToolTip.textAndMnemonic"_s),
-			$of(u"Hj\u00e4lp f\u00f6r val av fil"_s)
+			$of(u"Hjälp för val av fil"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderError.textAndMnemonic"_s),
@@ -260,7 +260,7 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderParentDoesntExist.textAndMnemonic"_s),
-			$of(u"Kan inte skapa mappen.\n\nSystemet kan inte hitta angiven s\u00f6kv\u00e4g."_s)
+			$of(u"Kan inte skapa mappen.\n\nSystemet kan inte hitta angiven sökväg."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.newFolderParentDoesntExistTitle.textAndMnemonic"_s),
@@ -268,15 +268,15 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButton.textAndMnemonic"_s),
-			$of(u"\u00d6ppna"_s)
+			$of(u"Öppna"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openButtonToolTip.textAndMnemonic"_s),
-			$of(u"\u00d6ppna vald fil"_s)
+			$of(u"Öppna vald fil"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.openDialogTitle.textAndMnemonic"_s),
-			$of(u"\u00d6ppna"_s)
+			$of(u"Öppna"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.other.newFolder"_s),
@@ -288,15 +288,15 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameError.textAndMnemonic"_s),
-			$of(u"Kan inte namn\u00e4ndra {0}"_s)
+			$of(u"Kan inte namnändra {0}"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameErrorFileExists.textAndMnemonic"_s),
-			$of(u"Kan inte namn\u00e4ndra {0}: En fil med angivet namn finns redan. Ange ett annat filnamn. "_s)
+			$of(u"Kan inte namnändra {0}: En fil med angivet namn finns redan. Ange ett annat filnamn. "_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.renameErrorTitle.textAndMnemonic"_s),
-			$of(u"Ett fel intr\u00e4ffade vid f\u00f6rs\u00f6k att \u00e4ndra namn p\u00e5 fil eller mapp"_s)
+			$of(u"Ett fel inträffade vid försök att ändra namn på fil eller mapp"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.saveButton.textAndMnemonic"_s),
@@ -328,19 +328,19 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FormView.browseFileButton.textAndMnemonic"_s),
-			$of(u"Bl\u00e4ddra..."_s)
+			$of(u"Bläddra..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FormView.resetButton.textAndMnemonic"_s),
-			$of(u"\u00c5terst\u00e4ll"_s)
+			$of(u"Återställ"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FormView.submitButton.textAndMnemonic"_s),
-			$of(u"Skicka fr\u00e5ga"_s)
+			$of(u"Skicka fråga"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrame.closeButtonToolTip"_s),
-			$of(u"St\u00e4ng"_s)
+			$of(u"Stäng"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrame.iconButtonToolTip"_s),
@@ -352,15 +352,15 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrame.restoreButtonToolTip"_s),
-			$of(u"\u00c5terst\u00e4ll"_s)
+			$of(u"Återställ"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.closeButton.textAndMnemonic"_s),
-			$of(u"&St\u00e4ng"_s)
+			$of(u"&Stäng"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.closeButtonAccessibleName"_s),
-			$of(u"St\u00e4ng"_s)
+			$of(u"Stäng"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.iconifyButtonAccessibleName"_s),
@@ -384,7 +384,7 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.restoreButton.textAndMnemonic"_s),
-			$of(u"&\u00c5terst\u00e4ll"_s)
+			$of(u"&Återställ"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("InternalFrameTitlePane.sizeButton.textAndMnemonic"_s),
@@ -392,7 +392,7 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("IsindexView.prompt"_s),
-			$of(u"Detta \u00e4r ett s\u00f6kbart index. Ange s\u00f6kord:"_s)
+			$of(u"Detta är ett sökbart index. Ange sökord:"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.cancelButton.textAndMnemonic"_s),
@@ -416,7 +416,7 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.title.textAndMnemonic"_s),
-			$of(u"V\u00e4lj ett alternativ"_s)
+			$of(u"Välj ett alternativ"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("OptionPane.yesButton.textAndMnemonic"_s),
@@ -436,7 +436,7 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentInitial.textAndMnemonic"_s),
-			$of(u"Utskrift p\u00e5g\u00e5r..."_s)
+			$of(u"Utskrift pågår..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("PrintingDialog.contentProgress.textAndMnemonic"_s),
@@ -452,15 +452,15 @@ $ObjectArray2* basic_sv::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("ProgressMonitor.progress.textAndMnemonic"_s),
-			$of(u"P\u00e5g\u00e5r..."_s)
+			$of(u"Pågår..."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("SplitPane.leftButton.textAndMnemonic"_s),
-			$of(u"v\u00e4nsterknapp"_s)
+			$of(u"vänsterknapp"_s)
 		}),
 		$$new($ObjectArray, {
 			$of("SplitPane.rightButton.textAndMnemonic"_s),
-			$of(u"h\u00f6gerknapp"_s)
+			$of(u"högerknapp"_s)
 		})
 	});
 }

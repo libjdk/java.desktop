@@ -420,7 +420,7 @@ $String* X11GraphicsConfig::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$1, $$str({"X11GraphicsConfig[dev="_s, this->device, ",vis=0x"_s}));
 	$var($String, var$0, $$concat(var$1, $($Integer::toHexString(this->visual))));
-	return ($concat(var$0, "]"));
+	return ($concat(var$0, "]"_s));
 }
 
 void X11GraphicsConfig::initIDs() {

@@ -301,7 +301,7 @@ void HTMLWriter::writeAttributes($AttributeSet* attr) {
 		}
 		$var($String, var$1, $$str({" "_s, name, "=\""_s}));
 		$var($String, var$0, $$concat(var$1, $($nc(this->convAttr)->getAttribute(name))));
-		write($$concat(var$0, "\""));
+		write($$concat(var$0, "\""_s));
 	}
 }
 
@@ -1007,7 +1007,7 @@ void HTMLWriter::convertToHTML40($AttributeSet* from, $MutableAttributeSet* to) 
 		if ($instanceOf($CSS$Attribute, key)) {
 			$var($String, var$1, $$str({value, " "_s, key, "="_s}));
 			$var($String, var$0, $$concat(var$1, $(from->getAttribute(key))));
-			$assign(value, $concat(var$0, ";"));
+			$assign(value, $concat(var$0, ";"_s));
 		} else {
 			$nc(to)->addAttribute(key, $(from->getAttribute(key)));
 		}

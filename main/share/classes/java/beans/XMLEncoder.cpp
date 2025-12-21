@@ -300,12 +300,12 @@ void XMLEncoder::flush() {
 		if (this->declaration) {
 			$var($String, var$1, $$str({"<?xml version="_s, $(quote("1.0"_s)), " encoding="_s}));
 			$var($String, var$0, $$concat(var$1, $(quote(this->charset))));
-			writeln($$concat(var$0, "?>"));
+			writeln($$concat(var$0, "?>"_s));
 		}
 		$var($String, var$3, $$str({"<java version="_s, $(quote($($System::getProperty("java.version"_s)))), " class="_s}));
 		$load($XMLDecoder);
 		$var($String, var$2, $$concat(var$3, $(quote($($XMLDecoder::class$->getName())))));
-		writeln($$concat(var$2, ">"));
+		writeln($$concat(var$2, ">"_s));
 		this->preambleWritten = true;
 	}
 	++this->indentation;
@@ -424,7 +424,7 @@ void XMLEncoder::outputValue(Object$* value$renamed, Object$* outer, bool isArgu
 			if ($Modifier::isStatic($nc(f)->getModifiers())) {
 				$var($String, var$1, $$str({"<object class="_s, $(quote($($nc($nc(f)->getDeclaringClass())->getName()))), " field="_s}));
 				$var($String, var$0, $$concat(var$1, $(quote($($nc(f)->getName())))));
-				writeln($$concat(var$0, "/>"));
+				writeln($$concat(var$0, "/>"_s));
 				return;
 			}
 		}

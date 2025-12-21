@@ -302,9 +302,9 @@ $String* BasicTabbedPaneUI$ScrollableTabSupport::toString() {
 	$useLocalCurrentObjectStackCache();
 	$var($String, var$4, $$str({"viewport.viewSize="_s, $($nc(this->viewport)->getViewSize()), "\nviewport.viewRectangle="_s}));
 	$var($String, var$3, $$concat(var$4, $($nc(this->viewport)->getViewRect())));
-	$var($String, var$2, $$concat(var$3, "\nleadingTabIndex="));
+	$var($String, var$2, $$concat(var$3, "\nleadingTabIndex="_s));
 	$var($String, var$1, $$concat(var$2, $$str(this->leadingTabIndex)));
-	$var($String, var$0, $$concat(var$1, "\ntabViewPosition="));
+	$var($String, var$0, $$concat(var$1, "\ntabViewPosition="_s));
 	return $concat(var$0, this->tabViewPosition);
 }
 

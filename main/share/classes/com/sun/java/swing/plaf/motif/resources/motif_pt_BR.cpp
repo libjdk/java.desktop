@@ -52,7 +52,7 @@ $ObjectArray2* motif_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.cancelButtonToolTip.textAndMnemonic"_s),
-			$of(u"Abortar caixa de di\u00e1logo do seletor de arquivos."_s)
+			$of(u"Abortar caixa de diálogo do seletor de arquivos."_s)
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.enterFileNameLabel.textAndMnemonic"_s),
@@ -116,7 +116,7 @@ $ObjectArray2* motif_pt_BR::getContents() {
 		}),
 		$$new($ObjectArray, {
 			$of("FileChooser.updateButtonToolTip.textAndMnemonic"_s),
-			$of(u"Atualizar lista de diret\u00f3rios."_s)
+			$of(u"Atualizar lista de diretórios."_s)
 		})
 	});
 }

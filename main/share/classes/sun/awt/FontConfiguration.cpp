@@ -1344,9 +1344,9 @@ void FontConfiguration::sanityCheck() {
 					if (ffid == 0) {
 						$var($String, var$3, $$str({"\n Error: <"_s, $(getFontName(iii)), "."_s}));
 						$var($String, var$2, $$concat(var$3, $(getStyleName(iij))));
-						$var($String, var$1, $$concat(var$2, "."));
+						$var($String, var$1, $$concat(var$2, "."_s));
 						$var($String, var$0, $$concat(var$1, $(getString($nc(FontConfiguration::table_scriptIDs)->get(ii)))));
-						$nc($System::err)->println($$concat(var$0, "> entry is missing!!!"));
+						$nc($System::err)->println($$concat(var$0, "> entry is missing!!!"_s));
 						++errors;
 					}
 				}
@@ -1404,9 +1404,9 @@ void FontConfiguration::dump() {
 					int16_t ffid = $nc(FontConfiguration::table_scriptFonts)->get(fid + jj);
 					$var($String, var$5, $$str({"  "_s, $(getFontName(iii)), "."_s}));
 					$var($String, var$4, $$concat(var$5, $(getStyleName(iij))));
-					$var($String, var$3, $$concat(var$4, "."));
+					$var($String, var$3, $$concat(var$4, "."_s));
 					$var($String, var$2, $$concat(var$3, $(getString($nc(FontConfiguration::table_scriptIDs)->get(ii)))));
-					$var($String, var$1, $$concat(var$2, "="));
+					$var($String, var$1, $$concat(var$2, "="_s));
 					$nc($System::out)->println($$concat(var$1, $(getString($nc(FontConfiguration::table_componentFontNameIDs)->get(ffid)))));
 				}
 			}
