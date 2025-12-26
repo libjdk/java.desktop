@@ -849,7 +849,7 @@ void Win32PrintJob::getAttributeValues($DocFlavor* flavor) {
 				try {
 					$set(this, mDestination, ($$new($File, uri))->getPath());
 				} catch ($Exception& e) {
-					$throwNew($PrintException, e);
+					$throwNew($PrintException, $cast($Exception, e));
 				}
 				$var($SecurityManager, security, $System::getSecurityManager());
 				if (security != nullptr) {

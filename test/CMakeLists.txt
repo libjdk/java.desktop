@@ -64,9 +64,8 @@ jcpp_encode_symbol(${JCPP_PROJECT_FULL_NAME}-test)
 if(BUILD_SHARED_LIB)
 	target_link_libraries(${JCPP_PROJECT_FULL_NAME}-test
 		PRIVATE ${JCPP_DEPENDENCY_LIBS}
-		PRIVATE ${JCPP_PROJECT_NAME}_shared
+		PRIVATE ${JCPP_PROJECT_NAME}-main
 	)
-	add_dependencies(${JCPP_PROJECT_FULL_NAME}-test ${JCPP_PROJECT_NAME}_shared)
 	if(JCPP_OS MATCHES "windows")
 		foreach(runtimeFile IN LISTS JCPP_DEPENDENCY_RUNTIME_FILE_PATHS)
 			add_custom_command(TARGET ${JCPP_PROJECT_FULL_NAME}-test POST_BUILD
@@ -77,16 +76,15 @@ if(BUILD_SHARED_LIB)
 		endforeach()
 		add_custom_command(TARGET ${JCPP_PROJECT_FULL_NAME}-test POST_BUILD
 			COMMAND ${CMAKE_COMMAND} -E copy_if_different
-				$<TARGET_FILE:${JCPP_PROJECT_NAME}_shared>
+				$<TARGET_FILE:${JCPP_PROJECT_NAME}-main>
 				$<TARGET_FILE_DIR:${JCPP_PROJECT_FULL_NAME}-test>
 		)
 	endif()
 else()
 	target_link_libraries(${JCPP_PROJECT_FULL_NAME}-test
-		PRIVATE ${JCPP_PROJECT_NAME}_static
+		PRIVATE ${JCPP_PROJECT_NAME}-main
 		${JCPP_EXT_LIBS}
 	)
-	add_dependencies(${JCPP_PROJECT_FULL_NAME}-test ${JCPP_PROJECT_NAME}_static)
 endif()
 
 jcpp_enable_bigobj(${JCPP_PROJECT_FULL_NAME}-test)

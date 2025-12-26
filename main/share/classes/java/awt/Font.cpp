@@ -1112,7 +1112,7 @@ void Font::readObject($ObjectInputStream* s) {
 					this->nonIdentityTx = $nc(this->values)->anyNonDefault(Font::EXTRA_MASK);
 					this->hasLayoutAttributes$ = $nc(this->values)->anyNonDefault(Font::LAYOUT_MASK);
 				} catch ($Throwable& t) {
-					$throwNew($IOException, t);
+					$throwNew($IOException, $cast($Throwable, t));
 				}
 			} catch ($Throwable& var$1) {
 				$assign(var$0, var$1);

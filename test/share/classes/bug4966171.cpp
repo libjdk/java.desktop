@@ -228,7 +228,7 @@ void bug4966171::test() {
 				}
 			}
 		} catch ($Throwable& e) {
-			$throwNew($RuntimeException, e);
+			$throwNew($RuntimeException, $cast($Throwable, e));
 		}
 	}
 }

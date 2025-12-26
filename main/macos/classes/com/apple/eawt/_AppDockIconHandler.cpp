@@ -190,7 +190,7 @@ void _AppDockIconHandler::setDockIconImage($Image* image) {
 		$var($CImage, cImage, $CImage::createFromImage(image));
 		$nc(cImage)->execute(static_cast<$CFRetainedResource$CFNativeAction*>($$new(_AppDockIconHandler$$Lambda$nativeSetDockIconImage)));
 	} catch ($Throwable& e) {
-		$throwNew($RuntimeException, e);
+		$throwNew($RuntimeException, $cast($Throwable, e));
 	}
 }
 
@@ -208,7 +208,7 @@ $Image* _AppDockIconHandler::getDockIconImage() {
 		$var($CImage$Creator, imageCreator, $cast($CImage$Creator, getCreatorMethod->invoke(nullptr, $$new($ObjectArray, 0))));
 		return $nc(imageCreator)->createImageUsingNativeSize(dockNSImage);
 	} catch ($Throwable& e) {
-		$throwNew($RuntimeException, e);
+		$throwNew($RuntimeException, $cast($Throwable, e));
 	}
 	$shouldNotReachHere();
 }

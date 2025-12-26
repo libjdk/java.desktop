@@ -307,7 +307,7 @@ void DocumentHandler::startElement($String* uri, $String* localName, $String* qN
 		$nc(this->handler)->setOwner(this);
 		$nc(this->handler)->setParent(parent);
 	} catch ($Exception& exception) {
-		$throwNew($SAXException, exception);
+		$throwNew($SAXException, $cast($Exception, exception));
 	}
 	for (int32_t i = 0; i < $nc(attributes)->getLength(); ++i) {
 		try {

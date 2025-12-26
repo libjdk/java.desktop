@@ -416,7 +416,7 @@ void XBaseWindow::init($XCreateWindowParams* params) {
 		awtUnlock();
 		$throw(re);
 	} catch ($Throwable& t) {
-		$nc(XBaseWindow::log)->warning("Exception during peer initialization"_s, t);
+		$nc(XBaseWindow::log)->warning("Exception during peer initialization"_s, $cast($Throwable, t));
 		awtLock();
 		$set(this, initialising, $XBaseWindow$InitialiseState::FAILED_INITIALISATION);
 		awtLockNotifyAll();

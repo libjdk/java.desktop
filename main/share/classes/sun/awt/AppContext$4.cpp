@@ -92,7 +92,7 @@ void AppContext$4::run() {
 					$nc(w)->dispose();
 				} catch ($Throwable& t) {
 					$init($AppContext);
-					$nc($AppContext::log)->finer("exception occurred while disposing app context"_s, t);
+					$nc($AppContext::log)->finer("exception occurred while disposing app context"_s, $cast($Throwable, t));
 				}
 			}
 		}

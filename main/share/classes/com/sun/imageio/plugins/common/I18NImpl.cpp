@@ -47,7 +47,7 @@ $String* I18NImpl::getString($String* className, $String* resource_name, $String
 		$var($InputStream, stream, $Class::forName(className)->getResourceAsStream(resource_name));
 		$assign(bundle, $new($PropertyResourceBundle, stream));
 	} catch ($Throwable& e) {
-		$throwNew($RuntimeException, e);
+		$throwNew($RuntimeException, $cast($Throwable, e));
 	}
 	return $cast($String, $nc(bundle)->handleGetObject(key));
 }

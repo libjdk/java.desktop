@@ -366,7 +366,7 @@ void bug4788637::start() {
 		}
 		$nc(bug4788637::robot)->mouseRelease($InputEvent::BUTTON1_MASK);
 	} catch ($Throwable& t) {
-		$throwNew($RuntimeException, t);
+		$throwNew($RuntimeException, $cast($Throwable, t));
 	}
 }
 

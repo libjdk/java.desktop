@@ -148,7 +148,7 @@ int32_t XErrorHandlerUtil::globalErrorHandler(int64_t display, int64_t event_ptr
 			return SAVED_XERROR_HANDLER(display, event);
 		}
 	} catch ($Throwable& z) {
-		$nc(XErrorHandlerUtil::log)->fine("Error in GlobalErrorHandler"_s, z);
+		$nc(XErrorHandlerUtil::log)->fine("Error in GlobalErrorHandler"_s, $cast($Throwable, z));
 	}
 	return 0;
 }
